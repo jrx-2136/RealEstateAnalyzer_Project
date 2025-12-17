@@ -2,7 +2,6 @@ import csv
 import time
 from playwright.sync_api import sync_playwright
 
-# Cities (start with few; add more later)
 CITIES = {
     "Mumbai": "mumbai",
     "Bangalore": "bangalore",
@@ -98,7 +97,6 @@ def run():
 
         browser.close()
 
-    # SAVE CSV
     with open("data/outputs/magicbricks_india_properties.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,

@@ -38,8 +38,3 @@ def clean_location_csv(
     print(f"[Cleaner] Rows after : {after_rows}")
     print(f"[Cleaner] Saved cleaned file → {output_csv}")
 
-<<<<<<< HEAD
-    return df
-=======
-    return df
->>>>>>> 2ab66e9852582f16094895dea129ba2c808908ac

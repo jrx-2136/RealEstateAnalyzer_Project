@@ -5,30 +5,12 @@ from pathlib import Path
 from data_cleaner import clean_location_csv
 from playwright.sync_api import sync_playwright
 
-CITIES = {
-    "Mumbai": "mumbai",
-    "Bangalore": "bangalore",
-    "New-Delhi": "new-delhi",
-    "Ernakulam": "ernakulam",
-    "Chennai": "chennai",
-    "Hyderabad": "hyderabad",
-    "Pune": "pune",
-    "Kochi": "kochi",
-    "Ahmedabad": "ahmedabad",
-    "Gurgaon": "gurgaon",
-    "Surat": "surat",
-    "Noida": "noida",
-    "Vadodara": "vadodara",
-    "Jaipur": "jaipur",
-    "Lucknow": "lucknow",
-    "Kanpur": "kanpur",
-    "Nagpur": "nagpur",
-    "Indore": "indore",
-    "Thane": "thane",
-    "Bhopal": "bhopal"
-}
-
-# -------------------- HELPERS --------------------
+#39 cities in india included here. 
+#note:change trivandrum n mysuru. wrong link
+CITIES = ["mumbai","thane","navi-mumbai","pune","new-delhi","noida","gurgaon","jaipur","udaipur","ahmedabad","surat",
+          "vadodara","indore","bhopal","lucknow","kanpur","patna","gaya","kolkata","howrah","bhubaneswar","cuttack",
+          "ranchi","jamshedpur","raipur","bilaspur","nagpur","nashik","aurangabad","bengaluru","mysuru","chennai","coimbatore",
+          "hyderabad","warangal","kochi","thiruvananthapuram","thrissur","kottayam"]
 
 def build_city_url(city_slug):
     return (
@@ -48,7 +30,7 @@ def auto_scroll(page, scrolls=6):
 def safe_text(el):
     return el.inner_text().strip() if el else None
 
-# -------------------- PARSERS --------------------
+#PARSERS
 
 def parse_price(price_text):
     """
@@ -169,21 +151,21 @@ def run():
 
         page = context.new_page()
 
-        for city_name, city_slug in CITIES.items():
-            print(f"\n===== Scraping {city_name} =====")
+        for city in CITIES:
+            print(f"\n===== Scraping {city} =====")
 
-            url = build_city_url(city_slug)
+            url = build_city_url(city)
             page.goto(url, wait_until="domcontentloaded", timeout=60000)
             time.sleep(5)
 
             auto_scroll(page)
 
             cards = page.query_selector_all("div.mb-srp__card")
-            print(f"Found {len(cards)} listings in {city_name}")
+            print(f"Found {len(cards)} listings in {city}")
 
             for card in cards[:15]:
                 try:
-                    results.append(scrape_listing(card, city_name))
+                    results.append(scrape_listing(card, city))
                 except Exception as e:
                     print("Failed listing:", e)
 

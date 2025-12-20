@@ -1,50 +1,52 @@
-from .loan import amortization_schedule
-from .tax import tax_benefits
-from .investing import future_value_lumpsum, future_value_sip
+def renting_case(
+    initial_rent,
+    escalation,
+    down_payment,
+    invest_rate,
+    monthly_saving,
+    tenure_years=20
+):
+    months = tenure_years * 12
+    annual_rate = invest_rate / 100
+    monthly_rate = annual_rate / 12
 
+    # -----------------------------
+    # Total Rent Paid (with escalation)
+    # -----------------------------
+    total_rent_paid = 0
+    current_rent = initial_rent
 
-def property_appreciation(value, rate, years=20):
-    return value * (1 + rate / 100)**years
+    for year in range(tenure_years):
+        total_rent_paid += current_rent * 12
+        current_rent *= (1 + escalation / 100)
 
+    # -----------------------------
+    # Lump Sum Investment (Down Payment)
+    # -----------------------------
+    lump_sum_value = down_payment * ((1 + annual_rate) ** tenure_years)
 
-def buying_case(price, down_payment, loan_rate, tax_rate, appreciation_rate):
-    principal = price - down_payment
-    schedule = amortization_schedule(principal, loan_rate)
+    # -----------------------------
+    # SIP Investment (Monthly Savings)
+    # -----------------------------
+    sip_value = monthly_saving * (
+        ((1 + monthly_rate) ** months - 1) / monthly_rate
+    ) * (1 + monthly_rate)
 
-    total_emi = sum(item["emi"] for item in schedule)
-    tax_saved = tax_benefits(schedule, tax_rate)
-    net_emi = total_emi - tax_saved
-    final_asset = property_appreciation(price, appreciation_rate)
+    # -----------------------------
+    # Final Rental Wealth
+    # -----------------------------
+    final_wealth_renting = lump_sum_value + sip_value
 
     return {
-        "total_emi": total_emi,
-        "tax_saved": tax_saved,
-        "net_emi": net_emi,
-        "final_asset": final_asset,
-        "wealth_buying": final_asset - net_emi
+        "total_rent_paid": round(total_rent_paid, 2),
+        "lump_sum_value": round(lump_sum_value, 2),
+        "sip_value": round(sip_value, 2),
+        "wealth_renting": round(final_wealth_renting, 2)
     }
-
-
-def renting_case(rent_start, escalation, down_payment, invest_rate, monthly_saving, years=20):
-    rent = rent_start
-    total_rent = 0
-
-    for _ in range(years):
-        total_rent += rent * 12
-        rent *= (1 + escalation / 100)
-
-    lump_future = future_value_lumpsum(down_payment, invest_rate, years)
-    sip_future = future_value_sip(monthly_saving, invest_rate, years)
-
-    return {
-        "total_rent": total_rent,
-        "lump_future": lump_future,
-        "sip_future": sip_future,
-        "wealth_renting": lump_future + sip_future - total_rent
-    }
-
-
 def compare_results(buy, rent):
     if buy["wealth_buying"] > rent["wealth_renting"]:
-        return "BUYING is better"
-    return "RENTING is better"
+        return "BUYING is financially better"
+    elif rent["wealth_renting"] > buy["wealth_buying"]:
+        return "RENTING is financially better"
+    else:
+        return "Both options yield similar financial outcome"

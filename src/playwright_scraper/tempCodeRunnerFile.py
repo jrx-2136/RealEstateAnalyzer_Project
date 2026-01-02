@@ -1,0 +1,5 @@
+"residential-real-estate?"
+        # "bedroom=2,3&"
+        # "proptype=Multistorey-Apartment,Builder-Floor-Apartment,"
+        # "Penthouse,Studio-Apartment,Residential-House,Villa&"
+        # f"cityName={city_slug}"

@@ -10,7 +10,7 @@ def estimate_rent(area_sqft):
 
 def run_analysis():
 
-    df = pd.read_csv("data/outputs/magicbricks_india_properties_cleaned.csv")
+    df = pd.read_csv("data/outputs/magicbricks_india_final.csv")
     results = []
 
     for _, row in df.iterrows():
@@ -41,10 +41,12 @@ def run_analysis():
         decision = compare_results(buy, rent)
 
         results.append({
-            "title": row["title"],
             "location": row["location"],
+            "city": row["city"],
             "price": price,
             "area_sqft": area,
+            "bhk": row["BHK"],
+            "price_per_sqft": row["price_per_sqft"],
             "wealth_buying": buy["wealth_buying"],
             "wealth_renting": rent["wealth_renting"],
             "decision": decision

@@ -1,0 +1,896 @@
+location,city,price_total_inr,price_per_sqft,area_sqft,BHK
+Agarwal Florence,mumbai,31900000.0,31428.571428571428,1015.0,5
+Rustomjee Prive,mumbai,65800000.0,50038.022813688214,1315.0,5
+Lodha Adrina,mumbai,83500000.0,65955.76619273302,1266.0,5
+Paranjape Aspire,mumbai,22500000.0,30949.10591471802,727.0,1
+Empire Maitri Flora The Legend,mumbai,26500000.0,27983.1045406547,947.0,1
+Hubtown Seasons,mumbai,30400000.0,41473.39699863574,733.0,1
+Kalpataru Elitus,mumbai,33200000.0,31173.708920187793,1065.0,2
+Godrej Trilogy Seafront,mumbai,176500000.0,100000.0,1765.0,2
+Mangal Signature,mumbai,57699999.99999999,44728.68217054263,1290.0,3
+Paranjape Athena,mumbai,37100000.0,43493.55216881594,853.0,1
+Shreeji Eternity,mumbai,28100000.0,23089.564502875925,1217.0,3
+Lodha Divino,mumbai,59900000.0,46472.0,1290.0,4
+Bellanza Phase 1 Wing A B C at The Prestige City,mumbai,34700000.0,32953.46628679962,1053.0,5
+Raheja Modern Vivarea,mumbai,122900000.0,73681.0551558753,1668.0,5
+DLH Signature,mumbai,140800000.0,70400.0,2000.0,2
+Sahakar Excel Acropolis,mumbai,22000000.0,35426.731078904995,621.0,1
+Adani Linkbay Residences,mumbai,32100000.0,38956.31067961165,824.0,1
+Platinum Crest,mumbai,22400000.000000004,36721.31147540984,610.0,1
+Shreeji Sky Rise Tower,mumbai,32300000.0,39827.37361282368,811.0,1
+Dosti Mezzo 22,mumbai,30400000.0,45921.450151057405,662.0,1
+The Erica,mumbai,40000000.0,37002.77520814061,1081.0,4
+Neo Smile Belmonte Corner,mumbai,37700000.0,34907.40740740741,1080.0,3
+DLF The Westpark,mumbai,46900000.00000001,30202.0,1150.0,4
+Hill View Crest Oaks,mumbai,19600000.0,27374.301675977655,716.0,1
+Mhatre and Goradia White Orchid Residency,mumbai,32100000.0,28257.042253521126,1136.0,2
+Radius 10 BKC,mumbai,101700000.0,71019.5530726257,1432.0,4
+Ten X Invictus by GS,mumbai,71800000.0,54977.029096477796,1306.0,3
+L & T The Gateway,mumbai,57500000.0,39655.0,1258.0,3
+Piramal Revanta,mumbai,23900000.0,27985.948477751757,854.0,1
+Kalpataru Elitus,mumbai,33200000.0,31173.708920187793,1065.0,2
+Paintora Shree Varadvinayak Tower,mumbai,22700000.0,36495.176848874595,622.0,1
+Sunteck Sky Park,mumbai,18600000.0,17697.43101807802,1051.0,5
+Apex Green Wood,mumbai,15300000.0,23611.11111111111,648.0,1
+Gurukrupa Alaknanda,mumbai,80200000.0,54520.73419442556,1471.0,4
+Raheja Modern Vivarea,mumbai,122900000.0,73681.0551558753,1668.0,3
+Rustomjee Crown Phase II,mumbai,91900000.0,59334.0,1409.0,4
+Starom Ekya,mumbai,44600000.0,31902.71816881259,1398.0,3
+Chandak Greenairy,mumbai,40400000.0,35069.444444444445,1152.0,2
+Sonam Indraneel,mumbai,14400000.0,17496.96233292831,823.0,1
+Hill View Crest Oaks,mumbai,20700000.0,27201.051248357424,761.0,1
+Prestige Forest Hills,mumbai,26900000.0,28435.517970401692,946.0,1
+Hiranandani Maitri Park,mumbai,37500000.0,20833.0,1800.0,4
+Supreme Boulevard,mumbai,40900000.0,34957.26495726496,1170.0,3
+DLF The Westpark,mumbai,59100000.0,30204.0,1450.0,3
+Ten X Invictus by GS,mumbai,71800000.0,54977.029096477796,1306.0,5
+Seven Eleven Ayodhya,mumbai,11700000.0,13995.215311004784,836.0,1
+Prestige Nautilus,mumbai,249800000.0,95745.49635875814,2609.0,4
+Dhananjay Hill View,mumbai,5460000.0,8400.0,650.0,1
+Sunbeam Heights,mumbai,19300000.0,29555.895865237366,653.0,1
+N Rose Northern Hills,mumbai,19700000.0,28102.71041369472,701.0,1
+Sunteck Sky Park,mumbai,13100000.0,17702.702702702703,740.0,1
+Piramal Revanta,mumbai,40400000.0,28632.175761871014,1411.0,3
+Godrej Trilogy Seafront,mumbai,176500000.0,100000.0,1765.0,2
+Agarwal Floresta Maple,mumbai,18200000.0,24728.260869565216,736.0,1
+Adani Linkbay Residences,mumbai,59400000.00000001,39027.59526938239,1522.0,3
+Seven Eleven Ayodhya,mumbai,11700000.0,13995.215311004784,836.0,1
+Dosti West County,thane,13899999.999999998,18361.955085865255,757.0,1
+Kalpataru Eternia,thane,13200000.0,21463.414634146342,615.0,1
+Kalpataru Parkcity,thane,23200000.0,21501.39017608897,1079.0,2
+Lodha Codename Premier,thane,9000000.0,11857.707509881422,759.0,1
+Rustomjee LA VIE,thane,18200000.0,21174.0,833.0,1
+Damji Shamji Mahavir Spring,thane,26000000.0,25717.111770524232,1011.0,4
+Runwal One,thane,19200000.0,19958.41995841996,962.0,1
+Kalpataru Parkcity,thane,22900000.0,17102.0,957.0,1
+Godrej Vihaa,thane,5300000.0,8952.702702702703,592.0,1
+Runwal One,thane,19200000.0,19958.41995841996,962.0,1
+Narang Privado,thane,17500000.0,19379.84496124031,903.0,1
+Adani Codename LIT,thane,24600000.0,25153.374233128834,978.0,1
+Ashar Merac,thane,17700000.0,19093.851132686083,927.0,1
+Puraniks Mirai,thane,8340000.000000001,14379.310344827587,580.0,1
+Godrej Ascend,thane,19900000.0,23467.0,707.0,1
+Rustomjee LA VIE,thane,18200000.0,21174.0,833.0,1
+Yashwant Niwas,thane,29500000.0,16857.0,1073.0,2
+New Adani Launch,thane,24100000.0,14636.0,1150.0,4
+Hiranandani Estate Casablanca,thane,35000000.0,23810.0,1385.0,2
+Kalpa Taru Siddhachal 3,thane,16500000.0,13750.0,780.0,1
+Hiranandani Rodas Enclave,thane,42000000.0,28000.0,1292.0,4
+Lodha Casa Rio Gold,thane,3800000.0,4910.0,584.0,1
+Nexus Hyde Park,thane,20000000.0,15504.0,1100.0,4
+Codename Lottery,thane,6300000.0,12574.850299401198,501.0,1
+Hiranandani Estate Casablanca,thane,36500000.0,20000.0,1250.0,5
+Neelkanth Height,thane,27500000.0,22917.0,1100.0,3
+Pokharan Road Number 2 Thane,thane,20000000.0,13793.0,1000.0,5
+Delanna,thane,20000000.0,25000.0,710.0,1
+Lodha Amara,thane,12500000.0,10000.0,625.0,1
+Piramal Vaikunth,thane,12100000.0,23000.0,530.0,1
+L & T Evara Heights,thane,28400000.0,23393.739703459636,1214.0,4
+Ashar Merac,thane,14300000.0,14592.0,700.0,1
+Rustomjee LA VIE,thane,27100000.0,13550.0,1680.0,5
+Platinum Heritage,thane,13000000.0,17568.0,940.0,1
+Piramal Vaikunth,thane,11500000.0,21698.0,530.0,1
+Raj Tulsi City,thane,3360000.0,4042.0,585.0,1
+Runwal Codename Enchanted,thane,9000000.0,16364.0,550.0,1
+Ashar Merac,thane,13400000.0,19143.0,700.0,1
+Dynamix Parkwoods,thane,14000000.0,12800.0,700.0,1
+Hiranandani Westgate,thane,18500000.0,21765.0,677.0,1
+Lodha Crown,thane,9500000.0,11980.0,496.0,1
+Eternia at Kalpataru Parkcity,thane,28900000.0,15259.0,1353.0,2
+Green Square,thane,7700000.0,11544.0,557.0,1
+Lodha Palava City,thane,13300000.0,11949.685534591195,1113.0,3
+Tulip Kingdom,navi-mumbai,15100000.0,9326.74490426189,1619.0,4
+Pyramid Centria,navi-mumbai,30400000.0,25719.12013536379,1182.0,3
+Nova 10 Elegance Phase I,navi-mumbai,19900000.0,10815.217391304348,1840.0,4
+Satyam Seasons,navi-mumbai,40700000.0,32123.125493291238,1267.0,5
+Goodwill Wisteria,navi-mumbai,34400000.0,29426.860564585117,1169.0,5
+Millennium Celesta,navi-mumbai,11100000.000000002,16157.205240174675,687.0,1
+Paradise Sai World City,navi-mumbai,16399999.999999998,18700.114025085517,877.0,1
+Godrej Eternal Palms,navi-mumbai,36600000.0,39825.89771490751,919.0,1
+Sai Platinum,navi-mumbai,16800000.0,17573.221757322175,956.0,1
+Siddharth Builders Geetanjali Bellezza,navi-mumbai,8090000.000000001,11378.34036568214,711.0,1
+The Arena at Hiranandani Fortune city,navi-mumbai,22100000.0,17238.689547581904,1282.0,4
+Ravriya Neelkanth Darshan,navi-mumbai,20800000.0,18245.614035087718,1140.0,2
+Hiranandani Golden Willows,navi-mumbai,20100000.0,16118.6848436247,1247.0,2
+Kamdhenu Zenith,navi-mumbai,15900000.0,23485.967503692762,677.0,1
+Satyam Surya Manhattan,navi-mumbai,18600000.0,10087.0,1844.0,3
+LA MER ONE,navi-mumbai,7150000.0,11936.560934891486,599.0,1
+Nisarg Aura,navi-mumbai,9490000.0,13180.555555555555,720.0,1
+Dream Meadows,navi-mumbai,8530000.0,12065.063649222066,707.0,1
+Satyam Seasons,navi-mumbai,40700000.0,32123.125493291238,1267.0,3
+Neelkanth Palm President,navi-mumbai,28300000.0,23642.439431913117,1197.0,2
+Gami Satyam Skyscape,navi-mumbai,35000000.0,25964.39169139466,1348.0,4
+Raheja Lunaris,navi-mumbai,16399999.999999998,25269.645608628656,649.0,1
+Wadhwa Wise City,navi-mumbai,7759999.999999999,14980.69498069498,518.0,1
+Saubhagyam,navi-mumbai,8330000.0,14362.068965517241,580.0,1
+Saras Vatika,navi-mumbai,12700000.0,12487.70894788594,1017.0,5
+Hiranandani Fortune City,navi-mumbai,17600000.0,15956.482320942883,1103.0,3
+Sai Platinum,navi-mumbai,16800000.0,17573.221757322175,956.0,1
+Mansh Bhaveshwar Callista,navi-mumbai,9930000.0,8866.07142857143,1120.0,3
+Majestique Evolvus,pune,16299999.999999998,14186.248912097475,1149.0,5
+Ashiana Malhar,pune,10500000.0,10047.846889952154,1045.0,5
+Godrej Emerald Waters,pune,12600000.0,13680.781758957655,921.0,1
+Godrej Serene,pune,9440000.0,9968.32101372756,947.0,1
+Vilas Javdekar Yashwin Enchante,pune,7159999.999999999,10098.73060648801,709.0,1
+Rama Fusion Towers,pune,6600000.0,9720.17673048601,679.0,1
+Nyati Exuberance I,pune,6640000.000000001,7289.0,701.0,1
+Shubh Nirvana,pune,20800000.0,15615.615615615616,1332.0,3
+Prasun Adara,pune,16000000.0,12841.091492776886,1246.0,2
+Kalpataru Blossoms,pune,30800000.0,18366.12999403697,1677.0,3
+Kalpataru Jade Skyline,pune,18000000.0,15138.772077375947,1189.0,4
+VTP MONARQUE,pune,10400000.0,12093.023255813954,860.0,1
+City One Vezdaa,pune,13799999.999999998,11471.321695760596,1203.0,4
+Regency Astra,pune,12000000.0,13483.14606741573,890.0,1
+Lodha Magnus,pune,20500000.0,14769.452449567723,1388.0,5
+Lodha Bella Vita,pune,9660000.0,11884.0,813.0,1
+Majestique Signature Towers,pune,13700000.000000002,15838.150289017343,865.0,1
+Sagitarius Bluegrass Residences,pune,52200000.0,30905.861456483126,1689.0,4
+Vivanta Yashada Earthsong,pune,15900000.0,8945.0,1374.0,4
+Valeentina Tower,pune,15800000.0,12619.808306709265,1252.0,4
+Ganga New Town Phase 2,pune,8080000.0,9758.454106280193,828.0,1
+The Greenfront at Godrej Park World,pune,14900000.0,12437.395659432388,1198.0,4
+Kohinoor Central Park,pune,10600000.0,11099.476439790576,955.0,1
+Tulip Infinity Evana,pune,16000000.0,13223.140495867769,1210.0,3
+Livience Aleenta,pune,24700000.000000004,17034.482758620692,1450.0,4
+Rohan Saroha,pune,13400000.0,9889.29889298893,1355.0,5
+Shapoorji Pallonji Vanaha,pune,23500000.0,15698.062792251169,1497.0,2
+Kolte Patil 24K Manor,pune,26400000.0,13643.0,1476.0,5
+1 Residences By Burgundy,pune,30800000.0,18160.377358490565,1696.0,3
+Lodha Panache,pune,14300000.0,12745.098039215687,1122.0,2
+Bramhacorp Sun Valley,pune,17400000.0,12756.598240469208,1364.0,2
+Runwal The Central Park,pune,15000000.0,15337.423312883435,978.0,1
+Pristine O2 World,pune,18200000.0,13065.326633165829,1393.0,5
+Altamira by Vtp Luxe,pune,17400000.0,12024.879060124395,1447.0,2
+Basil Maximus,pune,7880000.0,9987.325728770596,789.0,1
+Venkatesh Erandwane Central,pune,30000000.0,25751.07296137339,1165.0,4
+Duville Riverdale Grand,pune,19800000.0,13973.18278052223,1417.0,2
+Godrej Skyline,pune,33200000.0,20933.16519546028,1586.0,2
+Bramhacorp Sun Valley,pune,15000000.0,12711.864406779661,1180.0,3
+Raheja Stellar,pune,27000000.0,12890.0,2100.0,5
+Nirman Serenopolis,pune,10500000.0,11400.651465798046,921.0,1
+Lodha Panache,pune,13000000.0,13118.062563067608,991.0,1
+Pristine Allure,pune,9230000.0,12144.736842105263,760.0,1
+Geras Joy on the Treetops,pune,7590000.000000001,10968.20809248555,692.0,1
+ARV Richvue,pune,10200000.0,9922.178988326848,1028.0,4
+Majestique Mrugavarsha,pune,8230000.0,8313.131313131313,990.0,1
+Kasturi Eon Homes,pune,10900000.0,12991.65673420739,839.0,1
+Rohan Harita,pune,14300000.0,12929.475587703435,1106.0,5
+Lodha Panache,pune,14300000.0,13143.382352941177,1088.0,3
+Majestique Towers,pune,11200000.000000002,13160.987074030554,851.0,1
+Vasupujya Neco Park Central,pune,9300000.0,11383.108935128519,817.0,1
+ANP Privado,pune,28000000.0,19321.0,1309.0,5
+Venkatesh Skylife,pune,20400000.0,14956.011730205279,1364.0,3
+Lodha Panache,pune,13799999.999999998,12683.823529411762,1088.0,5
+Godrej Elaris,pune,16900000.0,18469.945355191256,915.0,1
+Kolte Patil 24K Altura,pune,25900000.0,14387.0,1335.0,4
+VTP Velvet Villas,pune,135700000.0,32841.239109390124,4132.0,2
+Pristine The Lords Part 1,pune,26300000.0,12213.0,1600.0,3
+Parsvnath La Tropicana,new-delhi,44600000.0,16851.0,2650.0,4
+DDA Flats Munirka,new-delhi,17900000.0,14917.0,1200.0,4
+Vasant Vihar Builder Floor,new-delhi,130000000.0,61466.0,2250.0,3
+Din Apartment,new-delhi,29200000.0,15784.0,1750.0,3
+Dream Apartments,new-delhi,29500000.0,16857.0,1600.0,4
+Brindawan Garden Apartment,new-delhi,28900000.0,15622.0,1650.0,3
+Shree Radha Krishna Apartment,new-delhi,26800000.0,15765.0,1650.0,5
+TARC Kailasa,new-delhi,90000000.0,26163.0,3000.0,4
+DDA Flats Vasant Kunj,new-delhi,42500000.0,24286.0,1750.0,3
+Princess Park Apartments,new-delhi,34500000.0,17692.0,1950.0,2
+Konark Apartments,new-delhi,16500000.0,14348.0,1050.0,2
+DDA Flats Sector C Pocket 3,new-delhi,35500000.0,23667.0,1400.0,3
+Nanda Devi Apartments,new-delhi,27900000.0,15500.0,1600.0,5
+Brindawan Garden Apartment,new-delhi,28900000.0,15622.0,1650.0,2
+New Jyoti Apartments,new-delhi,26500000.0,15588.0,1300.0,5
+Sunny Valley Apartments,new-delhi,31500000.0,16154.0,1950.0,3
+DLF One Midtown,new-delhi,61000000.0,26522.0,2200.0,2
+Brotherhood Apartment,new-delhi,14000000.0,11667.0,1250.0,3
+Mayank Apartments,new-delhi,22500000.0,20089.0,950.0,1
+DDA Flats Vasant Kunj,new-delhi,33000000.0,19412.0,1500.0,3
+DDA Rainbow Apartments,new-delhi,14500000.0,12083.0,1050.0,3
+DDA Flats Sarita Vihar,new-delhi,25400000.0,14514.0,1700.0,3
+RWA Panchsheel Enclave,new-delhi,62000000.0,25996.0,2385.0,3
+Shree Awas,new-delhi,19800000.0,15840.0,1000.0,3
+New Modern Appartment,new-delhi,23800000.0,19040.0,1250.0,3
+DDA Flats Munirka,new-delhi,18000000.0,15000.0,1000.0,2
+DDA Venus Apartment,new-delhi,11000000.0,12941.176470588236,850.0,1
+East of Kailash,new-delhi,55000000.0,30556.0,1500.0,4
+Sector 5 Pocket 1 DDA SFS Flats,new-delhi,22500000.0,12500.0,1600.0,5
+Luxury Floors by Mark Developers,new-delhi,25000000.0,9259.0,2650.0,2
+M3M The Cullinan,noida,70400000.0,22000.0,3200.0,5
+L and T Green Reserve,noida,48600000.0,22498.0,1785.0,4
+ATS Picturesque Reprieves,noida,28200000.0,12000.0,2350.0,4
+ATS Picturesque Reprieves,noida,28200000.0,12000.0,2350.0,3
+ATS Rhapsody,noida,21600000.0,12021.0,1205.0,2
+M3M The Cullinan,noida,70400000.0,22000.0,3200.0,4
+Amrapali Heart Beat City,noida,18100000.0,10461.0,1735.0,2
+ATS Picturesque Reprieves,noida,28200000.0,12000.0,2350.0,5
+Sam Palm Olympia,noida,15500000.0,10246.0,1517.0,4
+ATS Picturesque Reprieves,noida,28200000.0,12000.0,2350.0,3
+AVP AVS Orchard,noida,14500000.0,11025.0,1320.0,5
+ATS Picturesque Reprieves,noida,28200000.0,12000.0,2350.0,3
+Jaypee Greens Imperial Court,noida,43300000.0,16631.0,2607.0,3
+Ivory County,noida,37500000.0,16300.0,2304.0,2
+The 3C Lotus Boulevard,noida,24300000.0,14164.0,1717.0,3
+Ivory County,noida,37500000.0,16300.0,2304.0,4
+Ivory County,noida,37500000.0,16300.0,2304.0,4
+Radhey Casa Greens 1,noida,9810000.0,8245.0,710.0,1
+M3M Jacob and Co Residences,noida,75000000.0,30000.0,2500.0,2
+ATS Kingston Heath,noida,28900000.0,12306.0,2350.0,4
+ABA Cleo County,noida,33600000.0,18393.0,1182.0,2
+Shri Radha Aqua Gardens,noida,9810000.0,9000.0,613.0,1
+ACE Divino,noida,10100000.0,10224.0,995.0,1
+Ivory County,noida,37500000.0,16300.0,2304.0,4
+Nimbus The Arista Luxe,noida,15700000.0,12202.0,1294.0,5
+ATS Homekraft Happy Trails,noida,20000000.0,12308.0,1625.0,4
+SKA Divya Towers,noida,19000000.0,10714.0,1775.0,2
+Ace Starlit,noida,25700000.0,14500.0,1775.0,4
+Nirala Estate Phase 2,noida,18500000.0,11258.0,1645.0,5
+Prateek Canary,noida,43400000.0,17000.0,2555.0,2
+M3M Jacob and Co Residences,noida,75000000.0,30000.0,2500.0,4
+M3M The Cullinan,noida,71900000.0,22000.0,3270.0,2
+Godrej Tropical Isle,noida,38200000.0,15356.0,2488.0,5
+ATS Rhapsody,noida,21600000.0,12021.0,1205.0,4
+ATS Homekraft Happy Trails,noida,20000000.0,12308.0,1625.0,4
+VRSA The Ultima Heights,noida,6160000.0,5595.0,1100.0,4
+M3M The Cullinan,noida,71900000.0,22000.0,3270.0,5
+Sam Palm Olympia,noida,12600000.0,10246.0,1232.0,5
+Amrapali Silicon City,noida,14200000.0,10000.0,1420.0,4
+Godrej Jardinia,noida,48000000.0,17146.0,2800.0,2
+Greatvalue Sharanam,noida,13500000.0,11853.0,753.0,1
+Ivory County,noida,31500000.0,15487.0,1650.0,2
+Ivory County,noida,31000000.0,13455.0,2304.0,4
+Supertech Supernova,noida,18500000.0,13396.0,1200.0,3
+3C Lotus Panache,noida,18500000.0,10756.0,1720.0,3
+Ivory County,noida,82500000.0,17527.0,4707.0,4
+Saket Dham,noida,22100000.0,12629.0,1650.0,5
+Godrej Riverine,noida,68200000.0,22745.0,3000.0,5
+Godrej Tropical Isle,noida,40000000.0,16000.0,1900.0,4
+Sector 19 RWA,noida,51500000.0,25750.0,2000.0,3
+Future Estate,noida,13700000.000000002,9149.0,833.0,1
+Ace Starlit,noida,39000000.0,22034.0,1185.0,2
+Mahagun Medalleo,noida,42900000.0,17195.0,1313.0,2
+Experion Windchants,gurgaon,59900000.0,16119.0,3500.0,2
+Conscient Heritage Max,gurgaon,26200000.0,13495.0,1942.0,2
+Ashiana Amarah,gurgaon,21400000.0,21400.0,1000.0,4
+Satya Levante Residences,gurgaon,30800000.0,13750.0,2240.0,2
+Smart World Gems,gurgaon,12500000.0,10460.0,1105.0,5
+Emaar Amaris,gurgaon,31400000.0,20991.0,1500.0,3
+M3M Antalya Hills Phase II,gurgaon,21700000.0,14988.0,1450.0,2
+Emaar Imperial Gardens,gurgaon,24100000.0,12099.0,2000.0,2
+Bestech Altura,gurgaon,27700000.0,12890.0,1405.0,4
+Experion Windchants,gurgaon,62500000.0,16779.0,3550.0,5
+Group Silverglades The Melia,gurgaon,17400000.0,9464.0,1205.0,4
+Luxury Floors,gurgaon,34500000.0,15333.0,2250.0,3
+Sobha City,gurgaon,34200000.0,20029.0,1711.0,3
+SS Cendana,gurgaon,22100000.0,18249.38067712634,1211.0,2
+Emaar Serenity Hills,gurgaon,38800000.0,25244.0,1219.0,5
+Birla Pravaah,gurgaon,33900000.0,17842.0,1900.0,5
+DLF Park Place,gurgaon,79300000.0,34763.0,2282.0,5
+M3M Capital,gurgaon,27600000.0,16235.0,1700.0,4
+Krisumi Waterside Residences,gurgaon,44800000.00000001,22816.0,1964.0,5
+Emaar Serenity Hills,gurgaon,38800000.0,25244.0,1219.0,4
+Hercules Grace Resilviaa,gurgaon,20600000.0,12980.0,1587.0,5
+Ashiana Amarah Phase 5,gurgaon,27000000.0,22406.639004149376,1205.0,3
+Signature Global City 37D,gurgaon,21200000.0,15537.0,1000.0,5
+Whiteland Urban Resort,gurgaon,64300000.0,22900.0,2809.0,4
+Signature Global DE LUXE DXP,gurgaon,39300000.0,15001.0,2622.0,2
+Ireo The Corridors,gurgaon,27500000.0,18531.0,1484.0,5
+Emaar Serenity Hills,gurgaon,38800000.0,25244.0,1219.0,4
+Ireo The Corridors,gurgaon,24000000.0,18519.0,1296.0,5
+MRG Crown,gurgaon,28000000.0,17577.0,1593.0,4
+Estate 360,gurgaon,56800000.0,19997.0,2844.0,2
+DLF The Crest,gurgaon,141800000.0,54557.0,2250.0,4
+Ashiana Aaroham,gurgaon,33800000.0,26846.703733121525,1259.0,5
+Godrej Meridien,gurgaon,31000000.0,15485.0,1226.0,2
+Ashiana Amarah,gurgaon,21400000.0,21400.0,1000.0,3
+Ireo The Corridors,gurgaon,31900000.0,18471.0,1727.0,2
+M3M Marina,gurgaon,23400000.0,12258.0,1914.0,2
+Emaar Serenity Hills,gurgaon,38800000.0,25244.0,1219.0,4
+Bestech Altura,gurgaon,27700000.0,12890.0,1405.0,5
+Ashiana Anmol Phase 3,gurgaon,18600000.0,10473.0,1180.0,5
+Signature Global Daxin Vistas,gurgaon,19700000.0,12710.0,1550.0,5
+Adani Samsara,gurgaon,34900000.0,18865.0,1850.0,2
+Altura at DXP 92,gurgaon,22800000.0,11990.0,1906.0,3
+Ashiana Aaroham,gurgaon,29900000.000000004,28287.6064333018,1057.0,3
+Ashiana Anmol Phase 3,gurgaon,19000000.0,10740.0,1180.0,5
+Ashiana Anmol,gurgaon,13500000.0,11203.0,1205.0,4
+Lucky Heights 4 and 5,jaipur,13100000.0,7501.0,1756.0,5
+Lucky Heights 4 and 5,jaipur,13100000.0,7501.0,1756.0,5
+Shubhashish Marina,jaipur,12600000.0,5935.0,2123.0,5
+Ashiana Rangoli Gardens,jaipur,9290000.0,6278.0,1480.0,3
+Shri Balaji Heights V,jaipur,7470000.0,4415.0,1017.0,4
+Floresta By Reliant Group,jaipur,10000000.0,5750.0,1752.0,5
+Jewel By Samurai,jaipur,58300000.0,10500.0,5559.0,5
+Chordias Gulmohar Heights,jaipur,10700000.0,6000.0,1793.0,5
+Aashish Central Park,jaipur,57600000.0,14000.0,4120.0,4
+Aashish Central Park,jaipur,57600000.0,14000.0,4120.0,3
+Shree Balaji Green Heights,jaipur,12200000.0,6500.0,1047.0,4
+Manglam Rambagh,jaipur,18300000.0,6500.0,2821.0,2
+Sankalp The Index,jaipur,13000000.0,7000.0,1100.0,5
+Parth Aangan,jaipur,15900000.0,7500.0,2128.0,2
+Vardhman Eminara,jaipur,15700000.0,7200.0,2194.0,3
+Shubhashish Marina,jaipur,12600000.0,5935.0,2123.0,3
+Jai Sharde Raghav Heights,jaipur,7800000.0,5436.0,1435.0,2
+Mahimas Sansaar Phase I,jaipur,7480000.0,4503.0,1662.0,2
+Vivanta Chordias Eraya,jaipur,11800000.0,6500.0,1829.0,2
+Nature Homes Amaltas,jaipur,12700000.0,6711.0,1898.0,4
+Vinayak Royal Crysta,jaipur,7759999.999999999,5500.0,1411.0,4
+Vatika Jaipur 21,jaipur,4500000.0,2571.0,1750.0,5
+Floresta By Reliant Group,jaipur,9640000.0,5500.0,1752.0,4
+Vardhman Eminara,jaipur,13000000.0,7467.0,1741.0,5
+Vardhman Eminara,jaipur,12500000.0,7200.0,1743.0,2
+Alliance Anand,udaipur,17000000.0,8854.0,1920.0,2
+Ghar Aangan Apna Ghar,udaipur,1900000.0,2222.0,855.0,1
+Riddhi Siddhi Park,udaipur,5000000.0,4000.0,1250.0,5
+Krishnangan,udaipur,11000000.0,5598.0,1965.0,4
+Royal Imperial,udaipur,8200000.0,4556.0,1270.0,4
+Gyanesh Royal Pine,udaipur,3500000.0,3977.0,880.0,1
+Matrix Park,udaipur,8500000.0,5986.0,1420.0,2
+Archi Galaxy,udaipur,2750000.0,3929.0,688.0,1
+Riddhi Siddhi Park,udaipur,5900000.0,4617.0,950.0,1
+Mahaprabhu Harmony Harikesh,ahmedabad,21300000.0,7845.0,1503.0,3
+Enstin Evoq,ahmedabad,17700000.0,6666.0,1598.0,4
+Keshar Kadam,ahmedabad,12500000.0,7095.0,1764.0,5
+Safal Riviera Aspire,ahmedabad,16399999.999999998,6000.0,1507.0,3
+VR Reflection,ahmedabad,7259999.999999999,4150.0,1750.0,4
+Addis Ivory Orchards,ahmedabad,9000000.0,10452.961672473868,861.0,1
+The Nest,ahmedabad,16700000.0,6064.0,1503.0,5
+Safal Niwa,ahmedabad,7400000.0,4202.0,862.0,1
+Super Shaligram,ahmedabad,16000000.0,6058.0,2641.0,5
+Vandematram Rameshwar City,ahmedabad,10300000.0,5200.0,1984.0,4
+Rajshree Regalia,ahmedabad,11299999.999999998,4774.0,1302.0,2
+Riviera Bliss,ahmedabad,13300000.0,5500.0,1283.0,3
+Vandematram Rameshwar City,ahmedabad,10300000.0,5200.0,1984.0,2
+Shubham Anthem,ahmedabad,7509999.999999999,4293.0,1750.0,3
+Beverlynn Vasudha,ahmedabad,7600000.0,4825.0,851.0,1
+A Shridhar Anantara Alora,ahmedabad,15400000.0,5800.0,1461.0,2
+Rashmi Sky Scape,ahmedabad,30000000.0,6500.0,4628.0,2
+Deep Indraprasth Shivanta,ahmedabad,16200000.000000002,6782.0,1320.0,2
+LYCKA LIFE,ahmedabad,13200000.0,7007.0,1890.0,3
+Sheladia Luxuria,ahmedabad,9000000.0,5048.0,1783.0,5
+Goyal Riviera Prestige,ahmedabad,13600000.000000002,5707.0,1437.0,3
+Shyam Zircon Amora,ahmedabad,7780000.0,4217.0,1845.0,5
+Godrej Garden City,ahmedabad,6500000.0,4738.0,1372.0,3
+Vivaan Aura,ahmedabad,6120000.0,3317.0,1845.0,2
+Oeuvre Iconic,ahmedabad,25000000.0,8800.0,1600.0,2
+Shypram,ahmedabad,10000000.0,6734.0,816.0,1
+Deep Indraprasth Shivanta,ahmedabad,15600000.0,6500.0,1320.0,4
+Gala Haven,ahmedabad,13500000.0,7297.0,1850.0,3
+Amogha by Adani Realty,ahmedabad,13000000.0,8784.0,826.0,1
+Vishwanath Sun South Rayz,ahmedabad,9500000.0,6597.0,865.0,1
+Arpan Status Altezza,ahmedabad,15700000.0,5850.0,1485.0,5
+Shilp Residency,ahmedabad,13500000.0,5720.0,1300.0,4
+Orchid Valley,ahmedabad,5800000.0,4296.0,780.0,1
+RASHMI and DOBARIYA OMBRE,ahmedabad,12100000.0,4600.0,1480.0,2
+Harvi Helios,ahmedabad,9840000.0,5180.0,1900.0,3
+Shilp Residency,ahmedabad,12000000.0,5100.0,2361.0,5
+Gala Eternia,ahmedabad,15000000.0,8596.0,1200.0,3
+Resset Good Earth,ahmedabad,6590000.000000001,3855.0,1710.0,4
+Shilp Revanta,ahmedabad,6500000.0,4305.0,850.0,1
+Terranova,ahmedabad,10700000.0,4556.0,1305.0,2
+Pioneer Viona,surat,10100000.0,4820.0,2108.0,4
+Pramukh Revanta,surat,12900000.0,5110.0,2525.0,2
+Rajhans Corazo,surat,16399999.999999998,6200.0,1350.0,3
+Anand Aspire,surat,4700000.0,3715.0,1265.0,2
+Pramukh Amaya,surat,5570000.0,4251.0,1311.0,3
+AVADH SELENIC,surat,11600000.0,5900.0,1980.0,5
+Kiran Concord Towers,surat,4200000.0,3182.0,725.0,1
+Vikrant Vedant Solitaire,surat,5250000.0,3141.0,902.0,1
+Pramukh Amaya,surat,9600000.0,4548.0,2111.0,5
+Ramji Residency,surat,4800000.0,4000.0,660.0,1
+SAI NIYANTA,surat,4580000.0,3551.0,709.0,1
+Sangini Epitome,surat,11200000.000000002,4751.0,1550.0,3
+Prestige Mirana,surat,7700000.0,4400.0,1750.0,3
+Vaishnodevi Sky,surat,6200000.0,4062.9095674967234,1526.0,4
+Shreepad Panorama,surat,5500000.0,4198.0,1310.0,3
+Mangalam Heights,surat,7000000.0,5263.0,1330.0,5
+Sundaram Apartmant,surat,5000000.0,4000.0,1000.0,5
+Avadh Carolina,surat,9370000.0,5092.0,1840.0,3
+Shri Bhakti Dharm Township,surat,4900000.0,3500.0,900.0,1
+Raghuvir Saffron,surat,8300000.0,5304.0,1565.0,4
+GREEN Swapnabhoomi,surat,12000000.0,5576.0,2152.0,5
+Pramukh Amaya,surat,5800000.0,4424.0,1311.0,4
+Reshma Takshashila Heights,surat,2800000.0,2654.0,1055.0,5
+Aagam Siddhi,surat,13899999.999999998,5398.0,1416.0,4
+Millinium Resideny,surat,3600000.0,3428.5714285714284,1050.0,5
+Raghuvir Sentosa Heights,surat,7500000.0,4076.0,1300.0,3
+Galaxy Enclave,surat,6500000.0,4626.0,1405.0,5
+Rajhans Apple,surat,5200000.0,3611.0,1440.0,5
+Ravi Darshan Apartment,surat,5950000.0,5085.0,1170.0,3
+Samarth Enclave,surat,7600000.0,4086.0,1860.0,4
+Avantika Veerbhadra Heights,surat,8800000.0,4000.0,2000.0,3
+Nakshatra Nebula,surat,5600000.0,3480.0,1609.0,5
+AVADH SELENIC,surat,17000000.0,6300.0,1493.0,2
+Western Height,surat,5250000.0,4102.0,1280.0,3
+Bilvam Regency,surat,9000000.0,4604.0,1050.0,2
+Western Somchintamani,surat,9600000.0,5232.0,1010.0,4
+Santvan Lexon,surat,6500000.0,3937.0,910.0,1
+Jolly Residency,surat,12500000.0,7353.0,1200.0,2
+Rajhans Platinum Residency,surat,4800000.0,3028.0,1585.0,3
+Trinity By Courtyard,vadodara,8900000.0,8460.076045627377,1052.0,5
+Narayan Greenscapes,vadodara,6200000.0,3713.0,1360.0,3
+Shreeji Shree Two,vadodara,7500000.0,3676.0,2040.0,3
+Alembic Veda,vadodara,5250000.0,4390.0,785.0,1
+Safalya Bliss,vadodara,4000000.0,2759.0,1450.0,3
+SHILALEKH,vadodara,13000000.0,8125.0,1600.0,3
+Suryoday Park,vadodara,6900000.0,8254.0,1500.0,3
+Viram 2,vadodara,2350000.0,2611.0,900.0,1
+Virat Sai Sahaj Residency,vadodara,4360000.0,2750.0,992.0,1
+Hari Om Elegance,vadodara,5200000.0,5474.0,760.0,1
+Pratham Upvan,vadodara,8500000.0,3148.0,1328.0,2
+Saffron Green,vadodara,3650000.0,5214.0,700.0,1
+Vihav Elinor,vadodara,8500000.0,7166.947723440135,1186.0,2
+Pratham Riviera,vadodara,3500000.0,3205.0,1092.0,2
+Pancham Elite,vadodara,4600000.0,3594.0,980.0,1
+Orchid Platina,vadodara,3600000.0,5143.0,700.0,1
+Shangri la Luxury Apartments,vadodara,10800000.0,5797.0,1863.0,2
+Overseas Avenue,vadodara,16000000.0,8000.0,1800.0,2
+SkySeven Synnove Palladium,vadodara,8700000.0,4971.0,1750.0,5
+Fortune Greenfields 3,vadodara,4400000.0,4268.0,960.0,1
+Zillion Sparsh,vadodara,3500000.0,5383.0,600.0,1
+Hari Smruti,vadodara,2700000.0,2571.0,760.0,1
+Darshanam Central Park,vadodara,4500000.0,3333.0,1000.0,2
+The Florence,vadodara,6500000.0,6500.0,1000.0,2
+Vraj vatika,vadodara,3950000.0,3835.0,1030.0,2
+Kanha City,vadodara,4400000.0,2839.0,1550.0,4
+Shree Ganesh Shyamal Park,vadodara,2500000.0,3955.6962025316457,632.0,1
+Siddharth Samanvay I,vadodara,3400000.0,3400.0,1000.0,4
+Orchid Green,vadodara,3300000.0,4231.0,770.0,1
+Pradhan Glenwoods,vadodara,3500000.0,3500.0,600.0,1
+Ratnam Elegance,vadodara,5100000.0,3778.0,1050.0,4
+Star Residency,vadodara,3800000.0,3167.0,850.0,1
+Challenge Nysa Skydale,vadodara,6500000.0,4276.0,1050.0,5
+Shirin Priya Crossroads,vadodara,5250000.0,3127.0,1018.0,2
+Kishan Galaxy,vadodara,2800000.0,2800.0,1000.0,2
+Fortune V,vadodara,3900000.0,2364.0,1200.0,2
+Limbodagari Siddhi Olympia,indore,7250000.0,5179.0,1400.0,2
+DCNPL Hills Vista,indore,12500000.0,7319.0,1708.0,2
+SS Infinitus,indore,7409999.999999999,6000.0,851.0,1
+Omaxe Hills,indore,3910000.0,3700.0,756.0,1
+Serenity By Pumarth,indore,4500000.0,4500.0,1000.0,3
+SS Infinitus,indore,5300000.0,5567.0,952.0,1
+Highline Fortune,indore,6940000.000000001,6088.0,800.0,1
+Annex,indore,25000000.0,11364.0,2153.0,2
+Malwa Enclave,indore,9500000.0,10440.0,814.0,1
+Mirchandani Shalimar Swayam,indore,18500000.0,7400.0,2400.0,3
+Naman Shubam Nariman Enclave,indore,6500000.0,5000.0,785.0,1
+Vista Victoria Urbane Oasis,indore,5000000.0,4562.0,778.0,1
+Silver Springs,indore,8500000.0,5667.0,1500.0,2
+Cliffton Palladium,indore,20900000.0,8500.0,2462.0,5
+Omaxe City,indore,5350000.0,4500.0,750.0,1
+Skye Luxuria 20,indore,27000000.0,9926.0,1900.0,2
+Shivashri Dham,indore,9500000.0,5278.0,800.0,1
+Abhyudayam Janki Residency,bhopal,9200000.0,10188.0,2150.0,5
+Ultimate English Villas,bhopal,5700000.0,3562.0,800.0,1
+Fortune Atlantis Phase II,bhopal,7600000.0,9048.0,840.0,1
+Ruchi Lifescapes,bhopal,3200000.0,3010.0,1063.0,4
+Anupam Kasturi,bhopal,3000000.0,3950.0,760.0,1
+Fortune Kasturi,bhopal,3500000.0,2696.0,750.0,1
+Janki Apartment,bhopal,4500000.0,3396.0,1100.0,2
+Tulip Greens,bhopal,6400000.0,3657.0,1750.0,4
+Nirupam Royal Palms,bhopal,3000000.0,3529.0,850.0,1
+Chinarr Dream CT,bhopal,4000000.0,2667.0,1400.0,4
+Windsor Palms Phase 3,bhopal,8500000.0,3696.0,1760.0,5
+Om Ganpati Homes,bhopal,4800000.0,7111.0,1000.0,2
+Green Acres,bhopal,7500000.0,5068.0,1480.0,3
+Tirupati Abhinav Homes,bhopal,9600000.0,3310.0,2500.0,3
+Aakriti Greens,bhopal,4500000.0,3142.0,1000.0,3
+Rudraksh Kasturi,bhopal,6500000.0,3611.0,1250.0,2
+Nakshatra Enclave,bhopal,4200000.0,3818.0,1100.0,3
+Nirupam Royal Palms,bhopal,3300000.0,2683.0,1230.0,4
+Fortune Signature,bhopal,9000000.0,4688.0,1920.0,4
+Fortune Kasturi,bhopal,6400000.0,5818.0,1100.0,2
+Unihomes Bhopal,bhopal,1900000.0,1937.0,981.0,1
+Amaltas Westminster,bhopal,4380000.0,3368.0,1300.0,4
+Sheetal Dham,bhopal,2400000.0,2682.0,895.0,1
+Chinarr Dream CT,bhopal,3400000.0,2429.0,1400.0,3
+Sahyog Parishar,bhopal,12500000.0,5531.0,2260.0,2
+ABDL Aashima Anupama City,bhopal,7500000.0,5357.0,1400.0,3
+Mirchandani Shalimar Fortleza,bhopal,12000000.0,5455.0,1266.0,3
+Aakriti Eco City,bhopal,17000000.0,8500.0,2000.0,5
+Nirupam Royal Palms,bhopal,1900000.0,2235.0,850.0,1
+Sage Heritage,bhopal,13000000.0,15476.0,840.0,1
+Omaxe Cassia,lucknow,10300000.0,5800.0,1785.0,4
+Belvedere Court 3,lucknow,14400000.0,10500.0,943.0,1
+Privue Jashn Elevate Phase 3,lucknow,13799999.999999998,6970.0,1221.0,3
+Shalimar Twenty One,lucknow,23400000.0,9202.0,2550.0,3
+Zenith Vista,lucknow,15500000.0,6465.0,2405.0,4
+Eldeco Hanging Gardens,lucknow,17200000.0,7900.0,1303.0,4
+Samiah Melrose Square,lucknow,7200000.0,4800.0,1500.0,4
+Shalimar Twenty One,lucknow,23400000.0,9202.0,2550.0,5
+Rishita Mulberry Heights,lucknow,16000000.0,8526.0,1195.0,2
+Eldeco Hanging Gardens,lucknow,15100000.0,7900.0,1055.0,5
+ORO Constella,lucknow,16700000.0,8200.0,1277.0,5
+ORO Constella,lucknow,16700000.0,8200.0,1277.0,2
+Imperial Estates,lucknow,15700000.0,5000.0,2362.0,3
+ORO Constella,lucknow,16700000.0,8200.0,1277.0,3
+Dynasty by ORO,lucknow,10700000.0,7800.0,812.0,1
+Zenith Vista,lucknow,11800000.0,6465.0,1840.0,5
+Eldeco Skywalk,lucknow,10500000.0,5650.0,1084.0,5
+CCS Amor,lucknow,14300000.0,5500.0,2606.0,4
+Eden At 1,lucknow,17700000.0,8100.0,1360.0,4
+ORO Constella,lucknow,16700000.0,8200.0,1277.0,2
+Serenity by Rishita,lucknow,29300000.0,11259.0,2012.0,4
+Earthcon Emerald Gardens,lucknow,10200000.0,6222.0,954.0,1
+Omaxe Cassia,lucknow,10400000.0,5800.0,1147.0,4
+We Dream Galaxy,lucknow,8600000.0,5213.0,1650.0,2
+ORO Constella,lucknow,15900000.0,8200.0,1235.0,5
+Zenith Vista,lucknow,10200000.0,5500.0,1300.0,5
+Dynasty by ORO,lucknow,13899999.999999998,8105.0,1094.0,3
+Emaar Elite Oasis,lucknow,29000000.0,19410.977242302542,1494.0,2
+Shalimar Marbella gh 18,lucknow,21200000.0,9217.0,1379.0,5
+Shalimar Oneworld 21,lucknow,19200000.0,8200.0,1522.0,5
+Vanshika Ontario,lucknow,16200000.000000002,6000.0,2344.0,4
+Eldeco Trinity,lucknow,33500000.0,12102.0,1615.0,5
+Shalimar Marbella gh 18,lucknow,14900000.0,8432.0,1103.0,2
+Urban Woods,lucknow,8500000.0,5449.0,1560.0,4
+Atal Club View,lucknow,8000000.0,3810.0,1840.0,2
+Omega Suraksha Enclave,lucknow,12000000.0,8571.0,1400.0,4
+Azeagaia Azea Botanica,lucknow,11000000.0,7719.0,1425.0,4
+Omaxe Waterscape,lucknow,9600000.0,5872.0,1635.0,4
+Dynasty by ORO,lucknow,10500000.0,7609.0,812.0,1
+ORO Constella,lucknow,16700000.0,8200.0,1277.0,5
+Zenith Vista,lucknow,15500000.0,6465.0,2405.0,2
+Rishita Mulberry Heights Phase 5,lucknow,25000000.0,11211.0,2230.0,4
+Eldeco Imperia Phase II,lucknow,9500000.0,8085.0,789.0,1
+Eden At 1,lucknow,17000000.0,8995.0,1200.0,3
+Eldeco Hanging Gardens,lucknow,16500000.0,7576.0,1303.0,4
+Shivani Gangajali SG Heights,lucknow,7809999.999999999,5398.0,993.0,1
+KDA Residency,kanpur,5500000.0,4731.0,968.751,1
+Rudra Greens,kanpur,4500000.0,2839.0,1585.0,4
+Balaji Enclave,kanpur,7000000.0,6364.0,970.0,1
+Gurudham Apartments,kanpur,6500000.0,4194.0,1440.0,2
+NRI City,kanpur,13000000.0,4815.0,2500.0,5
+Ratan Orbit,kanpur,8900000.0,6652.0,1000.0,4
+Kakadev,kanpur,12500000.0,10417.0,900.0,1
+Diviniti Homes,kanpur,11500000.0,6609.0,1740.0,4
+Eldeco County,kanpur,8600000.0,5815.0,1479.0,4
+Skyline The Peak,kanpur,13000000.0,7550.0,1037.0,3
+Ratan Orbit,kanpur,8000000.0,7387.0,1083.0,4
+KDA Residency,kanpur,9750000.0,5804.0,1400.0,4
+Ratan Shanti,kanpur,9500000.0,6333.333333333333,1500.0,3
+Kanha Shyam Residency,kanpur,8800000.0,5359.0,1600.0,4
+Ram Krishan Apartment,kanpur,6500000.0,5909.0,1050.0,2
+Kakadev,kanpur,12000000.0,6667.0,1800.0,3
+Vansh Residency,kanpur,3800000.0,4471.0,800.0,1
+Sai Shree Star Galaxy,patna,10700000.0,6950.0,1128.0,4
+Vip Residency,patna,8530000.0,5500.0,1007.0,2
+Shiv Radhika Complex,patna,17000000.0,9883.720930232557,1720.0,5
+Param Smriti,patna,7500000.0,6522.0,1150.0,5
+Rk Sadan,patna,10000000.0,7042.0,1100.0,4
+Ribhya Residency,patna,12500000.0,7645.0,1250.0,2
+Anand Greens,patna,9920000.0,6610.0,1500.0,5
+Sitaram Apartment,patna,4000000.0,4060.9137055837564,985.0,1
+Pushpanjali Complex,patna,22500000.0,11842.0,1400.0,2
+Dhanraj Complex,patna,11500000.0,8806.0,1000.0,5
+Sunrise Narayan Palace,patna,6500000.0,6190.0,1050.0,2
+Saakaar Aqua City,patna,12000000.0,8259.0,1045.0,2
+Majestic Janki City,patna,6950000.0,6715.0,767.0,1
+J G Manju Residency,patna,6140000.0,5988.0,1025.0,4
+Rukmani Chatrapati Shivaji Greens,patna,3800000.0,3800.0,823.0,1
+MIG Flats,patna,6500000.0,6806.0,955.0,1
+Durga Pushpa Vihar,patna,25000000.0,16949.15254237288,1475.0,5
+Sai Enclave,patna,6959999.999999999,5800.0,1000.0,2
+SS Metro Mall and Residential Tower,patna,9120000.0,7500.0,900.0,1
+Winsome Kripanand Enclave,patna,8800000.0,5612.0,1250.0,5
+Casa Clasico,patna,18600000.0,11273.0,1169.0,4
+Patliputra Gardens,patna,13000000.0,7738.0,1530.0,3
+Genx Daffodils,patna,8000000.0,6294.0,1271.0,2
+Patwari Jagannath Enclave,patna,10600000.0,6000.0,1781.0,4
+Ycoordinate Dhirendra Shree,gaya,3900000.0,3800.0,1025.0,2
+S K Place gaya,gaya,6500000.0,5417.0,1120.0,5
+Vastu Vihar,gaya,3900000.0,3250.0,1200.0,2
+Gaya Phase 5,gaya,4600000.0,3767.0,1040.0,2
+Ycoordinate Dhirendra Shree,gaya,3780000.0,3800.0,995.0,1
+Ycoordinate Dhirendra Shree,gaya,3450000.0,3800.0,907.0,1
+Arizuma Southern Vista,kolkata,11299999.999999998,7682.0,1475.0,2
+Mani Vista,kolkata,27500000.0,15320.0,1139.0,4
+Srijan Town Square,kolkata,25500000.0,13683.0,1865.0,4
+Premier Joy 98,kolkata,13000000.0,9630.0,1350.0,5
+Quintessa,kolkata,32400000.000000004,16670.0,1944.0,3
+Orbit Dakshini,kolkata,12600000.0,8027.0,1575.0,5
+Merlin Skygaze,kolkata,7440000.000000001,8920.0,834.0,1
+EIA Vayu,kolkata,12100000.0,7722.0,1573.0,5
+Sureka Sunrise Aura,kolkata,4480000.0,6616.0,580.0,1
+Merlin Serenia,kolkata,6940000.000000001,8022.0,708.0,1
+DTC Still Waters,kolkata,8800000.0,7586.0,1160.0,4
+Siom Mani Casa 2,kolkata,18200000.0,10738.0,1166.0,4
+Look Saket Evara,kolkata,10000000.0,11281.0,781.0,1
+Vinayak Amara,kolkata,16399999.999999998,10496.0,995.0,1
+DTC Still Waters,kolkata,12600000.0,8129.0,1550.0,3
+Ambuja Utpalaa The Condoville,kolkata,17200000.0,9750.0,1768.0,3
+Srijan The Royal Ganges,kolkata,12800000.0,6716.0,1920.0,2
+AKP Marinas Edge,kolkata,36400000.0,14450.0,1509.0,4
+SKDJ Nidhara,kolkata,24600000.0,11249.0,2189.0,5
+Godrej Elevate at Godrej Seven,kolkata,8510000.0,6385.0,844.0,1
+Nirmala Nevada,kolkata,9090000.0,6565.0,1385.0,3
+Godrej Elevate at Godrej Seven,kolkata,8880000.0,6385.0,888.0,1
+Siddha Happyville,kolkata,10600000.0,7643.0,1395.0,3
+Sugam Morya Phase 2,kolkata,17000000.0,11119.0,949.0,1
+Sugam Park,kolkata,6000000.0,5236.0,890.0,1
+Unitech Heights,kolkata,12000000.0,6787.0,1768.0,4
+Upohar The Condoville,kolkata,16000000.0,8681.0,1843.0,5
+Upohar The Condoville,kolkata,9500000.0,7917.0,918.0,1
+Hiland Park,kolkata,10000000.0,7911.0,1264.0,4
+South City,kolkata,35000000.0,17912.0,1954.0,2
+Urbana NRI Complex,kolkata,54500000.0,17429.0,3127.0,2
+Supreme Residency,kolkata,6500000.0,7488.0,725.0,1
+Anandi View,kolkata,3960000.0,3350.0,1183.0,2
+GODREJ BLUE,kolkata,22400000.000000004,14900.0,1510.0,4
+Merlin Rise Sports Republic Phase 1 A,kolkata,5600000.0,8615.384615384615,650.0,1
+Merlin Lakescape,kolkata,7800000.0,8667.0,900.0,1
+Rohra Imperial,kolkata,6430000.0,5600.0,1148.0,5
+F Residences Merlin,kolkata,9200000.0,7000.0,1314.0,4
+Utalika Luxury Phase 5,kolkata,8000000.0,8180.0,485.0,1
+Ambuja Urvisha The Condoville,kolkata,24000000.0,14277.0,1210.0,2
+Urbanyx court,bhubaneswar,15300000.0,7000.0,1359.0,3
+Urbanyx court,bhubaneswar,13000000.0,7000.0,1212.0,4
+Assotech Avenue 07,bhubaneswar,21300000.0,8917.0,1503.0,4
+DHPL SCB RESIDENCY,bhubaneswar,8620000.0,6700.0,1286.0,3
+Laxmi Fresh Living,bhubaneswar,15300000.0,7500.0,2050.0,3
+Shivgram Residency,bhubaneswar,10400000.0,5850.0,1099.0,4
+Rashmi Lifestyle Phase II,bhubaneswar,10900000.0,6208.0,1770.0,3
+Tata Ariana Phase 3,bhubaneswar,10500000.0,14830.50847457627,708.0,1
+Jay Jagannathswami Pramod Signature,bhubaneswar,11500000.0,7190.0,1094.0,4
+Kalvik Adidev,bhubaneswar,18700000.0,11902.0,1284.0,3
+Motwani Anantara,bhubaneswar,17000000.0,7000.0,1245.0,3
+Motwani Anantara,bhubaneswar,17000000.0,7000.0,1245.0,5
+Nawah Boulevard,bhubaneswar,39900000.0,8200.0,4871.0,4
+DN Pallaciya,bhubaneswar,20300000.0,9263.0,2200.0,2
+Kalvik Adidev,bhubaneswar,15800000.0,10102.0,1284.0,3
+EVOS ALCHEMY,bhubaneswar,24000000.0,8909.0,2694.0,3
+Falcon Tatva,bhubaneswar,20600000.0,8750.0,1527.0,3
+Springville Greens Llp Phase II,bhubaneswar,8100000.0,9101.0,778.0,1
+Laxmi Green View,bhubaneswar,7570000.0,5508.0,986.0,1
+Utkal Levels,bhubaneswar,17200000.0,7304.0,1589.0,4
+EVOS ALCHEMY,bhubaneswar,20000000.0,8600.0,1490.0,4
+Panchamukhi Lites,bhubaneswar,7700000.0,5310.0,1375.0,4
+Royal Habitat,bhubaneswar,8100000.0,6454.0,1255.0,2
+TRIKUTA RADIANT,bhubaneswar,11500000.0,6970.0,1450.0,2
+Ethics Arcon,bhubaneswar,8300000.0,6776.0,930.0,1
+Acropolis,bhubaneswar,7350000.0,5198.0,1450.0,2
+Satyabadi Residency,bhubaneswar,14900000.0,10061.0,999.0,1
+Utkal Royal Residency,bhubaneswar,14000000.0,11638.0,1203.0,4
+AcreRise AZURE,cuttack,9410000.0,5649.0,915.0,1
+AcreRise AZURE,cuttack,8410000.0,5649.0,850.0,1
+SRC Signature,cuttack,7900000.0,5265.0,890.0,1
+AcreRise AZURE,cuttack,9410000.0,5649.0,915.0,1
+AcreRise AZURE,cuttack,9410000.0,5649.0,915.0,1
+AcreRise AZURE,cuttack,8410000.0,5649.0,850.0,1
+Saswat Riverside,cuttack,10800000.0,5950.0,1078.0,4
+Builders Consortium Tridev Ekam,cuttack,8400000.0,6500.0,665.0,1
+Diamond City By Eastern Estate Construction & Developers Pvt. Ltd.,cuttack,11800000.0,7200.0,1033.0,3
+AcreRise AZURE,cuttack,9160000.0,5499.0,915.0,1
+Builders Consortium Tridev Ekam,cuttack,11900000.0,6670.0,1051.0,5
+Metro Manorma Complex,cuttack,11000000.0,7914.0,1390.0,3
+AcreRise AZURE,cuttack,9000000.0,6048.0,850.0,1
+Mahadev Greens,cuttack,10000000.0,5794.0,866.0,1
+Acrerise Aura,cuttack,6970000.0,5016.0,900.0,1
+Diamond City By Eastern Estate Construction & Developers Pvt. Ltd.,cuttack,8080000.0,6800.0,785.0,1
+Triveni Sri Ramdeo Garden,ranchi,5370000.0,3700.0,1450.0,3
+Vikramsila Garden,ranchi,7080000.0,4600.0,1539.0,5
+Sushila Sadan,ranchi,10000000.0,6452.0,1550.0,3
+Vikramshila Vatika,ranchi,7700000.0,4350.0,1770.0,2
+Global Platinum,ranchi,8000000.0,6154.0,1200.0,5
+Balaji enclave,ranchi,4500000.0,4090.909090909091,1100.0,4
+Lucky Buildcon Dream Tower,ranchi,8500000.0,5484.0,1550.0,3
+Genesis,ranchi,11000000.0,6190.0,1777.0,2
+Triveni Nilu Enclave,ranchi,4860000.0,3596.0,950.0,1
+Dwaraka Dham Apartments,ranchi,7300000.0,4746.0,1538.0,5
+Tripti Apartment,ranchi,9000000.0,7500.0,1000.0,4
+Kashish Sail City,ranchi,8000000.0,5079.0,1200.0,4
+NK Oak Forest,ranchi,11500000.0,5736.0,2005.0,4
+Vimal Shyam Vihar,ranchi,9000000.0,5625.0,1600.0,3
+Shalimar Bagh,ranchi,6000000.0,4000.0,1240.0,5
+Vastu Sushila Garden,ranchi,11000000.0,5500.0,2015.0,5
+Mansarovar Priya Enclave,ranchi,6800000.0,4000.0,1700.0,5
+Nisith Palm Arin Garden,ranchi,7709999.999999999,4200.0,1835.0,3
+JAYSRI Green City,ranchi,6340000.0,5500.0,1152.0,5
+Sharda Green,ranchi,8400000.0,5100.0,1648.0,2
+R K Faii Residency,ranchi,14200000.0,7000.0,2033.0,2
+Palm Vista Forest by Nisith Keshari Construction,ranchi,8760000.0,4400.0,1990.0,2
+ARYAN ASHRAY,ranchi,5490000.0,3500.0,1568.0,5
+Jagannath Gardens,ranchi,6260000.0,4500.0,1390.0,4
+NK Oak Forest,ranchi,11700000.0,6000.0,1955.0,2
+Rose Avenue,ranchi,8490000.0,4599.0,1845.0,4
+Oceanik Empire,ranchi,8159999.999999999,4800.0,1700.0,4
+Ashiana Anantara,jamshedpur,8600000.0,6056.0,1196.0,4
+Swarna Palace,jamshedpur,6000000.0,4317.0,1390.0,5
+ATC Extension by Aastha Group,jamshedpur,6300000.0,4062.0,1551.0,3
+Shree Triveni Imperial,jamshedpur,4770000.0,4672.0,1021.0,3
+City Palace,jamshedpur,4400000.0,4356.0,900.0,1
+Maya Heritage,jamshedpur,12500000.0,7702.0,1623.0,2
+H B Apartment,jamshedpur,4000000.0,3721.0,925.0,1
+Chandra Niwas,jamshedpur,5000000.0,5000.0,1000.0,5
+Kay Pee Enclave,jamshedpur,5100000.0,4670.0,875.0,1
+Srinath Rock Garden,jamshedpur,3800000.0,4572.80385078219,831.0,1
+Aastha Twin City,jamshedpur,7100000.0,4743.0,1497.0,5
+Ram Niketan,raipur,3500000.0,3349.0,1045.0,4
+Sachdev Salasar Greens,raipur,5010000.0,3500.0,1000.0,5
+Raheja Nirwana,raipur,16900000.0,7860.0,3800.0,3
+Pioneer Green Land,raipur,4200000.0,4407.13536201469,953.0,1
+CG Housing Board Colony,raipur,2500000.0,3156.5656565656564,792.0,1
+RS Empressia Elite,raipur,3310000.0,3262.0,1015.0,3
+G T Natura,raipur,3300000.0,2750.0,1200.0,4
+Ashoka Royale,raipur,9100000.0,3972.0,2291.0,5
+Harshit Landmark,raipur,2800000.0,3883.0,600.0,1
+Bajrang Delmark Vedanta City,raipur,3500000.0,2333.0,1500.0,2
+Vrindawan Gardens,raipur,1950000.0,1773.0,895.0,1
+Celeno Paradise,raipur,3700000.0,3541.0,1045.0,4
+Sai vihar,raipur,2700000.0,2571.0,850.0,1
+Swarnima Era,bilaspur,5350000.0,4990.0,959.0,1
+TATTVA APAS,nagpur,5400000.0,4500.0,1200.0,3
+Dhuni ARCTIC,nagpur,7890000.000000001,4444.0,1775.0,2
+TATTVA APAS,nagpur,5400000.0,4500.0,1200.0,4
+TATTVA APAS,nagpur,5430000.0,4502.0,1206.0,3
+Shree Siddheshwar Nagar 2,nagpur,8000000.0,5270.0,1518.0,2
+MB Town 4 Phase 1,nagpur,3400000.0,3400.0,1000.0,3
+Sharma Narmada Residency,nagpur,3910000.0,3200.0,1222.0,4
+K Square Nerium,nagpur,5000000.0,4167.0,1200.0,5
+Advik Buildsworth The One World,nagpur,6120000.0,5100.0,1200.0,5
+TATTVA APAS,nagpur,7330000.0,4500.0,1629.0,5
+Anjani Exotica,nagpur,8490000.0,5000.0,1697.0,2
+Aakar Millenium,nashik,7500000.0,6039.0,810.0,1
+Shree Tirumala Anmol,nashik,4500000.0,5590.0,565.0,1
+Maitreya Pandav Van,nashik,11000000.0,5366.0,1750.0,2
+Nirmans Vrindavan Gardens,nashik,3000000.0,3927.0,764.0,1
+ABH Treeland,nashik,8000000.0,7782.0,733.0,1
+Ekta Greenville Villa,nashik,6900000.0,4646.0,1485.0,2
+Samraat Tropicano,nashik,6100000.0,6040.0,1010.0,2
+Gajra Avenue,nashik,4000000.0,3460.0,1200.0,3
+Vista Phase II,nashik,6500000.0,5000.0,1000.0,5
+ABH Treeland,nashik,13799999.999999998,8118.0,1150.0,4
+Ekta Greenville,nashik,3800000.0,3455.0,900.0,1
+Karda Hari Vishwa,nashik,7200000.0,5125.0,1405.0,3
+Garden County,nashik,5000000.0,5025.0,995.0,1
+Samraat Gokuldham,nashik,6600000.0,6000.0,800.0,1
+Samraat Apna Ghar,nashik,4500000.0,5515.0,816.0,1
+Ashoka Royale,nashik,6000000.0,6250.0,1000.0,4
+Karda Hari Vihar I,nashik,4800000.0,4259.0,1127.0,2
+Peninsula Ashok Astoria,nashik,6600000.0,4889.0,1150.0,4
+Shree Prakash Residency,nashik,4100000.0,4940.0,622.0,1
+Gajra Anmol Apartment,nashik,4600000.0,4646.0,750.0,1
+Shyam Vista,nashik,4800000.0,5333.0,750.0,1
+Bishnoi Residency,nashik,3500000.0,4167.0,588.0,1
+Nayantara Presidency,nashik,5300000.0,4173.0,1270.0,2
+Shreeji Pinnacle,nashik,3800000.0,3800.0,700.0,1
+ashoka Atharva Heights,nashik,3750000.0,4386.0,855.0,1
+Samnani Ishwar Prestige,nashik,12500000.0,7353.0,1450.0,3
+Deven Parijat,aurangabad,2900000.0,4056.0,645.0,1
+Apratim Vaastu,aurangabad,4300000.0,4526.0,950.0,1
+Township Sainik Vihar,aurangabad,3300000.0,4628.330995792427,713.0,1
+Kasliwal Marvel Tapadia Town,aurangabad,13000000.0,8125.0,1500.0,2
+Tirumala Hill,aurangabad,7200000.0,6857.0,750.0,1
+Manjeet Pride,aurangabad,4000000.0,5865.0,682.0,1
+JP Heights,aurangabad,2900000.0,4833.0,549.0,1
+Gayatri Vaishnaoi Eternis,mysore,7200000.0,6943.105110896818,1037.0,5
+Vinyasa Bharati,mysore,8000000.0,6667.0,1000.0,5
+Gayatri Vaishnaoi Eternis,mysore,7500000.0,7232.0,1037.0,3
+Brigade Topaz,mysore,14500000.0,8907.0,1628.0,4
+Prithvi Lifestyle,mysore,10300000.0,8000.0,1200.0,2
+Santhosh Dhruvatara,mysore,8000000.0,6667.0,1200.0,2
+Trendz Whispering Woods,mysore,4200000.0,5122.0,820.0,1
+Zuari Garden City,mysore,4400000.0,5867.0,750.0,1
+Shubham Diwans,mysore,7500000.0,6351.0,1181.0,3
+Suvarna Millennium,mysore,13000000.0,8125.0,1450.0,4
+Brigade Topaz,mysore,10500000.0,8294.0,1266.0,5
+Shriram Purnashri,mysore,7500000.0,5678.0,1001.0,5
+Brigade Topaz,mysore,14000000.0,8685.0,1018.0,4
+Brigade Sapphire,mysore,8500000.0,8845.0,961.0,1
+Casagrand Majestica,chennai,12900000.0,6100.0,2117.0,2
+TVS Emerald Udyana Phase III,chennai,13100000.0,7139.0,1839.0,2
+Godrej Azure,chennai,15900000.0,8154.0,1950.0,5
+Incor PBEL City,chennai,9440000.0,6888.0,1370.0,4
+Doshi Risington,chennai,15300000.0,9615.0,1599.0,3
+Nutech Elevate 21,chennai,21100000.0,12002.0,1764.0,4
+Rajparis Blue Jewel,chennai,22700000.0,8193.0,1657.0,5
+Rohaan Daisy Garden,chennai,7620000.0,6999.0,1088.0,3
+Eeshanyas Classic Meadows,coimbatore,15500000.0,6982.0,2220.0,2
+Radiance Riverwoods,coimbatore,11200000.000000002,7093.0,1137.0,4
+Radiance Imperia,coimbatore,22700000.0,7860.0,2888.0,2
+Pinnacle Pavilion,coimbatore,25200000.0,10080.0,1789.0,4
+Star Paradise,coimbatore,6200000.0,5391.0,850.0,1
+Sree Dakshas Macie,coimbatore,16000000.0,8954.0,1324.0,3
+Radiance Imperia,coimbatore,32100000.0,7700.0,4174.0,3
+Gandhimanagar,coimbatore,7000000.0,5443.0,900.0,1
+Oak Canopy,coimbatore,8830000.0,6950.0,1270.0,2
+Marutham Coconut Grove,coimbatore,5550000.0,5206.0,700.0,1
+Casagrand Eternia II,coimbatore,4600000.0,7256.0,700.0,1
+Coral Ennar,coimbatore,10800000.0,6725.0,1616.0,3
+Sree Dakshas Atulaniya,coimbatore,13799999.999999998,8061.0,1712.0,2
+VSK Ashwattha Apartment,coimbatore,9500000.0,6795.0,901.0,1
+Incor Lake City,hyderabad,10900000.0,5997.0,1828.0,3
+The Marquise,hyderabad,59900000.0,11453.0,5235.0,3
+Brigade Gateway,hyderabad,54500000.0,17706.0,3078.0,2
+Ramky One Symphony,hyderabad,12200000.0,7700.0,1585.0,4
+Tridasa Rise,hyderabad,15300000.0,7200.0,2134.0,2
+Muppas Melody,hyderabad,13100000.0,7944.0,1655.0,5
+Rajapushpa Skyra,hyderabad,32900000.0,10499.0,3140.0,3
+Brigade Gateway,hyderabad,54500000.0,17706.0,3078.0,4
+Lansum El Palacio,hyderabad,18500000.0,7999.0,2320.0,2
+Prestige Spring Heights,hyderabad,17700000.0,8430.0,2100.0,5
+Brigade Gateway,hyderabad,54500000.0,17706.0,3078.0,5
+Aparna Newlands,hyderabad,14200000.0,9649.0,1475.0,4
+Brigade Gateway,hyderabad,54500000.0,17706.0,3078.0,4
+Rajapushpa Pristinia,hyderabad,27700000.0,9233.0,3000.0,5
+Candeur Lakescape,hyderabad,15200000.0,9471.0,1607.0,4
+Rubrick Tripura,hyderabad,10200000.0,5566.0,1850.0,4
+Makuta Nirvana,hyderabad,11500000.0,5456.0,2114.0,4
+Nikhila Royal Pavilion,hyderabad,18200000.0,5837.0,3135.0,3
+Altitudes By DSR,hyderabad,17300000.0,7599.0,2278.0,4
+Brigade Gateway,hyderabad,58700000.0,15000.0,3917.0,2
+Fuzen Park Edge,hyderabad,9440000.0,5200.0,1815.0,3
+Ramky One Symphony,hyderabad,12200000.0,7700.0,1585.0,5
+Brigade Gateway,hyderabad,49000000.0,15977.0,3067.0,4
+Rajapushpa Sierra,hyderabad,18300000.0,7199.0,2555.0,3
+Sumadhuras Gardens By The Brook,hyderabad,13700000.000000002,8177.0,1680.0,5
+Rubrick Tripura,hyderabad,10200000.0,5566.0,1850.0,3
+Aparna Zenon,hyderabad,18100000.0,11963.0,990.0,1
+Indo Eco O2 Zone Villas,hyderabad,20300000.0,6875.0,2958.0,3
+Kesineni Northscape,hyderabad,16399999.999999998,6990.0,2360.0,5
+Omsree Skypark,hyderabad,16700000.0,7500.0,2235.0,5
+Skanda Avenues,hyderabad,10600000.0,5358.0,1989.0,5
+Godrej Madison Avenue,hyderabad,37700000.0,12305.0,3067.0,5
+Lansum Encanto,hyderabad,41200000.0,9987.0,4130.0,5
+Ramky One Harmony,hyderabad,11700000.0,7350.0,1595.0,3
+Sri Jagathswapna Spanesta,hyderabad,27600000.0,7099.0,3900.0,4
+Bommarillu Nandanavanam,hyderabad,8030000.0,5100.0,1575.0,4
+Team4 Arka,hyderabad,27300000.0,11300.0,2420.0,3
+Sobha Marina One,kochi,30000000.0,13078.0,2294.0,4
+Sobha Marina One,kochi,37000000.0,14665.0,2523.0,3
+Candlewood,kochi,7000000.0,6034.0,1160.0,3
+TATA Tritvam,kochi,30000000.0,13123.0,1600.0,2
+Sobha Marina One,kochi,30000000.0,12087.0,1824.0,2
+Skyline Gateway,kochi,11000000.0,8800.0,1250.0,4
+Gokulam Aditya,kochi,4200000.0,4421.0,850.0,1
+Olive Courtyard,kochi,9000000.0,5678.0,1110.0,3
+Royal Garden,kochi,6000000.0,4444.0,1350.0,4
+Kent Oakville,kochi,12500000.0,6944.0,1500.0,3
+NCC Urban Senate,kochi,13600000.000000002,8134.0,1475.0,3
+Green Vistas Prakrriti,kochi,9200000.0,5437.0,1680.0,2
+Green Vistas Prakrriti,kochi,7800000.0,5914.0,1319.0,2
+Infra Prosper,kochi,5500000.0,4876.0,1128.0,4
+Sobha Ridge Whispering Hill,trivandrum,20800000.0,11886.0,1450.0,5
+Sobha Ridge Whispering Hill,trivandrum,21300000.0,12171.0,1750.0,3
+Olive Cressida,trivandrum,10000000.0,5896.0,1696.0,3
+Confident Phoenix III,trivandrum,5000000.0,4587.0,850.0,1
+SFS Stanford,trivandrum,8500000.0,5655.0,1503.0,5
+Confident Zenith,trivandrum,3900000.0,4699.0,700.0,1
+Artech Life Spaces,trivandrum,12000000.0,7571.0,1041.0,5
+Condor Cyber Gardens Carnations,trivandrum,15000000.0,8721.0,1720.0,2
+Confident Zenith,trivandrum,4300000.0,5150.0,750.0,1
+Muthoot Homez Kowdiar,trivandrum,19900000.0,8604.0,1800.0,4
+Nikunjam I Park,trivandrum,14200000.0,7639.0,1859.0,3
+Asset Signature Phase 1,trivandrum,5500000.0,3929.0,1200.0,2
+Sobha Ridge Whispering Hill,trivandrum,19200000.0,10971.0,1600.0,2
+Sobha Silver Estate,thrissur,27200000.000000004,10409.0,2613.0,5
+Sobha Metropolis,thrissur,19600000.0,11005.0,1781.0,2
+federal residency,thrissur,5270000.0,4199.203187250996,1255.0,3
+Parkland Silver Oak,thrissur,5400000.0,4909.0,1100.0,5
+Confident Orion,thrissur,4950000.0,4500.0,1100.0,3
+Sobha Metropolis,thrissur,20000000.0,9560.0,1215.0,5
+Sapthavarna Souparnika Regency,thrissur,5000000.0,4000.0,1250.0,5
+The Eyrie,thrissur,9450000.0,5855.0,1614.0,2
+DD Majestic Mount,kottayam,5250000.0,4981.0,1054.0,4
+Asset Chrisabelle,kottayam,12700000.0,7204.0,1763.0,4
+Jewel Cape Town,kottayam,9780000.0,5589.0,1365.0,5
+Jewel Water Lilly,kottayam,5500000.0,3929.0,1400.0,4

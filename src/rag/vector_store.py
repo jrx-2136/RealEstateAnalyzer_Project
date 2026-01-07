@@ -1,7 +1,7 @@
 # src/rag/vector_store.py
 
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 import os
 
 VECTOR_DIR = "data/vectorstore"

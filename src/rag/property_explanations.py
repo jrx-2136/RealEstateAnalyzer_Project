@@ -10,15 +10,17 @@ def build_property_explanation(row: dict) -> str:
 Property Overview
 Location: {row.get('location', 'Unknown')}
 City: {row.get('city', 'Unknown')}
+BHK: {row.get('bhk', 'Unknown')}
 Area: {row.get('area_sqft')} sqft
-Price: ₹{row.get('price_total_inr')}
+Price: ₹{row.get('price', 'Unknown')}
+Price per sqft: ₹{row.get('price_per_sqft', 'Unknown')}
 
 Financial Summary
 Wealth if Buying: ₹{row.get('wealth_buying')}
 Wealth if Renting: ₹{row.get('wealth_renting')}
 
 Final Decision
-{row.get('final_decision')}
+{row.get('decision', 'Unknown')}
 
 Rationale
 This decision is based on backend financial simulations comparing long-term wealth outcomes

@@ -1,199 +1,896 @@
-title,location,price,area_sqft,wealth_buying,wealth_renting,decision
-,Codename Triumph Tower 1,23300000.0,794.0,10634529.06,36534555.19,RENTING is financially better
-,Dynamix Luma,22500000.0,624.0,10269395.01,36807246.13,RENTING is financially better
-,Acme Stadium View,27500000.0,740.0,12551482.79,42614189.92,RENTING is financially better
-,Kalpataru Magnus,87500000.0,1374.0,39936536.15,118312873.73,RENTING is financially better
-,Rustomjee Seasons,63000000.0,1140.0,28754306.03,87205107.96,RENTING is financially better
-,Codename Lottery,6300000.0,501.0,2875430.6,15986253.26,RENTING is financially better
-,Lodha Palava,8900000.0,846.0,4062116.25,16746692.23,RENTING is financially better
-,Arihant Avanti,6000000.0,579.0,2738505.34,14963608.6,RENTING is financially better
-,Rustomjee Aurelia,11800000.0,687.0,5385727.16,21910439.01,RENTING is financially better
-,L & T Evara Heights,26900000.0,1058.0,12277632.26,39283296.31,RENTING is financially better
-,One Hiranandani Park,15800000.0,535.0,7211397.39,28498684.98,RENTING is financially better
-,Goodwill Wisteria,44200000.0,1605.0,20173655.98,58219547.68,RENTING is financially better
-,Codename Life Easy Hai,3500000.0,561.0,1597461.45,11742703.55,RENTING is financially better
-,Newa Bhakti Park,28500000.0,1440.0,13007900.35,38404609.62,RENTING is financially better
-,Godrej Eternal Palms,29900000.000000004,809.0,13646884.93,45295817.69,RENTING is financially better
-,Gami Satyam Skyscape,35300000.0,1362.0,16111539.73,48173004.21,RENTING is financially better
-,Yashodeep Siddhivinayak Sankalp,3500000.0,469.0,1597461.45,12472799.82,RENTING is financially better
-,Giriraj Classic,14500000.0,652.0,6618054.56,25821043.0,RENTING is financially better
-,Millennium Avanish,24900000.000000004,1555.0,11364797.15,32648189.32,RENTING is financially better
-,Gurudeo C H S,10000000.0,697.0,4564175.56,19409180.74,RENTING is financially better
-,Vishesh Balaji Symphony,9000000.0,611.0,4107758.0,18746162.04,RENTING is financially better
-,Godrej Golf Meadows,12000000.0,837.0,5477010.67,20989164.66,RENTING is financially better
-,RS Residency,9000000.0,945.0,4107758.0,16095595.16,RENTING is financially better
-,Rohan Nidita,11500000.0,1090.0,5248801.89,18308649.93,RENTING is financially better
-,Vilas Javdekar Yashwin Enchante,9400000.0,702.0,4290325.03,18562201.6,RENTING is financially better
-,Mahindra Happinest Tathawade,8500000.0,702.0,3879549.23,17351251.61,RENTING is financially better
-,Silver Meteor,12200000.0,1096.0,5568294.18,19202884.95,RENTING is financially better
-,Nyati Era,8200000.0,780.0,3742623.96,16328606.95,RENTING is financially better
-,Kasturi The Balmoral Towers,25600000.0,1257.0,11684289.43,35954916.35,RENTING is financially better
-,Lodha Panache,13000000.0,862.0,5933428.23,22136268.93,RENTING is financially better
-,Palash 2e,13500000.0,1250.0,6161637.01,19729917.28,RENTING is financially better
-,Kohinoor Riverdale,9570000.0,769.0,4367916.01,18259236.06,RENTING is financially better
-,Prateek Canary,30100000.0,1346.0,13738168.44,41303377.53,RENTING is financially better
-,Ivy County,36100000.0,1779.0,16476673.77,45940163.51,RENTING is financially better
-,Wave Amore,33100000.0,1327.0,15107421.11,45490658.25,RENTING is financially better
-,Greatvalue Sharanam,13500000.0,753.0,6161637.01,23674024.28,RENTING is financially better
-,Amrapali Silicon City,12000000.0,1080.0,5477010.67,19060758.22,RENTING is financially better
-,Ace Aspire,15500000.0,1495.0,7074472.12,20476639.16,RENTING is financially better
-,Amrapali Sapphire,12500000.0,1440.0,5705219.45,16876609.78,RENTING is financially better
-,Suman Enclave,9400000.0,1550.0,4290325.03,11832618.62,RENTING is financially better
-,Gulshan Bellina,15200000.0,1495.0,6937546.85,20072989.16,RENTING is financially better
-,Logix Blossom County,24000000.0,1360.0,10954021.35,32984725.98,RENTING is financially better
-,Antriksh Golf View 2,10500000.0,1090.0,4792384.34,16963149.94,RENTING is financially better
-,TARC Ishva,62800000.0,2858.0,28663022.52,73302253.77,RENTING is financially better
-,All Punjabi Welfare Association,30000000.0,1650.0,13692526.68,38756335.52,RENTING is financially better
-,Navraj The Antalyas,25500000.0,1913.0,11638647.68,30614462.54,RENTING is financially better
-,Malibu Town,28900000.0,1500.0,13190467.37,38466659.87,RENTING is financially better
-,Sushant Lok 3,17800000.0,1400.0,8124232.5,24325192.89,RENTING is financially better
-,DLF Park Place,65000000.0,1983.0,29667141.14,83206204.11,RENTING is financially better
-,Tata Primanti,42000000.0,1600.0,19169537.35,55299126.84,RENTING is financially better
-,CHD Avenue 71,18800000.0,1100.0,8580650.05,28051441.57,RENTING is financially better
-,Bellevue Central Park 2,35500000.0,1988.0,16202823.24,43474275.26,RENTING is financially better
-,Gangaa Kotecha Royal Gravitaz,6659999.999999999,1417.0,3039740.92,9201413.91,RENTING is financially better
-,Shree Krishna Gulmohar Mansion,8080000.0,1795.0,3687853.85,8112280.53,RENTING is financially better
-,Rajul Augusta,16000000.0,1500.0,7302680.9,21109710.01,RENTING is financially better
-,Omaxe City,3840000.0,1527.0,1752643.42,4534162.75,RENTING is financially better
-,Chordia City,3200000.0,925.0,1460536.18,8450411.8,RENTING is financially better
-,Adhaarshila Casato,10500000.0,1579.0,4792384.34,13082529.57,RENTING is financially better
-,Ashiana Greens,8000000.0,1600.0,3651340.45,9552127.19,RENTING is financially better
-,Acacia,5500000.0,1015.0,2510296.56,10830837.17,RENTING is financially better
-,Ghar Aangan Apna Ghar,1900000.0,855.0,867193.36,7256769.84,RENTING is financially better
-,Alliance Anand,17000000.0,1920.0,7759098.45,19122161.82,RENTING is financially better
-,Rhythm Gladeview,17500000.0,1606.0,7987307.23,22286762.12,RENTING is financially better
-,Bluvian Nivaasa,8000000.0,1750.0,3651340.45,8361752.84,RENTING is financially better
-,Excellife Vivekanand Arise,16500000.0,1910.0,7530889.67,18528770.12,RENTING is financially better
-,The Brick Vishakha Empyrean,13100000.0,2520.0,5979069.98,9113214.47,RENTING is financially better
-,Adani Atrius,6600000.0,700.0,3012355.87,14810673.29,RENTING is financially better
-,Aashray Aurum,10000000.0,1750.0,4564175.56,11052752.82,RENTING is financially better
-,Divyajivan Elegance,5800000.0,239.0,2647221.83,17392690.46,RENTING is financially better
-,Vaishnodevi Sky,3400000.0,1055.0,1551819.69,7687854.03,RENTING is financially better
-,Ravi Darshan Apartment,5950000.0,1170.0,2715684.46,10206258.67,RENTING is financially better
-,Nandini 3,8000000.0,1771.0,3651340.45,8195100.43,RENTING is financially better
-,Vaishnodevi Sky,6200000.0,1526.0,2829788.85,7717478.55,RENTING is financially better
-,Millinium Resideny,3600000.0,1050.0,1643103.2,7996633.17,RENTING is financially better
-,Samarth Enclave,7600000.0,1860.0,3468773.43,6950611.66,RENTING is financially better
-,Mangalam Heights,7000000.0,1330.0,3194922.89,10349301.02,RENTING is financially better
-,Reshma Takshashila Heights,2800000.0,1055.0,1277969.16,6880554.04,RENTING is financially better
-,Hari Bhakti Extension,8500000.0,1200.0,3879549.23,13399208.78,RENTING is financially better
-,V R Imperia,3700000.0,900.0,1688744.96,9321557.52,RENTING is financially better
-,Earth Allyssum,5200000.0,1050.0,2373371.29,10149433.16,RENTING is financially better
-,Orchid Platina,3600000.0,700.0,1643103.2,10774173.32,RENTING is financially better
-,Kishan Galaxy,2800000.0,620.0,1277969.16,10332639.65,RENTING is financially better
-,Shree Siddheshwar Heaven,4000000.0,1139.0,1825670.22,7828544.39,RENTING is financially better
-,Shreenath Plaza,4000000.0,850.0,1825670.22,10121998.97,RENTING is financially better
-,Pawan Vicenza Highdeck,10000000.0,1447.0,4564175.56,13457309.0,RENTING is financially better
-,Earth Acropolis II,2700000.0,650.0,1232327.4,9960014.78,RENTING is financially better
-,Amardeep Residency,3000000.0,935.0,1369252.67,8101953.51,RENTING is financially better
-,Hari Om Elegance,5200000.0,760.0,2373371.29,12450823.56,RENTING is financially better
-,Aarya Twin Tower,7000000.0,1450.0,3194922.89,9397001.55,RENTING is financially better
-,Makhija Royal Lifes,6500000.0,2010.0,2966714.11,4280187.32,RENTING is financially better
-,Satyamitra Rajlaxmi Nature,2500000.0,675.0,1141043.89,9492519.05,RENTING is financially better
-,Om Gurudev Complex,9500000.0,1611.0,4335966.78,11483083.05,RENTING is financially better
-,Atlanta Aura,11800000.0,1490.0,5385727.16,15537968.34,RENTING is financially better
-,Mirchandani Shalimar Swayam,4500000.0,720.0,2053879.0,11826406.73,RENTING is financially better
-,Shankeshwar City,3350000.0,840.0,1528998.81,9326782.26,RENTING is financially better
-,London Villas,11000000.0,1750.0,5020593.12,12398252.81,RENTING is financially better
-,Treasure Fantasy,8800000.0,1000.0,4016474.49,15390024.57,RENTING is financially better
-,IBD Belmont Park,7600000.0,1705.0,3468773.43,8180665.15,RENTING is financially better
-,Rudraksh Kasturi,6500000.0,1250.0,2966714.11,10311417.35,RENTING is financially better
-,Asnani Spring Valley Dew,2700000.0,1205.0,1232327.4,5555629.69,RENTING is financially better
-,Nirupam Royal Palms,3300000.0,1230.0,1506177.93,6164533.96,RENTING is financially better
-,Lila Atulyam,3600000.0,850.0,1643103.2,9583798.97,RENTING is financially better
-,Tulip Greens,6400000.0,1750.0,2921072.36,6208952.86,RENTING is financially better
-,Janki Apartment,4500000.0,1100.0,2053879.0,8810791.72,RENTING is financially better
-,Atal Club View,8000000.0,1840.0,3651340.45,7647528.23,RENTING is financially better
-,Nilansh Celeste,8700000.0,820.0,3970832.74,16683923.79,RENTING is financially better
-,Swapnil City,4200000.0,1100.0,1916953.74,8407141.72,RENTING is financially better
-,Nirmala Tower,4600000.0,1090.0,2099520.76,9024700.0,RENTING is financially better
-,Omaxe Waterscape,10000000.0,1635.0,4564175.56,11965373.15,RENTING is financially better
-,VJ DH2 Paradise,4200000.0,1000.0,1916953.74,9200724.62,RENTING is financially better
-,Aakansha Life and Joy,7200000.0,880.0,3286206.4,14189524.06,RENTING is financially better
-,Parsvnath Royale Floors,7400000.0,1260.0,3377489.91,11443009.05,RENTING is financially better
-,Omaxe Residency 2,10000000.0,1775.0,4564175.56,10854357.1,RENTING is financially better
-,River View Enclave,7500000.0,1200.0,3423131.67,12053708.79,RENTING is financially better
-,Ratan Orbit,8900000.0,1000.0,4062116.25,15524574.57,RENTING is financially better
-,Kakadev,12500000.0,900.0,5705219.45,21161957.43,RENTING is financially better
-,KDA Residency,5500000.0,968.751,2510296.56,11197861.32,RENTING is financially better
-,Diviniti Homes,11500000.0,1740.0,5248801.89,13150361.09,RENTING is financially better
-,Balaji Enclave,7000000.0,970.0,3194922.89,13206199.46,RENTING is financially better
-,Patliputra Gardens,13000000.0,1530.0,5933428.23,16835135.17,RENTING is financially better
-,J G Manju Residency,6140000.0,1025.0,2802403.79,11612598.87,RENTING is financially better
-,Shiv Radhika Complex,17000000.0,1720.0,7759098.45,20709327.62,RENTING is financially better
-,Siddha Serena,6400000.0,586.0,2921072.36,15446257.79,RENTING is financially better
-,Hiland Park,11000000.0,1328.0,5020593.12,15747172.64,RENTING is financially better
-,Upohar The Condoville,9500000.0,918.0,4335966.78,16982612.54,RENTING is financially better
-,PS Ozone Phase II,17000000.0,1750.0,7759098.45,20471252.75,RENTING is financially better
-,South City,35000000.0,1954.0,15974614.46,43071343.45,RENTING is financially better
-,Sherwood Estate,5000000.0,800.0,2282087.78,11864290.41,RENTING is financially better
-,Bengal Peerless Avidipta,18500000.0,1300.0,8443724.79,26060625.78,RENTING is financially better
-,Sureka Merlin Elita Garden Vista Phase 2,15000000.0,1564.0,6846263.34,19256316.96,RENTING is financially better
-,Mayukh Apartment,6500000.0,1200.0,2966714.11,10708208.8,RENTING is financially better
-,Urban Sereno,8900000.0,893.0,4062116.25,16373708.27,RENTING is financially better
-,Jagannath Warrior Residency,7800000.0,1200.0,3560056.94,12457358.78,RENTING is financially better
-,Ethics Arcon,8300000.0,930.0,3788265.72,15272782.6,RENTING is financially better
-,Grand Awaas,13100000.0,1538.0,5979069.98,16906198.53,RENTING is financially better
-,MM Balianta Enclave,6500000.0,1184.0,2966714.11,10835182.06,RENTING is financially better
-,Rise Sayesha Enclave,6840000.000000001,1000.0,3121896.08,12752844.59,RENTING is financially better
-,Satyabadi Residency,14900000.0,999.0,6800621.59,23605510.34,RENTING is financially better
-,Jay Jagannathswami Pramod Signature,11500000.0,1094.0,5248801.89,18276906.62,RENTING is financially better
-,AcreRise AZURE,9160000.0,915.0,4180784.81,16548950.03,RENTING is financially better
-,Orissa Twin City Royal Homes,6000000.0,1020.0,2738505.34,11463908.02,RENTING is financially better
-,Metro Plaza Phase 1 2 &3,4500000.0,803.0,2053879.0,11167732.92,RENTING is financially better
-,Metro Manorma Complex,11000000.0,1390.0,5020593.12,15255151.24,RENTING is financially better
-,Metro Heritage,8200000.0,1150.0,3742623.96,13392350.23,RENTING is financially better
-,Dwaraka Dham Apartments,7300000.0,1538.0,3331848.16,9102298.59,RENTING is financially better
-,Triveni Nilu Enclave,4860000.0,950.0,2218189.32,10485546.06,RENTING is financially better
-,Vikramshila Vatika,6000000.0,1300.0,2738505.34,9241875.9,RENTING is financially better
-,Balaji enclave,4500000.0,1100.0,2053879.0,8810791.72,RENTING is financially better
-,Hariom Tower Apartment,7000000.0,1344.0,3194922.89,10238199.42,RENTING is financially better
-,Vimal Shyam Vihar,7500000.0,1530.0,3423131.67,9434885.22,RENTING is financially better
-,RK Apartment,8400000.0,1057.0,3833907.47,14399482.32,RENTING is financially better
-,Maya Heritage,12500000.0,1623.0,5705219.45,15424353.08,RENTING is financially better
-,Dalma Enclave,2350000.0,675.0,1072581.26,9290694.06,RENTING is financially better
-,Swarna Palace,6000000.0,1390.0,2738505.34,8527651.29,RENTING is financially better
-,Shanti Valley,4500000.0,1150.0,2053879.0,8414000.27,RENTING is financially better
-,Maya Heritage,16500000.0,1000.0,7530889.67,25750374.49,RENTING is financially better
-,Aastha Twin City,7100000.0,1497.0,3240564.65,9158567.58,RENTING is financially better
-,Srinath Rock Garden,3800000.0,831.0,1734386.71,10003679.72,RENTING is financially better
-,RS Empressia Elite,3310000.0,1015.0,1510742.11,7884192.19,RENTING is financially better
-,RCP VIP City,6000000.0,1805.0,2738505.34,5234282.27,RENTING is financially better
-,Ram Niketan,3500000.0,1045.0,1597461.45,7901762.32,RENTING is financially better
-,Raheja Nirwana,16900000.0,3800.0,7713456.7,4068253.33,BUYING is financially better
-,Sai vihar,2700000.0,850.0,1232327.4,8372848.98,RENTING is financially better
-,Vrindawan Gardens,1950000.0,895.0,890014.23,7006611.68,RENTING is financially better
-,Rawatpura Colony,2850000.0,731.0,1300790.03,9519037.63,RENTING is financially better
-,Karamchand Dream Aawas,3800000.0,1045.0,1734386.71,8305412.32,RENTING is financially better
-,Green City 4,3300000.0,650.0,1506177.93,10767314.77,RENTING is financially better
-,Sai Krishna Residency,5200000.0,600.0,2373371.29,13720556.2,RENTING is financially better
-,Millenium Orange City Park,5000000.0,1340.0,2282087.78,7578942.75,RENTING is financially better
-,Pyramid City IV,4300000.0,990.0,1962595.49,9414632.91,RENTING is financially better
-,Aakar Millenium,10600000.0,810.0,4838026.09,19319732.06,RENTING is financially better
-,Amit EKA,5550000.0,990.0,2533117.44,11096507.89,RENTING is financially better
-,Ekta Greenville Villa,6900000.0,1485.0,3149281.14,8984697.53,RENTING is financially better
-,Amit EKA,4400000.0,881.0,2008237.25,10414188.26,RENTING is financially better
-,Ekta Greenville,3800000.0,900.0,1734386.71,9456107.52,RENTING is financially better
-,ABH Treeland,8000000.0,733.0,3651340.45,16432490.92,RENTING is financially better
-,Samraat Apna Ghar,4500000.0,816.0,2053879.0,11064567.15,RENTING is financially better
-,Hari Anand,3500000.0,650.0,1597461.45,11036414.77,RENTING is financially better
-,Township Sainik Vihar,3300000.0,713.0,1506177.93,10267357.54,RENTING is financially better
-,Kurinji Apartments,4500000.0,1050.0,2053879.0,9207583.16,RENTING is financially better
-,Martins Residency,9000000.0,1430.0,4107758.0,12246718.11,RENTING is financially better
-,Gandhimanagar,7000000.0,1200.0,3194922.89,11380958.79,RENTING is financially better
-,Sree Dakshas Lucien,7700000.0,1050.0,3514415.18,13513183.13,RENTING is financially better
-,VSK Ashwattha Apartment,9500000.0,901.0,4335966.78,17117521.63,RENTING is financially better
-,Ventura Wave,15400000.0,1880.0,7028830.36,17286795.0,RENTING is financially better
-,GT Infra Shreevatsavam,8030000.0,1745.0,3665032.98,8441796.98,RENTING is financially better
-,Manjeera Casa,16000000.0,1900.0,7302680.9,17935378.41,RENTING is financially better
-,Cloudswood Radhey Skye,13000000.0,2310.0,5933428.23,10645188.56,RENTING is financially better
-,Candeur Crescent,17000000.0,1600.0,7759098.45,21661627.1,RENTING is financially better
-,DLF New Town Heights,11000000.0,1730.0,5020593.12,12556969.39,RENTING is financially better
-,Olive Courtyard,9000000.0,1110.0,4107758.0,14786183.38,RENTING is financially better
-,Skyline Gateway,11000000.0,1250.0,5020593.12,16366167.3,RENTING is financially better
-,Indus Avenue,5800000.0,1320.0,2647221.83,8814059.33,RENTING is financially better
-,The Eyrie,9450000.0,1614.0,4313145.9,11392000.57,RENTING is financially better
-,Confident Orion,4950000.0,1100.0,2259266.9,9416266.71,RENTING is financially better
-,federal residency,5270000.0,1255.0,2405320.52,8616773.22,RENTING is financially better
-,Kallupalam Hill Residency,8200000.0,1450.0,3742623.96,11011601.53,RENTING is financially better
-,DD Majestic Mount,5250000.0,1054.0,2396192.17,10184964.84,RENTING is financially better
+location,city,price,area_sqft,bhk,price_per_sqft,wealth_buying,wealth_renting,decision
+Agarwal Florence,mumbai,31900000.0,1015.0,5,31428.571428571428,14559720.04,46352036.9,RENTING is financially better
+Rustomjee Prive,mumbai,65800000.0,1315.0,5,50038.02281368821,30032275.19,89583737.86,RENTING is financially better
+Lodha Adrina,mumbai,83500000.0,1266.0,5,65955.76619273302,38110865.93,113787943.3,RENTING is financially better
+Paranjape Aspire,mumbai,22500000.0,727.0,1,30949.10591471802,10269395.01,35989855.74,RENTING is financially better
+Empire Maitri Flora The Legend,mumbai,26500000.0,947.0,1,27983.1045406547,12095065.24,39625973.33,RENTING is financially better
+Hubtown Seasons,mumbai,30400000.0,733.0,1,41473.39699863574,13875093.7,46571690.69,RENTING is financially better
+Kalpataru Elitus,mumbai,33200000.0,1065.0,2,31173.708920187797,15153062.86,47704395.44,RENTING is financially better
+Godrej Trilogy Seafront,mumbai,176500000.0,1765.0,2,100000.0,80557698.64,234959463.7,RENTING is financially better
+Mangal Signature,mumbai,57699999.99999999,1290.0,3,44728.68217054263,26335292.98,78883583.67,RENTING is financially better
+Paranjape Athena,mumbai,37100000.0,853.0,1,43493.55216881594,16933091.33,54634241.14,RENTING is financially better
+Shreeji Eternity,mumbai,28100000.0,1217.0,3,23089.564502875925,12825333.33,39636099.49,RENTING is financially better
+Lodha Divino,mumbai,59900000.0,1290.0,4,46472.0,27339411.61,81843683.65,RENTING is financially better
+Bellanza Phase 1 Wing A B C at The Prestige City,mumbai,34700000.0,1053.0,5,32953.46628679962,15837689.2,49817875.37,RENTING is financially better
+Raheja Modern Vivarea,mumbai,122900000.0,1668.0,5,73681.0551558753,56093717.64,163610439.65,RENTING is financially better
+DLH Signature,mumbai,140800000.0,2000.0,2,70400.0,64263591.89,185060194.25,RENTING is financially better
+Sahakar Excel Acropolis,mumbai,22000000.0,621.0,1,35426.731078904995,10041186.23,36158303.62,RENTING is financially better
+Adani Linkbay Residences,mumbai,32100000.0,824.0,1,38956.31067961165,14651003.55,48136880.24,RENTING is financially better
+Platinum Crest,mumbai,22400000.000000004,610.0,1,36721.31147540984,10223753.26,36783797.74,RENTING is financially better
+Shreeji Sky Rise Tower,mumbai,32300000.0,811.0,1,39827.37361282368,14742287.06,48509146.01,RENTING is financially better
+Dosti Mezzo 22,mumbai,30400000.0,662.0,1,45921.450151057405,13875093.7,47135134.55,RENTING is financially better
+The Erica,mumbai,40000000.0,1081.0,4,37002.77520814061,18256702.24,56726822.11,RENTING is financially better
+Neo Smile Belmonte Corner,mumbai,37700000.0,1080.0,3,34907.40740740741,17206941.86,53640107.96,RENTING is financially better
+DLF The Westpark,mumbai,46900000.00000001,1150.0,4,30202.0,21405983.38,65463199.84,RENTING is financially better
+Hill View Crest Oaks,mumbai,19600000.0,716.0,1,27374.30167597765,8945784.1,32175199.89,RENTING is financially better
+Mhatre and Goradia White Orchid Residency,mumbai,32100000.0,1136.0,2,28257.04225352113,14651003.55,45660901.59,RENTING is financially better
+Radius 10 BKC,mumbai,101700000.0,1432.0,4,71019.5530726257,46417665.45,136958695.51,RENTING is financially better
+Ten X Invictus by GS,mumbai,71800000.0,1306.0,3,54977.0290964778,32770780.52,97728160.26,RENTING is financially better
+L & T The Gateway,mumbai,57500000.0,1258.0,3,39655.0,26244009.47,78868430.2,RENTING is financially better
+Piramal Revanta,mumbai,23900000.0,854.0,1,27985.94847775176,10908379.59,36865705.45,RENTING is financially better
+Kalpataru Elitus,mumbai,33200000.0,1065.0,2,31173.708920187797,15153062.86,47704395.44,RENTING is financially better
+Paintora Shree Varadvinayak Tower,mumbai,22700000.0,622.0,1,36495.1768488746,10360678.52,37092217.79,RENTING is financially better
+Sunteck Sky Park,mumbai,18600000.0,1051.0,5,17697.43101807802,8489366.54,28171197.19,RENTING is financially better
+Apex Green Wood,mumbai,15300000.0,648.0,1,23611.11111111111,6983188.61,26929186.31,RENTING is financially better
+Gurukrupa Alaknanda,mumbai,80200000.0,1471.0,4,54520.73419442556,36604688.0,107720948.4,RENTING is financially better
+Raheja Modern Vivarea,mumbai,122900000.0,1668.0,3,73681.0551558753,56093717.64,163610439.65,RENTING is financially better
+Rustomjee Crown Phase II,mumbai,91900000.0,1409.0,4,59334.0,41944773.4,123955319.67,RENTING is financially better
+Starom Ekya,mumbai,44600000.0,1398.0,3,31902.71816881259,20356223.0,60400464.27,RENTING is financially better
+Chandak Greenairy,mumbai,40400000.0,1152.0,2,35069.444444444445,18439269.26,56701578.24,RENTING is financially better
+Sonam Indraneel,mumbai,14400000.0,823.0,1,17496.96233292831,6572412.81,24329466.24,RENTING is financially better
+Hill View Crest Oaks,mumbai,20700000.0,761.0,1,27201.051248357424,9447843.41,33298137.58,RENTING is financially better
+Prestige Forest Hills,mumbai,26900000.0,946.0,1,28435.51797040169,12277632.26,40172109.15,RENTING is financially better
+Hiranandani Maitri Park,mumbai,37500000.0,1800.0,4,20833.0,17115658.35,47657211.09,RENTING is financially better
+Supreme Boulevard,mumbai,40900000.0,1170.0,3,34957.26495726496,18667478.04,57231483.32,RENTING is financially better
+DLF The Westpark,mumbai,59100000.0,1450.0,3,30204.0,26974277.56,79497551.02,RENTING is financially better
+Ten X Invictus by GS,mumbai,71800000.0,1306.0,5,54977.0290964778,32770780.52,97728160.26,RENTING is financially better
+Seven Eleven Ayodhya,mumbai,11700000.0,836.0,1,13995.215311004784,5340085.41,20593450.49,RENTING is financially better
+Prestige Nautilus,mumbai,249800000.0,2609.0,4,95745.49635875814,114013105.5,326886773.29,RENTING is financially better
+Dhananjay Hill View,mumbai,5460000.0,650.0,1,8400.0,2492039.86,13673594.75,RENTING is financially better
+Sunbeam Heights,mumbai,19300000.0,653.0,1,29555.89586523737,8808858.83,32271507.12,RENTING is financially better
+N Rose Northern Hills,mumbai,19700000.0,701.0,1,28102.71041369472,8991425.85,32428787.33,RENTING is financially better
+Sunteck Sky Park,mumbai,13100000.0,740.0,1,17702.702702702703,5979069.98,23238990.06,RENTING is financially better
+Piramal Revanta,mumbai,40400000.0,1411.0,3,28632.17576187101,18439269.26,54646198.54,RENTING is financially better
+Godrej Trilogy Seafront,mumbai,176500000.0,1765.0,2,100000.0,80557698.64,234959463.7,RENTING is financially better
+Agarwal Floresta Maple,mumbai,18200000.0,736.0,1,24728.260869565216,8306799.52,30132783.33,RENTING is financially better
+Adani Linkbay Residences,mumbai,59400000.00000001,1522.0,3,39027.59526938239,27111202.83,79329821.33,RENTING is financially better
+Seven Eleven Ayodhya,mumbai,11700000.0,836.0,1,13995.215311004784,5340085.41,20593450.49,RENTING is financially better
+Dosti West County,thane,13899999.999999998,757.0,1,18361.95508586525,6344204.03,24180480.96,RENTING is financially better
+Kalpataru Eternia,thane,13200000.0,615.0,1,21463.414634146346,6024711.74,24365518.68,RENTING is financially better
+Kalpataru Parkcity,thane,23200000.0,1079.0,2,21501.39017608897,10588887.3,34138293.93,RENTING is financially better
+Lodha Codename Premier,thane,9000000.0,759.0,1,11857.707509881422,4107758.0,17571659.35,RENTING is financially better
+Rustomjee LA VIE,thane,18200000.0,833.0,1,21174.0,8306799.52,29363007.92,RENTING is financially better
+Damji Shamji Mahavir Spring,thane,26000000.0,1011.0,4,25717.111770524232,11866856.46,38445330.28,RENTING is financially better
+Runwal One,thane,19200000.0,962.0,1,19958.41995841996,8763217.08,29684785.97,RENTING is financially better
+Kalpataru Parkcity,thane,22900000.0,957.0,1,17102.0,10451962.03,34702815.07,RENTING is financially better
+Godrej Vihaa,thane,5300000.0,592.0,1,8952.702702702703,2419013.05,13918592.83,RENTING is financially better
+Runwal One,thane,19200000.0,962.0,1,19958.41995841996,8763217.08,29684785.97,RENTING is financially better
+Narang Privado,thane,17500000.0,903.0,1,19379.84496124031,7987307.23,27865649.89,RENTING is financially better
+Adani Codename LIT,thane,24600000.0,978.0,1,25153.374233128838,11227871.88,36823512.65,RENTING is financially better
+Ashar Merac,thane,17700000.0,927.0,1,19093.851132686083,8078590.74,27944290.0,RENTING is financially better
+Puraniks Mirai,thane,8340000.000000001,580.0,1,14379.310344827589,3806522.42,18104142.75,RENTING is financially better
+Godrej Ascend,thane,19900000.0,707.0,1,23467.0,9082709.37,32650272.35,RENTING is financially better
+Rustomjee LA VIE,thane,18200000.0,833.0,1,21174.0,8306799.52,29363007.92,RENTING is financially better
+Yashwant Niwas,thane,29500000.0,1073.0,2,16857.0,13464317.9,42662558.84,RENTING is financially better
+New Adani Launch,thane,24100000.0,1150.0,4,14636.0,10999663.1,34785800.07,RENTING is financially better
+Hiranandani Estate Casablanca,thane,35000000.0,1385.0,2,23810.0,15974614.46,47586830.15,RENTING is financially better
+Kalpa Taru Siddhachal 3,thane,16500000.0,780.0,1,13750.0,7530889.67,27496256.87,RENTING is financially better
+Hiranandani Rodas Enclave,thane,42000000.0,1292.0,4,28000.0,19169537.35,57743362.17,RENTING is financially better
+Lodha Casa Rio Gold,thane,3800000.0,584.0,1,4910.0,1734386.71,11963829.48,RENTING is financially better
+Nexus Hyde Park,thane,20000000.0,1100.0,4,15504.0,9128351.12,29666041.56,RENTING is financially better
+Codename Lottery,thane,6300000.0,501.0,1,12574.850299401198,2875430.6,15986253.26,RENTING is financially better
+Hiranandani Estate Casablanca,thane,36500000.0,1250.0,5,20000.0,16659240.8,50676417.04,RENTING is financially better
+Neelkanth Height,thane,27500000.0,1100.0,3,22917.0,12551482.79,39757291.48,RENTING is financially better
+Pokharan Road Number 2 Thane,thane,20000000.0,1000.0,5,13793.0,9128351.12,30459624.46,RENTING is financially better
+Delanna,thane,20000000.0,710.0,1,25000.0,9128351.12,32761014.86,RENTING is financially better
+Lodha Amara,thane,12500000.0,625.0,1,10000.0,5705219.45,23344310.4,RENTING is financially better
+Piramal Vaikunth,thane,12100000.0,530.0,1,23000.0,5522652.43,23560014.16,RENTING is financially better
+L & T Evara Heights,thane,28400000.0,1214.0,4,23393.73970345964,12962258.59,40063556.97,RENTING is financially better
+Ashar Merac,thane,14300000.0,700.0,1,14592.0,6526771.05,25171023.21,RENTING is financially better
+Rustomjee LA VIE,thane,27100000.0,1680.0,5,13550.0,12368915.77,34616310.68,RENTING is financially better
+Platinum Heritage,thane,13000000.0,940.0,1,17568.0,5933428.23,21517274.27,RENTING is financially better
+Piramal Vaikunth,thane,11500000.0,530.0,1,21698.0,5248801.89,22752714.17,RENTING is financially better
+Raj Tulsi City,thane,3360000.0,585.0,1,4042.0,1533562.99,11363873.65,RENTING is financially better
+Runwal Codename Enchanted,thane,9000000.0,550.0,1,16364.0,4107758.0,19230247.61,RENTING is financially better
+Ashar Merac,thane,13400000.0,700.0,1,19143.0,6115995.25,23960073.22,RENTING is financially better
+Dynamix Parkwoods,thane,14000000.0,700.0,1,12800.0,6389845.78,24767373.21,RENTING is financially better
+Hiranandani Westgate,thane,18500000.0,677.0,1,21765.0,8443724.79,31004647.23,RENTING is financially better
+Lodha Crown,thane,9500000.0,496.0,1,11980.0,4335966.78,20331532.37,RENTING is financially better
+Eternia at Kalpataru Parkcity,thane,28900000.0,1353.0,2,15259.0,13190467.37,39633226.74,RENTING is financially better
+Green Square,thane,7700000.0,557.0,1,11544.0,3514415.18,17425546.82,RENTING is financially better
+Lodha Palava City,thane,13300000.0,1113.0,3,11949.685534591195,6070353.5,20548025.85,RENTING is financially better
+Tulip Kingdom,navi-mumbai,15100000.0,1619.0,4,9326.74490426189,6891905.1,18954396.37,RENTING is financially better
+Pyramid Centria,navi-mumbai,30400000.0,1182.0,3,25719.12013536379,13875093.7,43008503.48,RENTING is financially better
+Nova 10 Elegance Phase I,navi-mumbai,19900000.0,1840.0,4,10815.217391304348,9082709.37,23658978.11,RENTING is financially better
+Satyam Seasons,navi-mumbai,40700000.0,1267.0,5,32123.12549329124,18576194.53,56192607.91,RENTING is financially better
+Goodwill Wisteria,navi-mumbai,34400000.0,1169.0,5,29426.86056458512,15700763.93,48493669.21,RENTING is financially better
+Millennium Celesta,navi-mumbai,11100000.000000002,687.0,1,16157.205240174677,5066234.87,20968589.02,RENTING is financially better
+Paradise Sai World City,navi-mumbai,16399999.999999998,877.0,1,18700.11402508552,7485247.92,26591931.46,RENTING is financially better
+Godrej Eternal Palms,navi-mumbai,36600000.0,919.0,1,39825.89771490751,16704882.55,53437726.44,RENTING is financially better
+Sai Platinum,navi-mumbai,16800000.0,956.0,1,17573.221757322175,7667814.94,26503200.96,RENTING is financially better
+Siddharth Builders Geetanjali Bellezza,navi-mumbai,8090000.000000001,711.0,1,11378.34036568214,3692418.03,16728174.15,RENTING is financially better
+The Arena at Hiranandani Fortune city,navi-mumbai,22100000.0,1282.0,4,17238.689547581904,10086827.99,31047270.66,RENTING is financially better
+Ravriya Neelkanth Darshan,navi-mumbai,20800000.0,1140.0,2,18245.61403508772,9493485.17,30425008.39,RENTING is financially better
+Hiranandani Golden Willows,navi-mumbai,20100000.0,1247.0,2,16118.6848436247,9173992.88,28634024.7,RENTING is financially better
+Kamdhenu Zenith,navi-mumbai,15900000.0,677.0,1,23485.96750369276,7257039.14,27506347.26,RENTING is financially better
+Satyam Surya Manhattan,navi-mumbai,18600000.0,1844.0,3,10087.0,8489366.54,21878084.81,RENTING is financially better
+LA MER ONE,navi-mumbai,7150000.0,599.0,1,11936.560934891486,3263385.53,16352217.01,RENTING is financially better
+Nisarg Aura,navi-mumbai,9490000.0,720.0,1,13180.555555555557,4331402.61,18540451.68,RENTING is financially better
+Dream Meadows,navi-mumbai,8530000.0,707.0,1,12065.063649222066,3893241.75,17351937.47,RENTING is financially better
+Satyam Seasons,navi-mumbai,40700000.0,1267.0,3,32123.12549329124,18576194.53,56192607.91,RENTING is financially better
+Neelkanth Palm President,navi-mumbai,28300000.0,1197.0,2,23642.43943191312,12916616.84,40063916.06,RENTING is financially better
+Gami Satyam Skyscape,navi-mumbai,35000000.0,1348.0,4,25964.39169139466,15974614.46,47880455.82,RENTING is financially better
+Raheja Lunaris,navi-mumbai,16399999.999999998,649.0,1,25269.645608628656,7485247.92,28401300.47,RENTING is financially better
+Wadhwa Wise City,navi-mumbai,7759999.999999999,518.0,1,14980.69498069498,3541800.23,17815774.15,RENTING is financially better
+Saubhagyam,navi-mumbai,8330000.0,580.0,1,14362.06896551724,3801958.24,18090687.75,RENTING is financially better
+Saras Vatika,navi-mumbai,12700000.0,1017.0,5,12487.70894788594,5796502.96,20502565.44,RENTING is financially better
+Hiranandani Fortune City,navi-mumbai,17600000.0,1103.0,3,15956.482320942883,8032948.99,26413034.1,RENTING is financially better
+Sai Platinum,navi-mumbai,16800000.0,956.0,1,17573.221757322175,7667814.94,26503200.96,RENTING is financially better
+Mansh Bhaveshwar Callista,navi-mumbai,9930000.0,1120.0,3,8866.07142857143,4532226.33,15958140.08,RENTING is financially better
+Majestique Evolvus,pune,16299999.999999998,1149.0,5,14186.248912097475,7439606.16,24298835.98,RENTING is financially better
+Ashiana Malhar,pune,10500000.0,1045.0,5,10047.846889952154,4792384.34,17320262.25,RENTING is financially better
+Godrej Emerald Waters,pune,12600000.0,921.0,1,13680.781758957655,5750861.21,21129855.02,RENTING is financially better
+Godrej Serene,pune,9440000.0,947.0,1,9968.32101372756,4308581.73,16671743.5,RENTING is financially better
+Vilas Javdekar Yashwin Enchante,pune,7159999.999999999,709.0,1,10098.73060648801,3267949.7,15492730.82,RENTING is financially better
+Rama Fusion Towers,pune,6600000.0,679.0,1,9720.17673048601,3012355.87,14977325.7,RENTING is financially better
+Nyati Exuberance I,pune,6640000.000000001,701.0,1,7289.0,3030612.57,14856557.46,RENTING is financially better
+Shubh Nirvana,pune,20800000.0,1332.0,3,15615.615615615616,9493485.17,28901329.23,RENTING is financially better
+Prasun Adara,pune,16000000.0,1246.0,2,12841.091492776886,7302680.9,23125410.57,RENTING is financially better
+Kalpataru Blossoms,pune,30800000.0,1677.0,3,18366.12999403697,14057660.73,39618468.12,RENTING is financially better
+Kalpataru Jade Skyline,pune,18000000.0,1189.0,4,15138.772077375948,8215516.01,26268752.8,RENTING is financially better
+VTP MONARQUE,pune,10400000.0,860.0,1,12093.023255813954,4746742.58,18653840.61,RENTING is financially better
+City One Vezdaa,pune,13799999.999999998,1203.0,4,11471.321695760596,6298562.27,20506551.24,RENTING is financially better
+Regency Astra,pune,12000000.0,890.0,1,13483.14606741573,5477010.67,20568565.73,RENTING is financially better
+Lodha Magnus,pune,20500000.0,1388.0,5,14769.452449567723,9356559.9,28053272.81,RENTING is financially better
+Lodha Bella Vita,pune,9660000.0,813.0,1,11884.0,4408993.59,18031154.58,RENTING is financially better
+Majestique Signature Towers,pune,13700000.000000002,865.0,1,15838.150289017343,6252920.52,23054311.43,RENTING is financially better
+Sagitarius Bluegrass Residences,pune,52200000.0,1689.0,4,30905.86145648313,23824996.43,68316937.96,RENTING is financially better
+Vivanta Yashada Earthsong,pune,15900000.0,1374.0,4,8945.0,7257039.14,21975074.46,RENTING is financially better
+Valeentina Tower,pune,15800000.0,1252.0,4,12619.808306709265,7211397.39,22808695.6,RENTING is financially better
+Ganga New Town Phase 2,pune,8080000.0,828.0,1,9758.454106280193,3687853.85,15786227.16,RENTING is financially better
+The Greenfront at Godrej Park World,pune,14900000.0,1198.0,4,12437.395659432388,6800621.59,22026280.37,RENTING is financially better
+Kohinoor Central Park,pune,10600000.0,955.0,1,11099.476439790576,4838026.09,18169036.86,RENTING is financially better
+Tulip Infinity Evana,pune,16000000.0,1210.0,3,13223.140495867769,7302680.9,23411100.41,RENTING is financially better
+Livience Aleenta,pune,24700000.000000004,1450.0,4,17034.482758620692,11273513.63,33212351.37,RENTING is financially better
+Rohan Saroha,pune,13400000.0,1355.0,5,9889.29889298893,6115995.25,18762105.23,RENTING is financially better
+Shapoorji Pallonji Vanaha,pune,23500000.0,1497.0,2,15698.062792251169,10725812.57,31224767.42,RENTING is financially better
+Kolte Patil 24K Manor,pune,26400000.0,1476.0,5,13643.0,12049423.48,35293369.8,RENTING is financially better
+1 Residences By Burgundy,pune,30800000.0,1696.0,3,18160.377358490565,14057660.73,39467687.37,RENTING is financially better
+Lodha Panache,pune,14300000.0,1122.0,2,12745.098039215687,6526771.05,21822103.38,RENTING is financially better
+Bramhacorp Sun Valley,pune,17400000.0,1364.0,2,12756.598240469208,7941665.48,24072682.73,RENTING is financially better
+Runwal The Central Park,pune,15000000.0,978.0,1,15337.423312883437,6846263.34,23906712.75,RENTING is financially better
+Pristine O2 World,pune,18200000.0,1393.0,5,13065.326633165829,8306799.52,24918943.68,RENTING is financially better
+Altamira by Vtp Luxe,pune,17400000.0,1447.0,2,12024.879060124396,7941665.48,23414008.93,RENTING is financially better
+Basil Maximus,pune,7880000.0,789.0,1,9987.325728770596,3596570.34,15826624.5,RENTING is financially better
+Venkatesh Erandwane Central,pune,30000000.0,1165.0,4,25751.07296137339,13692526.68,42605212.57,RENTING is financially better
+Duville Riverdale Grand,pune,19800000.0,1417.0,2,13973.18278052223,9037067.61,26881283.77,RENTING is financially better
+Godrej Skyline,pune,33200000.0,1586.0,2,20933.16519546028,15153062.86,43569828.54,RENTING is financially better
+Bramhacorp Sun Valley,pune,15000000.0,1180.0,3,12711.86440677966,6846263.34,22303675.29,RENTING is financially better
+Raheja Stellar,pune,27000000.0,2100.0,5,12890.0,12323274.01,31148712.5,RENTING is financially better
+Nirman Serenopolis,pune,10500000.0,921.0,1,11400.651465798046,4792384.34,18304305.04,RENTING is financially better
+Lodha Panache,pune,13000000.0,991.0,1,13118.062563067608,5933428.23,21112546.99,RENTING is financially better
+Pristine Allure,pune,9230000.0,760.0,1,12144.736842105263,4212734.04,17873188.52,RENTING is financially better
+Geras Joy on the Treetops,pune,7590000.000000001,692.0,1,10968.20809248555,3464209.25,16206204.91,RENTING is financially better
+ARV Richvue,pune,10200000.0,1028.0,4,9922.178988326848,4655459.07,17051521.34,RENTING is financially better
+Majestique Mrugavarsha,pune,8230000.0,990.0,1,8313.131313131313,3756316.49,14702447.87,RENTING is financially better
+Kasturi Eon Homes,pune,10900000.0,839.0,1,12991.65673420739,4974951.36,19493243.02,RENTING is financially better
+Rohan Harita,pune,14300000.0,1106.0,5,12929.475587703437,6526771.05,21949076.64,RENTING is financially better
+Lodha Panache,pune,14300000.0,1088.0,3,13143.382352941177,6526771.05,22091921.56,RENTING is financially better
+Majestique Towers,pune,11200000.000000002,851.0,1,13160.987074030554,5111876.63,19801663.06,RENTING is financially better
+Vasupujya Neco Park Central,pune,9300000.0,817.0,1,11383.10893512852,4244683.27,17515031.27,RENTING is financially better
+ANP Privado,pune,28000000.0,1309.0,5,19321.0,12779691.57,38771453.22,RENTING is financially better
+Venkatesh Skylife,pune,20400000.0,1364.0,3,14956.01173020528,9310918.14,28109182.7,RENTING is financially better
+Lodha Panache,pune,13799999.999999998,1088.0,5,12683.823529411762,6298562.27,21419171.57,RENTING is financially better
+Godrej Elaris,pune,16900000.0,915.0,1,18469.945355191256,7713456.7,26963119.95,RENTING is financially better
+Kolte Patil 24K Altura,pune,25900000.0,1335.0,4,14387.0,11821214.7,35739571.69,RENTING is financially better
+VTP Velvet Villas,pune,135700000.0,4132.0,2,32841.239109390124,61935862.36,161278956.9,RENTING is financially better
+Pristine The Lords Part 1,pune,26300000.0,1600.0,3,12213.0,12003781.72,34174777.0,RENTING is financially better
+Parsvnath La Tropicana,new-delhi,44600000.0,2650.0,4,16851.0,20356223.0,50464806.38,RENTING is financially better
+DDA Flats Munirka,new-delhi,17900000.0,1200.0,4,14917.0,8169874.25,26046908.68,RENTING is financially better
+Vasant Vihar Builder Floor,new-delhi,130000000.0,2250.0,3,61466.0,59334282.29,168544837.11,RENTING is financially better
+Din Apartment,new-delhi,29200000.0,1750.0,3,15784.0,13327392.64,36886352.63,RENTING is financially better
+Dream Apartments,new-delhi,29500000.0,1600.0,4,16857.0,13464317.9,38480376.97,RENTING is financially better
+Brindawan Garden Apartment,new-delhi,28900000.0,1650.0,3,15622.0,13190467.37,37276285.53,RENTING is financially better
+Shree Radha Krishna Apartment,new-delhi,26800000.0,1650.0,5,15765.0,12231990.5,34450735.55,RENTING is financially better
+TARC Kailasa,new-delhi,90000000.0,3000.0,4,26163.0,41077580.04,108772965.78,RENTING is financially better
+DDA Flats Vasant Kunj,new-delhi,42500000.0,1750.0,3,24286.0,19397746.13,54781502.49,RENTING is financially better
+Princess Park Apartments,new-delhi,34500000.0,1950.0,2,17692.0,15746405.68,42430336.77,RENTING is financially better
+Konark Apartments,new-delhi,16500000.0,1050.0,2,14348.0,7530889.67,25353583.04,RENTING is financially better
+DDA Flats Sector C Pocket 3,new-delhi,35500000.0,1400.0,3,23667.0,16202823.24,48140542.71,RENTING is financially better
+Nanda Devi Apartments,new-delhi,27900000.0,1600.0,5,15500.0,12734049.81,36327576.99,RENTING is financially better
+Brindawan Garden Apartment,new-delhi,28900000.0,1650.0,2,15622.0,13190467.37,37276285.53,RENTING is financially better
+New Jyoti Apartments,new-delhi,26500000.0,1300.0,5,15588.0,12095065.24,36824625.7,RENTING is financially better
+Sunny Valley Apartments,new-delhi,31500000.0,1950.0,3,16154.0,14377153.02,38393836.8,RENTING is financially better
+DLF One Midtown,new-delhi,61000000.0,2200.0,2,26522.0,27841470.92,76102129.26,RENTING is financially better
+Brotherhood Apartment,new-delhi,14000000.0,1250.0,3,11667.0,6389845.78,20402667.27,RENTING is financially better
+Mayank Apartments,new-delhi,22500000.0,950.0,1,20089.0,10269395.01,34220165.88,RENTING is financially better
+DDA Flats Vasant Kunj,new-delhi,33000000.0,1500.0,3,19412.0,15061779.35,43983209.83,RENTING is financially better
+DDA Rainbow Apartments,new-delhi,14500000.0,1050.0,3,12083.0,6618054.56,22662583.06,RENTING is financially better
+DDA Flats Sarita Vihar,new-delhi,25400000.0,1700.0,3,14514.0,11593005.92,32170244.11,RENTING is financially better
+RWA Panchsheel Enclave,new-delhi,62000000.0,2385.0,3,25996.0,28297888.48,75979500.89,RENTING is financially better
+Shree Awas,new-delhi,19800000.0,1000.0,3,15840.0,9037067.61,30190524.46,RENTING is financially better
+New Modern Appartment,new-delhi,23800000.0,1250.0,3,19040.0,10862737.83,33588567.17,RENTING is financially better
+DDA Flats Munirka,new-delhi,18000000.0,1000.0,2,15000.0,8215516.01,27768624.48,RENTING is financially better
+DDA Venus Apartment,new-delhi,11000000.0,850.0,1,12941.176470588236,5020593.12,19540498.9,RENTING is financially better
+East of Kailash,new-delhi,55000000.0,1500.0,4,30556.0,25102965.58,73584209.61,RENTING is financially better
+Sector 5 Pocket 1 DDA SFS Flats,new-delhi,22500000.0,1600.0,5,12500.0,10269395.01,29061877.04,RENTING is financially better
+Luxury Floors by Mark Developers,new-delhi,25000000.0,2650.0,2,9259.0,11410438.9,24093006.58,RENTING is financially better
+M3M The Cullinan,noida,70400000.0,3200.0,5,22000.0,32131795.95,80814000.18,RENTING is financially better
+L and T Green Reserve,noida,48600000.0,1785.0,4,22498.0,22181893.22,62711298.41,RENTING is financially better
+ATS Picturesque Reprieves,noida,28200000.0,2350.0,4,12000.0,12870975.08,30779355.24,RENTING is financially better
+ATS Picturesque Reprieves,noida,28200000.0,2350.0,3,12000.0,12870975.08,30779355.24,RENTING is financially better
+ATS Rhapsody,noida,21600000.0,1205.0,2,12021.0,9858619.21,30985579.5,RENTING is financially better
+M3M The Cullinan,noida,70400000.0,3200.0,4,22000.0,32131795.95,80814000.18,RENTING is financially better
+Amrapali Heart Beat City,noida,18100000.0,1735.0,2,10461.0,8261157.76,22070340.17,RENTING is financially better
+ATS Picturesque Reprieves,noida,28200000.0,2350.0,5,12000.0,12870975.08,30779355.24,RENTING is financially better
+Sam Palm Olympia,noida,15500000.0,1517.0,4,10246.0,7074472.12,20302050.92,RENTING is financially better
+ATS Picturesque Reprieves,noida,28200000.0,2350.0,3,12000.0,12870975.08,30779355.24,RENTING is financially better
+AVP AVS Orchard,noida,14500000.0,1320.0,5,11025.0,6618054.56,20519909.24,RENTING is financially better
+ATS Picturesque Reprieves,noida,28200000.0,2350.0,3,12000.0,12870975.08,30779355.24,RENTING is financially better
+Jaypee Greens Imperial Court,noida,43300000.0,2607.0,3,16631.0,19762880.18,49056897.04,RENTING is financially better
+Ivory County,noida,37500000.0,2304.0,2,16300.0,17115658.35,43657553.28,RENTING is financially better
+The 3C Lotus Boulevard,noida,24300000.0,1717.0,3,14164.0,11090946.61,30555285.03,RENTING is financially better
+Ivory County,noida,37500000.0,2304.0,4,16300.0,17115658.35,43657553.28,RENTING is financially better
+Ivory County,noida,37500000.0,2304.0,4,16300.0,17115658.35,43657553.28,RENTING is financially better
+Radhey Casa Greens 1,noida,9810000.0,710.0,1,8245.0,4477456.22,19050369.97,RENTING is financially better
+M3M Jacob and Co Residences,noida,75000000.0,2500.0,2,30000.0,34231316.7,92558380.42,RENTING is financially better
+ATS Kingston Heath,noida,28900000.0,2350.0,4,12306.0,13190467.37,31721205.24,RENTING is financially better
+ABA Cleo County,noida,33600000.0,1182.0,2,18393.0,15335629.88,47314103.44,RENTING is financially better
+Shri Radha Aqua Gardens,noida,9810000.0,613.0,1,9000.0,4477456.22,19820145.38,RENTING is financially better
+ACE Divino,noida,10100000.0,995.0,1,10224.0,4609817.32,17178853.7,RENTING is financially better
+Ivory County,noida,37500000.0,2304.0,4,16300.0,17115658.35,43657553.28,RENTING is financially better
+Nimbus The Arista Luxe,noida,15700000.0,1294.0,5,12202.0,7165755.63,22340840.78,RENTING is financially better
+ATS Homekraft Happy Trails,noida,20000000.0,1625.0,4,12308.0,9128351.12,25499731.34,RENTING is financially better
+SKA Divya Towers,noida,19000000.0,1775.0,2,10714.0,8671933.57,22963857.0,RENTING is financially better
+Ace Starlit,noida,25700000.0,1775.0,4,14500.0,11729931.19,31978706.94,RENTING is financially better
+Nirala Estate Phase 2,noida,18500000.0,1645.0,5,11258.0,8443724.79,23322764.78,RENTING is financially better
+Prateek Canary,noida,43400000.0,2555.0,2,17000.0,19808521.93,49604110.15,RENTING is financially better
+M3M Jacob and Co Residences,noida,75000000.0,2500.0,4,30000.0,34231316.7,92558380.42,RENTING is financially better
+M3M The Cullinan,noida,71900000.0,3270.0,2,22000.0,32816422.28,82276742.14,RENTING is financially better
+Godrej Tropical Isle,noida,38200000.0,2488.0,5,15356.0,17435150.64,43139210.74,RENTING is financially better
+ATS Rhapsody,noida,21600000.0,1205.0,4,12021.0,9858619.21,30985579.5,RENTING is financially better
+ATS Homekraft Happy Trails,noida,20000000.0,1625.0,4,12308.0,9128351.12,25499731.34,RENTING is financially better
+VRSA The Ultima Heights,noida,6160000.0,1100.0,4,5595.0,2811532.15,11044321.7,RENTING is financially better
+M3M The Cullinan,noida,71900000.0,3270.0,5,22000.0,32816422.28,82276742.14,RENTING is financially better
+Sam Palm Olympia,noida,12600000.0,1232.0,5,10246.0,5750861.21,18661812.21,RENTING is financially better
+Amrapali Silicon City,noida,14200000.0,1420.0,4,10000.0,6481129.3,19322676.34,RENTING is financially better
+Godrej Jardinia,noida,48000000.0,2800.0,2,17146.0,21908042.69,53849132.0,RENTING is financially better
+Greatvalue Sharanam,noida,13500000.0,753.0,1,11853.0,6161637.01,23674024.28,RENTING is financially better
+Ivory County,noida,31500000.0,1650.0,2,15487.0,14377153.02,40774585.5,RENTING is financially better
+Ivory County,noida,31000000.0,2304.0,4,13455.0,14148944.24,34911803.35,RENTING is financially better
+Supertech Supernova,noida,18500000.0,1200.0,3,13396.0,8443724.79,26854208.68,RENTING is financially better
+3C Lotus Panache,noida,18500000.0,1720.0,3,10756.0,8443724.79,22727577.6,RENTING is financially better
+Ivory County,noida,82500000.0,4707.0,4,17527.0,37654448.37,85135255.78,RENTING is financially better
+Saket Dham,noida,22100000.0,1650.0,5,12629.0,10086827.99,28126885.6,RENTING is financially better
+Godrej Riverine,noida,68200000.0,3000.0,5,22745.0,31127677.32,79441066.0,RENTING is financially better
+Godrej Tropical Isle,noida,40000000.0,1900.0,4,16000.0,18256702.24,50227378.17,RENTING is financially better
+Sector 19 RWA,noida,51500000.0,2000.0,3,25750.0,23505504.14,64907045.15,RENTING is financially better
+Future Estate,noida,13700000.000000002,833.0,1,9149.0,6252920.52,23308257.96,RENTING is financially better
+Ace Starlit,noida,39000000.0,1185.0,2,22034.0,17800284.69,54555995.9,RENTING is financially better
+Mahagun Medalleo,noida,42900000.0,1313.0,2,17195.0,19580313.15,58787659.75,RENTING is financially better
+Experion Windchants,gurgaon,59900000.0,3500.0,2,16119.0,27339411.61,64305501.59,RENTING is financially better
+Conscient Heritage Max,gurgaon,26200000.0,1942.0,2,13495.0,11958139.97,31326173.49,RENTING is financially better
+Ashiana Amarah,gurgaon,21400000.0,1000.0,4,21400.0,9767335.7,32343324.44,RENTING is financially better
+Satya Levante Residences,gurgaon,30800000.0,2240.0,2,13750.0,14057660.73,35150596.41,RENTING is financially better
+Smart World Gems,gurgaon,12500000.0,1105.0,5,10460.0,5705219.45,19535112.49,RENTING is financially better
+Emaar Amaris,gurgaon,31400000.0,1500.0,3,20991.0,14331511.26,41830409.85,RENTING is financially better
+M3M Antalya Hills Phase II,gurgaon,21700000.0,1450.0,2,14988.0,9904260.97,29175851.4,RENTING is financially better
+Emaar Imperial Gardens,gurgaon,24100000.0,2000.0,2,12099.0,10999663.1,28040345.43,RENTING is financially better
+Bestech Altura,gurgaon,27700000.0,1405.0,4,12890.0,12642766.3,37605963.64,RENTING is financially better
+Experion Windchants,gurgaon,62500000.0,3550.0,5,16779.0,28526097.25,67407010.12,RENTING is financially better
+Group Silverglades The Melia,gurgaon,17400000.0,1205.0,4,9464.0,7941665.48,25334479.54,RENTING is financially better
+Luxury Floors,gurgaon,34500000.0,2250.0,3,15333.0,15746405.68,40049588.08,RENTING is financially better
+Sobha City,gurgaon,34200000.0,1711.0,3,20029.0,15609480.42,43923349.9,RENTING is financially better
+SS Cendana,gurgaon,22100000.0,1211.0,2,18249.38067712634,10086827.99,31610714.52,RENTING is financially better
+Emaar Serenity Hills,gurgaon,38800000.0,1219.0,5,25244.0,17709001.17,54017077.72,RENTING is financially better
+Birla Pravaah,gurgaon,33900000.0,1900.0,5,17842.0,15472555.15,42019828.23,RENTING is financially better
+DLF Park Place,gurgaon,79300000.0,2282.0,5,34763.0,36193912.2,100074041.1,RENTING is financially better
+M3M Capital,gurgaon,27600000.0,1700.0,4,16235.0,12597124.55,35130344.09,RENTING is financially better
+Krisumi Waterside Residences,gurgaon,44800000.00000001,1964.0,5,22816.0,20447506.51,56177885.06,RENTING is financially better
+Emaar Serenity Hills,gurgaon,38800000.0,1219.0,4,25244.0,17709001.17,54017077.72,RENTING is financially better
+Hercules Grace Resilviaa,gurgaon,20600000.0,1587.0,5,12980.0,9402201.65,26608592.84,RENTING is financially better
+Ashiana Amarah Phase 5,gurgaon,27000000.0,1205.0,3,22406.639004149376,12323274.01,38251279.44,RENTING is financially better
+Signature Global City 37D,gurgaon,21200000.0,1000.0,5,15537.0,9676052.19,32074224.44,RENTING is financially better
+Whiteland Urban Resort,gurgaon,64300000.0,2809.0,4,22900.0,29347648.85,75709359.37,RENTING is financially better
+Signature Global DE LUXE DXP,gurgaon,39300000.0,2622.0,2,15001.0,17937209.95,43555859.65,RENTING is financially better
+Ireo The Corridors,gurgaon,27500000.0,1484.0,5,18531.0,12551482.79,36709933.15,RENTING is financially better
+Emaar Serenity Hills,gurgaon,38800000.0,1219.0,4,25244.0,17709001.17,54017077.72,RENTING is financially better
+Ireo The Corridors,gurgaon,24000000.0,1296.0,5,18519.0,10954021.35,33492619.04,RENTING is financially better
+MRG Crown,gurgaon,28000000.0,1593.0,4,17577.0,12779691.57,36517677.79,RENTING is financially better
+Estate 360,gurgaon,56800000.0,2844.0,2,19997.0,25924517.18,65340355.44,RENTING is financially better
+DLF The Crest,gurgaon,141800000.0,2250.0,4,54557.0,64720009.45,184421736.99,RENTING is financially better
+Ashiana Aaroham,gurgaon,33800000.0,1259.0,5,26846.703733121525,15426913.39,46972144.61,RENTING is financially better
+Godrej Meridien,gurgaon,31000000.0,1226.0,2,15485.0,14148944.24,43466626.99,RENTING is financially better
+Ashiana Amarah,gurgaon,21400000.0,1000.0,3,21400.0,9767335.7,32343324.44,RENTING is financially better
+Ireo The Corridors,gurgaon,31900000.0,1727.0,2,18471.0,14559720.04,40701726.66,RENTING is financially better
+M3M Marina,gurgaon,23400000.0,1914.0,2,12258.0,10680170.81,27780976.73,RENTING is financially better
+Emaar Serenity Hills,gurgaon,38800000.0,1219.0,4,25244.0,17709001.17,54017077.72,RENTING is financially better
+Bestech Altura,gurgaon,27700000.0,1405.0,5,12890.0,12642766.3,37605963.64,RENTING is financially better
+Ashiana Anmol Phase 3,gurgaon,18600000.0,1180.0,5,10473.0,8489366.54,27147475.25,RENTING is financially better
+Signature Global Daxin Vistas,gurgaon,19700000.0,1550.0,5,12710.0,8991425.85,25691268.52,RENTING is financially better
+Adani Samsara,gurgaon,34900000.0,1850.0,2,18865.0,15928972.71,43762119.67,RENTING is financially better
+Altura at DXP 92,gurgaon,22800000.0,1906.0,3,11990.0,10406320.28,27037163.37,RENTING is financially better
+Ashiana Aaroham,gurgaon,29900000.000000004,1057.0,3,28287.6064333018,13646884.93,43327732.1,RENTING is financially better
+Ashiana Anmol Phase 3,gurgaon,19000000.0,1180.0,5,10740.0,8671933.57,27685675.25,RENTING is financially better
+Ashiana Anmol,gurgaon,13500000.0,1205.0,4,11203.0,6161637.01,20087029.58,RENTING is financially better
+Lucky Heights 4 and 5,jaipur,13100000.0,1756.0,5,7501.0,5979069.98,15176187.81,RENTING is financially better
+Lucky Heights 4 and 5,jaipur,13100000.0,1756.0,5,7501.0,5979069.98,15176187.81,RENTING is financially better
+Shubhashish Marina,jaipur,12600000.0,2123.0,5,5935.0,5750861.21,11590988.58,RENTING is financially better
+Ashiana Rangoli Gardens,jaipur,9290000.0,1480.0,3,6278.0,4240119.1,12240121.65,RENTING is financially better
+Shri Balaji Heights V,jaipur,7470000.0,1017.0,4,4415.0,3409439.14,13465600.49,RENTING is financially better
+Floresta By Reliant Group,jaipur,10000000.0,1752.0,5,5750.0,4564175.56,11036881.16,RENTING is financially better
+Jewel By Samurai,jaipur,58300000.0,5559.0,5,10500.0,26609143.52,45812829.73,RENTING is financially better
+Chordias Gulmohar Heights,jaipur,10700000.0,1793.0,5,6000.0,4883667.85,11653362.17,RENTING is financially better
+Aashish Central Park,jaipur,57600000.0,4120.0,4,14000.0,26289651.23,56290637.64,RENTING is financially better
+Aashish Central Park,jaipur,57600000.0,4120.0,3,14000.0,26289651.23,56290637.64,RENTING is financially better
+Shree Balaji Green Heights,jaipur,12200000.0,1047.0,4,6500.0,5568294.18,19591740.57,RENTING is financially better
+Manglam Rambagh,jaipur,18300000.0,2821.0,2,6500.0,8352441.28,13721129.89,RENTING is financially better
+Sankalp The Index,jaipur,13000000.0,1100.0,5,7000.0,5933428.23,20247541.63,RENTING is financially better
+Parth Aangan,jaipur,15900000.0,2128.0,2,7500.0,7257039.14,15991459.4,RENTING is financially better
+Vardhman Eminara,jaipur,15700000.0,2194.0,3,7200.0,7165755.63,15198594.69,RENTING is financially better
+Shubhashish Marina,jaipur,12600000.0,2123.0,3,5935.0,5750861.21,11590988.58,RENTING is financially better
+Jai Sharde Raghav Heights,jaipur,7800000.0,1435.0,2,5436.0,3560056.94,10592438.97,RENTING is financially better
+Mahimas Sansaar Phase I,jaipur,7480000.0,1662.0,2,4503.0,3414003.32,8360445.8,RENTING is financially better
+Vivanta Chordias Eraya,jaipur,11800000.0,1829.0,2,6500.0,5385727.16,12847722.31,RENTING is financially better
+Nature Homes Amaltas,jaipur,12700000.0,1898.0,4,6711.0,5796502.96,13511100.1,RENTING is financially better
+Vinayak Royal Crysta,jaipur,7759999.999999999,1411.0,4,5500.0,3541800.23,10729078.87,RENTING is financially better
+Vatika Jaipur 21,jaipur,4500000.0,1750.0,5,2571.0,2053879.0,3652502.88,RENTING is financially better
+Floresta By Reliant Group,jaipur,9640000.0,1752.0,4,5500.0,4399865.24,10552501.17,RENTING is financially better
+Vardhman Eminara,jaipur,13000000.0,1741.0,5,7467.0,5933428.23,15160675.25,RENTING is financially better
+Vardhman Eminara,jaipur,12500000.0,1743.0,2,7200.0,5705219.45,14472053.6,RENTING is financially better
+Alliance Anand,udaipur,17000000.0,1920.0,2,8854.0,7759098.45,19122161.82,RENTING is financially better
+Ghar Aangan Apna Ghar,udaipur,1900000.0,855.0,1,2222.0,867193.36,7256769.84,RENTING is financially better
+Riddhi Siddhi Park,udaipur,5000000.0,1250.0,5,4000.0,2282087.78,8293167.36,RENTING is financially better
+Krishnangan,udaipur,11000000.0,1965.0,4,5598.0,5020593.12,10692049.58,RENTING is financially better
+Royal Imperial,udaipur,8200000.0,1270.0,4,4556.0,3742623.96,12440050.75,RENTING is financially better
+Gyanesh Royal Pine,udaipur,3500000.0,880.0,1,3977.0,1597461.45,9211174.1,RENTING is financially better
+Matrix Park,udaipur,8500000.0,1420.0,2,5986.0,3879549.23,11653326.4,RENTING is financially better
+Archi Galaxy,udaipur,2750000.0,688.0,1,3929.0,1255148.28,9725728.28,RENTING is financially better
+Riddhi Siddhi Park,udaipur,5900000.0,950.0,1,4617.0,2692863.58,11884866.05,RENTING is financially better
+Mahaprabhu Harmony Harikesh,ahmedabad,21300000.0,1503.0,3,7845.0,9721693.94,28217052.46,RENTING is financially better
+Enstin Evoq,ahmedabad,17700000.0,1598.0,4,6666.0,8078590.74,22619348.75,RENTING is financially better
+Keshar Kadam,ahmedabad,12500000.0,1764.0,5,7095.0,5705219.45,14305401.19,RENTING is financially better
+Safal Riviera Aspire,ahmedabad,16399999.999999998,1507.0,3,6000.0,7485247.92,21592359.2,RENTING is financially better
+VR Reflection,ahmedabad,7259999.999999999,1750.0,4,4150.0,3313591.46,7366082.85,RENTING is financially better
+Addis Ivory Orchards,ahmedabad,9000000.0,861.0,1,10452.961672473868,4107758.0,16762204.8,RENTING is financially better
+The Nest,ahmedabad,16700000.0,1503.0,5,6064.0,7622173.19,22027752.51,RENTING is financially better
+Safal Niwa,ahmedabad,7400000.0,862.0,1,4202.0,3377489.91,14601468.98,RENTING is financially better
+Super Shaligram,ahmedabad,16000000.0,2641.0,5,6058.0,7302680.9,12054929.13,RENTING is financially better
+Vandematram Rameshwar City,ahmedabad,10300000.0,1984.0,4,5200.0,4701100.83,9599418.83,RENTING is financially better
+Rajshree Regalia,ahmedabad,11299999.999999998,1302.0,2,4774.0,5157518.38,16357154.19,RENTING is financially better
+Riviera Bliss,ahmedabad,13300000.0,1283.0,3,5500.0,6070353.5,19198934.92,RENTING is financially better
+Vandematram Rameshwar City,ahmedabad,10300000.0,1984.0,2,5200.0,4701100.83,9599418.83,RENTING is financially better
+Shubham Anthem,ahmedabad,7509999.999999999,1750.0,3,4293.0,3427695.85,7702457.85,RENTING is financially better
+Beverlynn Vasudha,ahmedabad,7600000.0,851.0,1,4825.0,3468773.43,14957863.1,RENTING is financially better
+A Shridhar Anantara Alora,ahmedabad,15400000.0,1461.0,2,5800.0,7028830.36,20611907.34,RENTING is financially better
+Rashmi Sky Scape,ahmedabad,30000000.0,4628.0,2,6500.0,13692526.68,15123436.8,RENTING is financially better
+Deep Indraprasth Shivanta,ahmedabad,16200000.000000002,1320.0,2,6782.0,7393964.41,22807259.22,RENTING is financially better
+LYCKA LIFE,ahmedabad,13200000.0,1890.0,3,7007.0,6024711.74,14247336.73,RENTING is financially better
+Sheladia Luxuria,ahmedabad,9000000.0,1783.0,5,5048.0,4107758.0,9445370.47,RENTING is financially better
+Goyal Riviera Prestige,ahmedabad,13600000.000000002,1437.0,3,5707.0,6207278.76,18380467.26,RENTING is financially better
+Shyam Zircon Amora,ahmedabad,7780000.0,1845.0,5,4217.0,3550928.59,7311839.09,RENTING is financially better
+Godrej Garden City,ahmedabad,6500000.0,1372.0,3,4738.0,2966714.11,9343246.21,RENTING is financially better
+Vivaan Aura,ahmedabad,6120000.0,1845.0,2,3317.0,2793275.44,5078309.11,RENTING is financially better
+Oeuvre Iconic,ahmedabad,25000000.0,1600.0,2,8800.0,11410438.9,32425627.02,RENTING is financially better
+Shypram,ahmedabad,10000000.0,816.0,1,6734.0,4564175.56,18464817.09,RENTING is financially better
+Deep Indraprasth Shivanta,ahmedabad,15600000.0,1320.0,4,6500.0,7120113.87,21999959.23,RENTING is financially better
+Gala Haven,ahmedabad,13500000.0,1850.0,3,7297.0,6161637.01,14968419.89,RENTING is financially better
+Amogha by Adani Realty,ahmedabad,13000000.0,826.0,1,8784.0,5933428.23,22421958.77,RENTING is financially better
+Vishwanath Sun South Rayz,ahmedabad,9500000.0,865.0,1,6597.0,4335966.78,17403211.48,RENTING is financially better
+Arpan Status Altezza,ahmedabad,15700000.0,1485.0,5,5850.0,7165755.63,20825097.44,RENTING is financially better
+Shilp Residency,ahmedabad,13500000.0,1300.0,4,5720.0,6161637.01,19333125.83,RENTING is financially better
+Orchid Valley,ahmedabad,5800000.0,780.0,1,4296.0,2647221.83,13099406.98,RENTING is financially better
+RASHMI and DOBARIYA OMBRE,ahmedabad,12100000.0,1480.0,2,4600.0,5522652.43,16020976.62,RENTING is financially better
+Harvi Helios,ahmedabad,9840000.0,1900.0,3,5180.0,4491148.75,9647098.47,RENTING is financially better
+Shilp Residency,ahmedabad,12000000.0,2361.0,5,5100.0,5477010.67,8894961.29,RENTING is financially better
+Gala Eternia,ahmedabad,15000000.0,1200.0,3,8596.0,6846263.34,22144958.71,RENTING is financially better
+Resset Good Earth,ahmedabad,6590000.000000001,1710.0,4,3855.0,3007791.69,6782031.01,RENTING is financially better
+Shilp Revanta,ahmedabad,6500000.0,850.0,1,4305.0,2966714.11,13485748.94,RENTING is financially better
+Terranova,ahmedabad,10700000.0,1305.0,2,4556.0,4883667.85,15526046.71,RENTING is financially better
+Pioneer Viona,surat,10100000.0,2108.0,4,4820.0,4609817.32,8346276.04,RENTING is financially better
+Pramukh Revanta,surat,12900000.0,2525.0,2,5110.0,5887786.47,8804435.33,RENTING is financially better
+Rajhans Corazo,surat,16399999.999999998,1350.0,3,6200.0,7485247.92,22838284.35,RENTING is financially better
+Anand Aspire,surat,4700000.0,1265.0,2,3715.0,2145162.51,7770479.93,RENTING is financially better
+Pramukh Amaya,surat,5570000.0,1311.0,3,4251.0,2542245.79,8576016.79,RENTING is financially better
+AVADH SELENIC,surat,11600000.0,1980.0,5,5900.0,5294443.65,11380312.14,RENTING is financially better
+Kiran Concord Towers,surat,4200000.0,725.0,1,3182.0,1916953.74,11383077.59,RENTING is financially better
+Vikrant Vedant Solitaire,surat,5250000.0,902.0,1,3141.0,2396192.17,11391210.85,RENTING is financially better
+Pramukh Amaya,surat,9600000.0,2111.0,5,4548.0,4381608.54,7649718.56,RENTING is financially better
+Ramji Residency,surat,4800000.0,660.0,1,4000.0,2190804.27,12706206.47,RENTING is financially better
+SAI NIYANTA,surat,4580000.0,709.0,1,3551.0,2090392.41,12021340.85,RENTING is financially better
+Sangini Epitome,surat,11200000.000000002,1550.0,3,4751.0,5111876.63,14254518.6,RENTING is financially better
+Prestige Mirana,surat,7700000.0,1750.0,3,4400.0,3514415.18,7958102.84,RENTING is financially better
+Vaishnodevi Sky,surat,6200000.0,1526.0,4,4062.9095674967234,2829788.85,7717478.55,RENTING is financially better
+Shreepad Panorama,surat,5500000.0,1310.0,3,4198.0,2510296.56,8489767.62,RENTING is financially better
+Mangalam Heights,surat,7000000.0,1330.0,5,5263.0,3194922.89,10349301.02,RENTING is financially better
+Sundaram Apartmant,surat,5000000.0,1000.0,5,4000.0,2282087.78,10277124.61,RENTING is financially better
+Avadh Carolina,surat,9370000.0,1840.0,3,5092.0,4276632.5,9490863.22,RENTING is financially better
+Shri Bhakti Dharm Township,surat,4900000.0,900.0,1,3500.0,2236446.02,10936157.51,RENTING is financially better
+Raghuvir Saffron,surat,8300000.0,1565.0,4,5304.0,3788265.72,10233531.2,RENTING is financially better
+GREEN Swapnabhoomi,surat,12000000.0,2152.0,5,5576.0,5477010.67,10553549.55,RENTING is financially better
+Pramukh Amaya,surat,5800000.0,1311.0,4,4424.0,2647221.83,8885481.79,RENTING is financially better
+Reshma Takshashila Heights,surat,2800000.0,1055.0,5,2654.0,1277969.16,6880554.04,RENTING is financially better
+Aagam Siddhi,surat,13899999.999999998,1416.0,4,5398.0,6344204.03,18950769.66,RENTING is financially better
+Millinium Resideny,surat,3600000.0,1050.0,5,3428.5714285714284,1643103.2,7996633.17,RENTING is financially better
+Raghuvir Sentosa Heights,surat,7500000.0,1300.0,3,4076.0,3423131.67,11260125.89,RENTING is financially better
+Galaxy Enclave,surat,6500000.0,1405.0,5,4626.0,2966714.11,9081363.85,RENTING is financially better
+Rajhans Apple,surat,5200000.0,1440.0,5,3611.0,2373371.29,7054459.85,RENTING is financially better
+Ravi Darshan Apartment,surat,5950000.0,1170.0,3,5085.0,2715684.46,10206258.67,RENTING is financially better
+Samarth Enclave,surat,7600000.0,1860.0,4,4086.0,3468773.43,6950611.66,RENTING is financially better
+Avantika Veerbhadra Heights,surat,8800000.0,2000.0,3,4000.0,4016474.49,7454195.59,RENTING is financially better
+Nakshatra Nebula,surat,5600000.0,1609.0,5,3480.0,2555938.31,6251504.75,RENTING is financially better
+AVADH SELENIC,surat,17000000.0,1493.0,2,6300.0,7759098.45,22510760.8,RENTING is financially better
+Western Height,surat,5250000.0,1280.0,3,4102.0,2396192.17,8391467.49,RENTING is financially better
+Bilvam Regency,surat,9000000.0,1050.0,2,4604.0,4107758.0,15262333.12,RENTING is financially better
+Western Somchintamani,surat,9600000.0,1010.0,4,5232.0,4381608.54,16387066.27,RENTING is financially better
+Santvan Lexon,surat,6500000.0,910.0,1,3937.0,2966714.11,13009599.2,RENTING is financially better
+Jolly Residency,surat,12500000.0,1200.0,2,7353.0,5705219.45,18781208.74,RENTING is financially better
+Rajhans Platinum Residency,surat,4800000.0,1585.0,3,3028.0,2190804.27,5365564.65,RENTING is financially better
+Trinity By Courtyard,vadodara,8900000.0,1052.0,5,8460.076045627377,4062116.25,15111911.46,RENTING is financially better
+Narayan Greenscapes,vadodara,6200000.0,1360.0,3,3713.0,2829788.85,9034826.16,RENTING is financially better
+Shreeji Shree Two,vadodara,7500000.0,2040.0,3,3676.0,3423131.67,5387612.44,RENTING is financially better
+Alembic Veda,vadodara,5250000.0,785.0,1,4390.0,2396192.17,12319702.84,RENTING is financially better
+Safalya Bliss,vadodara,4000000.0,1450.0,3,2759.0,1825670.22,5360501.58,RENTING is financially better
+SHILALEKH,vadodara,13000000.0,1600.0,3,8125.0,5933428.23,16279627.14,RENTING is financially better
+Suryoday Park,vadodara,6900000.0,1500.0,3,8254.0,3149281.14,8865660.1,RENTING is financially better
+Viram 2,vadodara,2350000.0,900.0,1,2611.0,1072581.26,7505132.53,RENTING is financially better
+Virat Sai Sahaj Residency,vadodara,4360000.0,992.0,1,2750.0,1989980.54,9479491.25,RENTING is financially better
+Hari Om Elegance,vadodara,5200000.0,760.0,1,5474.0,2373371.29,12450823.56,RENTING is financially better
+Pratham Upvan,vadodara,8500000.0,1328.0,2,3148.0,3879549.23,12383422.67,RENTING is financially better
+Saffron Green,vadodara,3650000.0,700.0,1,5214.0,1665924.08,10841448.32,RENTING is financially better
+Vihav Elinor,vadodara,8500000.0,1186.0,2,7166.947723440135,3879549.23,13510310.38,RENTING is financially better
+Pratham Riviera,vadodara,3500000.0,1092.0,2,3205.0,1597461.45,7528778.36,RENTING is financially better
+Pancham Elite,vadodara,4600000.0,980.0,1,3594.0,2099520.76,9897641.19,RENTING is financially better
+Orchid Platina,vadodara,3600000.0,700.0,1,5143.0,1643103.2,10774173.32,RENTING is financially better
+Shangri la Luxury Apartments,vadodara,10800000.0,1863.0,2,5797.0,4929309.61,11232404.14,RENTING is financially better
+Overseas Avenue,vadodara,16000000.0,1800.0,2,8000.0,7302680.9,18728961.31,RENTING is financially better
+SkySeven Synnove Palladium,vadodara,8700000.0,1750.0,5,4971.0,3970832.74,9303602.83,RENTING is financially better
+Fortune Greenfields 3,vadodara,4400000.0,960.0,1,4268.0,2008237.25,9787257.77,RENTING is financially better
+Zillion Sparsh,vadodara,3500000.0,600.0,1,5383.0,1597461.45,11433206.22,RENTING is financially better
+Hari Smruti,vadodara,2700000.0,760.0,1,2571.0,1232327.4,9087073.59,RENTING is financially better
+Darshanam Central Park,vadodara,4500000.0,1000.0,2,3333.0,2053879.0,9604374.61,RENTING is financially better
+The Florence,vadodara,6500000.0,1000.0,2,6500.0,2966714.11,12295374.59,RENTING is financially better
+Vraj vatika,vadodara,3950000.0,1030.0,2,3835.0,1802849.35,8626274.75,RENTING is financially better
+Kanha City,vadodara,4400000.0,1550.0,4,2839.0,2008237.25,5105118.67,RENTING is financially better
+Shree Ganesh Shyamal Park,vadodara,2500000.0,632.0,1,3955.6962025316457,1141043.89,9833759.7,RENTING is financially better
+Siddharth Samanvay I,vadodara,3400000.0,1000.0,4,3400.0,1551819.69,8124324.63,RENTING is financially better
+Orchid Green,vadodara,3300000.0,770.0,1,4231.0,1506177.93,9815015.29,RENTING is financially better
+Pradhan Glenwoods,vadodara,3500000.0,600.0,1,3500.0,1597461.45,11433206.22,RENTING is financially better
+Ratnam Elegance,vadodara,5100000.0,1050.0,4,3778.0,2327729.54,10014883.16,RENTING is financially better
+Star Residency,vadodara,3800000.0,850.0,1,3167.0,1734386.71,9852898.97,RENTING is financially better
+Challenge Nysa Skydale,vadodara,6500000.0,1050.0,5,4276.0,2966714.11,11898583.14,RENTING is financially better
+Shirin Priya Crossroads,vadodara,5250000.0,1018.0,2,3127.0,2396192.17,10470654.68,RENTING is financially better
+Kishan Galaxy,vadodara,2800000.0,1000.0,2,2800.0,1277969.16,7317024.63,RENTING is financially better
+Fortune V,vadodara,3900000.0,1200.0,2,2364.0,1780028.47,7209908.82,RENTING is financially better
+Limbodagari Siddhi Olympia,indore,7250000.0,1400.0,2,5179.0,3309027.28,10130167.99,RENTING is financially better
+DCNPL Hills Vista,indore,12500000.0,1708.0,2,7319.0,5705219.45,14749807.61,RENTING is financially better
+SS Infinitus,indore,7409999.999999999,851.0,1,6000.0,3382054.09,14702218.1,RENTING is financially better
+Omaxe Hills,indore,3910000.0,756.0,1,3700.0,1784592.64,10746871.89,RENTING is financially better
+Serenity By Pumarth,indore,4500000.0,1000.0,3,4500.0,2053879.0,9604374.61,RENTING is financially better
+SS Infinitus,indore,5300000.0,952.0,1,5567.0,2419013.05,11061694.4,RENTING is financially better
+Highline Fortune,indore,6940000.000000001,800.0,1,6088.0,3167537.84,14474560.39,RENTING is financially better
+Annex,indore,25000000.0,2153.0,2,11364.0,11410438.9,28037113.59,RENTING is financially better
+Malwa Enclave,indore,9500000.0,814.0,1,10440.0,4335966.78,17807938.75,RENTING is financially better
+Mirchandani Shalimar Swayam,indore,18500000.0,2400.0,3,7400.0,8443724.79,17331213.89,RENTING is financially better
+Naman Shubam Nariman Enclave,indore,6500000.0,785.0,1,5000.0,2966714.11,14001577.83,RENTING is financially better
+Vista Victoria Urbane Oasis,indore,5000000.0,778.0,1,4562.0,2282087.78,12038878.64,RENTING is financially better
+Silver Springs,indore,8500000.0,1500.0,2,5667.0,3879549.23,11018460.08,RENTING is financially better
+Cliffton Palladium,indore,20900000.0,2462.0,5,8500.0,9539126.92,20068392.47,RENTING is financially better
+Omaxe City,indore,5350000.0,750.0,1,4500.0,2441833.92,12732006.85,RENTING is financially better
+Skye Luxuria 20,indore,27000000.0,1900.0,2,9926.0,12323274.01,32735878.3,RENTING is financially better
+Shivashri Dham,indore,9500000.0,800.0,1,5278.0,4335966.78,17919040.36,RENTING is financially better
+Abhyudayam Janki Residency,bhopal,9200000.0,2150.0,5,10188.0,4199041.52,6802021.23,RENTING is financially better
+Ultimate English Villas,bhopal,5700000.0,800.0,1,3562.0,2601580.07,12806140.4,RENTING is financially better
+Fortune Atlantis Phase II,bhopal,7600000.0,840.0,1,9048.0,3468773.43,15045157.22,RENTING is financially better
+Ruchi Lifescapes,bhopal,3200000.0,1063.0,4,3010.0,1460536.18,7355267.4,RENTING is financially better
+Anupam Kasturi,bhopal,3000000.0,760.0,1,3950.0,1369252.67,9490723.59,RENTING is financially better
+Fortune Kasturi,bhopal,3500000.0,750.0,1,2696.0,1597461.45,10242831.87,RENTING is financially better
+Janki Apartment,bhopal,4500000.0,1100.0,2,3396.0,2053879.0,8810791.72,RENTING is financially better
+Tulip Greens,bhopal,6400000.0,1750.0,4,3657.0,2921072.36,6208952.86,RENTING is financially better
+Nirupam Royal Palms,bhopal,3000000.0,850.0,1,3529.0,1369252.67,8776498.98,RENTING is financially better
+Chinarr Dream CT,bhopal,4000000.0,1400.0,4,2667.0,1825670.22,5757293.03,RENTING is financially better
+Windsor Palms Phase 3,bhopal,8500000.0,1760.0,5,3696.0,3879549.23,8955144.55,RENTING is financially better
+Om Ganpati Homes,bhopal,4800000.0,1000.0,2,7111.0,2190804.27,10008024.61,RENTING is financially better
+Green Acres,bhopal,7500000.0,1480.0,3,5068.0,3423131.67,9831676.67,RENTING is financially better
+Tirupati Abhinav Homes,bhopal,9600000.0,2500.0,3,3310.0,4381608.54,4562681.09,RENTING is financially better
+Aakriti Greens,bhopal,4500000.0,1000.0,3,3142.0,2053879.0,9604374.61,RENTING is financially better
+Rudraksh Kasturi,bhopal,6500000.0,1250.0,2,3611.0,2966714.11,10311417.35,RENTING is financially better
+Nakshatra Enclave,bhopal,4200000.0,1100.0,3,3818.0,1916953.74,8407141.72,RENTING is financially better
+Nirupam Royal Palms,bhopal,3300000.0,1230.0,4,2683.0,1506177.93,6164533.96,RENTING is financially better
+Fortune Signature,bhopal,9000000.0,1920.0,4,4688.0,4107758.0,8358161.9,RENTING is financially better
+Fortune Kasturi,bhopal,6400000.0,1100.0,2,5818.0,2921072.36,11367241.7,RENTING is financially better
+Unihomes Bhopal,bhopal,1900000.0,981.0,1,1937.0,867193.36,6256855.39,RENTING is financially better
+Amaltas Westminster,bhopal,4380000.0,1300.0,4,3368.0,1999108.9,7062165.92,RENTING is financially better
+Sheetal Dham,bhopal,2400000.0,895.0,1,2682.0,1095402.13,7612086.68,RENTING is financially better
+Chinarr Dream CT,bhopal,3400000.0,1400.0,3,2429.0,1551819.69,4949993.03,RENTING is financially better
+Sahyog Parishar,bhopal,12500000.0,2260.0,2,5531.0,5705219.45,10369230.01,RENTING is financially better
+ABDL Aashima Anupama City,bhopal,7500000.0,1400.0,3,5357.0,3423131.67,10466542.99,RENTING is financially better
+Mirchandani Shalimar Fortleza,bhopal,12000000.0,1266.0,3,5455.0,5477010.67,17584694.03,RENTING is financially better
+Aakriti Eco City,bhopal,17000000.0,2000.0,5,8500.0,7759098.45,18487295.5,RENTING is financially better
+Nirupam Royal Palms,bhopal,1900000.0,850.0,1,2235.0,867193.36,7296448.99,RENTING is financially better
+Sage Heritage,bhopal,13000000.0,840.0,1,15476.0,5933428.23,22310857.17,RENTING is financially better
+Omaxe Cassia,lucknow,10300000.0,1785.0,4,5800.0,4701100.83,11178648.8,RENTING is financially better
+Belvedere Court 3,lucknow,14400000.0,943.0,1,10500.0,6572412.81,23377166.77,RENTING is financially better
+Privue Jashn Elevate Phase 3,lucknow,13799999.999999998,1221.0,3,6970.0,6298562.27,20363706.31,RENTING is financially better
+Shalimar Twenty One,lucknow,23400000.0,2550.0,3,9202.0,10680170.81,22733789.5,RENTING is financially better
+Zenith Vista,lucknow,15500000.0,2405.0,4,6465.0,7074472.12,13255034.78,RENTING is financially better
+Eldeco Hanging Gardens,lucknow,17200000.0,1303.0,4,7900.0,7850381.96,24287668.3,RENTING is financially better
+Samiah Melrose Square,lucknow,7200000.0,1500.0,4,4800.0,3286206.4,9269310.09,RENTING is financially better
+Shalimar Twenty One,lucknow,23400000.0,2550.0,5,9202.0,10680170.81,22733789.5,RENTING is financially better
+Rishita Mulberry Heights,lucknow,16000000.0,1195.0,2,8526.0,7302680.9,23530137.85,RENTING is financially better
+Eldeco Hanging Gardens,lucknow,15100000.0,1055.0,5,7900.0,6891905.1,23430203.91,RENTING is financially better
+ORO Constella,lucknow,16700000.0,1277.0,5,8200.0,7622173.19,23821249.86,RENTING is financially better
+ORO Constella,lucknow,16700000.0,1277.0,2,8200.0,7622173.19,23821249.86,RENTING is financially better
+Imperial Estates,lucknow,15700000.0,2362.0,3,5000.0,7165755.63,13865375.42,RENTING is financially better
+ORO Constella,lucknow,16700000.0,1277.0,3,8200.0,7622173.19,23821249.86,RENTING is financially better
+Dynasty by ORO,lucknow,10700000.0,812.0,1,7800.0,4883667.85,19438410.4,RENTING is financially better
+Zenith Vista,lucknow,11800000.0,1840.0,5,6465.0,5385727.16,12760428.19,RENTING is financially better
+Eldeco Skywalk,lucknow,10500000.0,1084.0,5,5650.0,4792384.34,17010764.92,RENTING is financially better
+CCS Amor,lucknow,14300000.0,2606.0,4,5500.0,6526771.05,10045333.17,RENTING is financially better
+Eden At 1,lucknow,17700000.0,1360.0,4,8100.0,8078590.74,24508076.05,RENTING is financially better
+ORO Constella,lucknow,16700000.0,1277.0,2,8200.0,7622173.19,23821249.86,RENTING is financially better
+Serenity by Rishita,lucknow,29300000.0,2012.0,4,11259.0,13373034.39,34941715.43,RENTING is financially better
+Earthcon Emerald Gardens,lucknow,10200000.0,954.0,1,6222.0,4655459.07,17638772.69,RENTING is financially better
+Omaxe Cassia,lucknow,10400000.0,1147.0,4,5800.0,4746742.58,16376257.69,RENTING is financially better
+We Dream Galaxy,lucknow,8600000.0,1650.0,2,5213.0,3925190.98,9962635.73,RENTING is financially better
+ORO Constella,lucknow,15900000.0,1235.0,5,8200.0,7257039.14,23078154.69,RENTING is financially better
+Zenith Vista,lucknow,10200000.0,1300.0,5,5500.0,4655459.07,14892975.86,RENTING is financially better
+Dynasty by ORO,lucknow,13899999.999999998,1094.0,3,8105.0,6344204.03,21506106.59,RENTING is financially better
+Emaar Elite Oasis,lucknow,29000000.0,1494.0,2,19410.977242302542,13236109.13,38648824.85,RENTING is financially better
+Shalimar Marbella gh 18,lucknow,21200000.0,1379.0,5,9217.0,9676052.19,29066545.26,RENTING is financially better
+Shalimar Oneworld 21,lucknow,19200000.0,1522.0,5,8200.0,8763217.08,25240721.74,RENTING is financially better
+Vanshika Ontario,lucknow,16200000.000000002,2344.0,4,6000.0,7393964.41,14680970.34,RENTING is financially better
+Eldeco Trinity,lucknow,33500000.0,1615.0,5,12102.0,15289988.13,43743339.49,RENTING is financially better
+Shalimar Marbella gh 18,lucknow,14900000.0,1103.0,2,8432.0,6800621.59,22780184.12,RENTING is financially better
+Urban Woods,lucknow,8500000.0,1560.0,4,5449.0,3879549.23,10542310.34,RENTING is financially better
+Atal Club View,lucknow,8000000.0,1840.0,2,3810.0,3651340.45,7647528.23,RENTING is financially better
+Omega Suraksha Enclave,lucknow,12000000.0,1400.0,4,8571.0,5477010.67,16521292.94,RENTING is financially better
+Azeagaia Azea Botanica,lucknow,11000000.0,1425.0,4,7719.0,5020593.12,14977397.23,RENTING is financially better
+Omaxe Waterscape,lucknow,9600000.0,1635.0,4,5872.0,4381608.54,11427173.16,RENTING is financially better
+Dynasty by ORO,lucknow,10500000.0,812.0,1,7609.0,4792384.34,19169310.4,RENTING is financially better
+ORO Constella,lucknow,16700000.0,1277.0,5,8200.0,7622173.19,23821249.86,RENTING is financially better
+Zenith Vista,lucknow,15500000.0,2405.0,2,6465.0,7074472.12,13255034.78,RENTING is financially better
+Rishita Mulberry Heights Phase 5,lucknow,25000000.0,2230.0,4,11211.0,11410438.9,27426054.76,RENTING is financially better
+Eldeco Imperia Phase II,lucknow,9500000.0,789.0,1,8085.0,4335966.78,18006334.48,RENTING is financially better
+Eden At 1,lucknow,17000000.0,1200.0,3,8995.0,7759098.45,24835958.69,RENTING is financially better
+Eldeco Hanging Gardens,lucknow,16500000.0,1303.0,4,7576.0,7530889.67,23345818.31,RENTING is financially better
+Shivani Gangajali SG Heights,lucknow,7809999.999999999,993.0,1,5398.0,3564621.11,14113530.38,RENTING is financially better
+KDA Residency,kanpur,5500000.0,968.751,1,4731.0,2510296.56,11197861.32,RENTING is financially better
+Rudra Greens,kanpur,4500000.0,1585.0,4,2839.0,2053879.0,4961914.66,RENTING is financially better
+Balaji Enclave,kanpur,7000000.0,970.0,1,6364.0,3194922.89,13206199.46,RENTING is financially better
+Gurudham Apartments,kanpur,6500000.0,1440.0,2,4194.0,2966714.11,8803609.84,RENTING is financially better
+NRI City,kanpur,13000000.0,2500.0,5,4815.0,5933428.23,9137381.05,RENTING is financially better
+Ratan Orbit,kanpur,8900000.0,1000.0,4,6652.0,4062116.25,15524574.57,RENTING is financially better
+Kakadev,kanpur,12500000.0,900.0,1,10417.0,5705219.45,21161957.43,RENTING is financially better
+Diviniti Homes,kanpur,11500000.0,1740.0,4,6609.0,5248801.89,13150361.09,RENTING is financially better
+Eldeco County,kanpur,8600000.0,1479.0,4,5815.0,3925190.98,11319662.49,RENTING is financially better
+Skyline The Peak,kanpur,13000000.0,1037.0,3,7550.0,5933428.23,20747498.86,RENTING is financially better
+Ratan Orbit,kanpur,8000000.0,1083.0,4,7387.0,3651340.45,13654950.77,RENTING is financially better
+KDA Residency,kanpur,9750000.0,1400.0,4,5804.0,4450071.17,13493917.97,RENTING is financially better
+Ratan Shanti,kanpur,9500000.0,1500.0,3,6333.333333333333,4335966.78,12363960.07,RENTING is financially better
+Kanha Shyam Residency,kanpur,8800000.0,1600.0,4,5359.0,4016474.49,10628527.18,RENTING is financially better
+Ram Krishan Apartment,kanpur,6500000.0,1050.0,2,5909.0,2966714.11,11898583.14,RENTING is financially better
+Kakadev,kanpur,12000000.0,1800.0,3,6667.0,5477010.67,13346961.35,RENTING is financially better
+Vansh Residency,kanpur,3800000.0,800.0,1,4471.0,1734386.71,10249690.42,RENTING is financially better
+Sai Shree Star Galaxy,patna,10700000.0,1128.0,4,6950.0,4883667.85,16930688.44,RENTING is financially better
+Vip Residency,patna,8530000.0,1007.0,2,5500.0,3893241.75,14971188.77,RENTING is financially better
+Shiv Radhika Complex,patna,17000000.0,1720.0,5,9883.720930232555,7759098.45,20709327.62,RENTING is financially better
+Param Smriti,patna,7500000.0,1150.0,5,6522.0,3423131.67,12450500.24,RENTING is financially better
+Rk Sadan,patna,10000000.0,1100.0,4,7042.0,4564175.56,16211041.66,RENTING is financially better
+Ribhya Residency,patna,12500000.0,1250.0,2,7645.0,5705219.45,18384417.29,RENTING is financially better
+Anand Greens,patna,9920000.0,1500.0,5,6610.0,4527662.16,12929070.07,RENTING is financially better
+Sitaram Apartment,patna,4000000.0,985.0,1,4060.913705583757,1825670.22,9050662.05,RENTING is financially better
+Pushpanjali Complex,patna,22500000.0,1400.0,2,11842.0,10269395.01,30649042.84,RENTING is financially better
+Dhanraj Complex,patna,11500000.0,1000.0,5,8806.0,5248801.89,19022874.54,RENTING is financially better
+Sunrise Narayan Palace,patna,6500000.0,1050.0,2,6190.0,2966714.11,11898583.14,RENTING is financially better
+Saakaar Aqua City,patna,12000000.0,1045.0,2,8259.0,5477010.67,19338512.23,RENTING is financially better
+Majestic Janki City,patna,6950000.0,767.0,1,6715.0,3172102.01,14749897.74,RENTING is financially better
+J G Manju Residency,patna,6140000.0,1025.0,4,5988.0,2802403.79,11612598.87,RENTING is financially better
+Rukmani Chatrapati Shivaji Greens,patna,3800000.0,823.0,1,3800.0,1734386.71,10067166.35,RENTING is financially better
+MIG Flats,patna,6500000.0,955.0,1,6806.0,2966714.11,12652486.9,RENTING is financially better
+Durga Pushpa Vihar,patna,25000000.0,1475.0,5,16949.15254237288,11410438.9,33417605.64,RENTING is financially better
+Sai Enclave,patna,6959999.999999999,1000.0,2,5800.0,3176666.19,12914304.59,RENTING is financially better
+SS Metro Mall and Residential Tower,patna,9120000.0,900.0,1,7500.0,4162528.11,16614167.47,RENTING is financially better
+Winsome Kripanand Enclave,patna,8800000.0,1250.0,5,5612.0,4016474.49,13406067.32,RENTING is financially better
+Casa Clasico,patna,18600000.0,1169.0,4,11273.0,8489366.54,27234769.37,RENTING is financially better
+Patliputra Gardens,patna,13000000.0,1530.0,3,7738.0,5933428.23,16835135.17,RENTING is financially better
+Genx Daffodils,patna,8000000.0,1271.0,2,6294.0,3651340.45,12163014.92,RENTING is financially better
+Patwari Jagannath Enclave,patna,10600000.0,1781.0,4,6000.0,4838026.09,11614042.12,RENTING is financially better
+Ycoordinate Dhirendra Shree,gaya,3900000.0,1025.0,2,3800.0,1780028.47,8598678.9,RENTING is financially better
+S K Place gaya,gaya,6500000.0,1120.0,5,5417.0,2966714.11,11343075.12,RENTING is financially better
+Vastu Vihar,gaya,3900000.0,1200.0,2,3250.0,1780028.47,7209908.82,RENTING is financially better
+Gaya Phase 5,gaya,4600000.0,1040.0,2,3767.0,2099520.76,9421491.45,RENTING is financially better
+Ycoordinate Dhirendra Shree,gaya,3780000.0,995.0,1,3800.0,1725258.36,8675293.77,RENTING is financially better
+Ycoordinate Dhirendra Shree,gaya,3450000.0,907.0,1,3800.0,1574640.57,8929631.72,RENTING is financially better
+Arizuma Southern Vista,kolkata,11299999.999999998,1475.0,2,7682.0,5157518.38,14984255.78,RENTING is financially better
+Mani Vista,kolkata,27500000.0,1139.0,4,15320.0,12551482.79,39447794.15,RENTING is financially better
+Srijan Town Square,kolkata,25500000.0,1865.0,4,13683.0,11638647.68,30995382.33,RENTING is financially better
+Premier Joy 98,kolkata,13000000.0,1350.0,5,9630.0,5933428.23,18263584.38,RENTING is financially better
+Quintessa,kolkata,32400000.000000004,1944.0,3,16670.0,14787928.82,39652401.77,RENTING is financially better
+Orbit Dakshini,kolkata,12600000.0,1575.0,5,8027.0,5750861.21,15939822.87,RENTING is financially better
+Merlin Skygaze,kolkata,7440000.000000001,834.0,1,8920.0,3395746.62,14877492.2,RENTING is financially better
+EIA Vayu,kolkata,12100000.0,1573.0,5,7722.0,5522652.43,15282944.53,RENTING is financially better
+Sureka Sunrise Aura,kolkata,4480000.0,580.0,1,6616.0,2044750.65,12910512.79,RENTING is financially better
+Merlin Serenia,kolkata,6940000.000000001,708.0,1,8022.0,3167537.84,15204656.65,RENTING is financially better
+DTC Still Waters,kolkata,8800000.0,1160.0,4,7586.0,4016474.49,14120291.93,RENTING is financially better
+Siom Mani Casa 2,kolkata,18200000.0,1166.0,4,10738.0,8306799.52,26720376.86,RENTING is financially better
+Look Saket Evara,kolkata,10000000.0,781.0,1,11281.0,4564175.56,18742571.11,RENTING is financially better
+Vinayak Amara,kolkata,16399999.999999998,995.0,1,10496.0,7485247.92,25655503.64,RENTING is financially better
+DTC Still Waters,kolkata,12600000.0,1550.0,3,8129.0,5750861.21,16138218.59,RENTING is financially better
+Ambuja Utpalaa The Condoville,kolkata,17200000.0,1768.0,3,9750.0,7850381.96,20597507.83,RENTING is financially better
+Srijan The Royal Ganges,kolkata,12800000.0,1920.0,2,6716.0,5842144.72,13471061.86,RENTING is financially better
+AKP Marinas Edge,kolkata,36400000.0,1509.0,4,14450.0,16613599.04,48486487.34,RENTING is financially better
+SKDJ Nidhara,kolkata,24600000.0,2189.0,5,11249.0,11227871.88,27213223.75,RENTING is financially better
+Godrej Elevate at Godrej Seven,kolkata,8510000.0,844.0,1,6385.0,3884113.4,16237818.9,RENTING is financially better
+Nirmala Nevada,kolkata,9090000.0,1385.0,3,6565.0,4148835.58,12724925.41,RENTING is financially better
+Godrej Elevate at Godrej Seven,kolkata,8880000.0,888.0,1,6385.0,4052987.9,16386477.42,RENTING is financially better
+Siddha Happyville,kolkata,10600000.0,1395.0,3,7643.0,4838026.09,14677272.1,RENTING is financially better
+Sugam Morya Phase 2,kolkata,17000000.0,949.0,1,11119.0,7759098.45,26827851.77,RENTING is financially better
+Sugam Park,kolkata,6000000.0,890.0,1,5236.0,2738505.34,12495565.79,RENTING is financially better
+Unitech Heights,kolkata,12000000.0,1768.0,4,6787.0,5477010.67,13600907.88,RENTING is financially better
+Upohar The Condoville,kolkata,16000000.0,1843.0,5,8681.0,7302680.9,18387720.66,RENTING is financially better
+Upohar The Condoville,kolkata,9500000.0,918.0,1,7917.0,4335966.78,16982612.54,RENTING is financially better
+Hiland Park,kolkata,10000000.0,1264.0,4,7911.0,4564175.56,14909565.71,RENTING is financially better
+South City,kolkata,35000000.0,1954.0,2,17912.0,15974614.46,43071343.45,RENTING is financially better
+Urbana NRI Complex,kolkata,54500000.0,3127.0,2,17429.0,24874756.8,59999865.86,RENTING is financially better
+Supreme Residency,kolkata,6500000.0,725.0,1,7488.0,2966714.11,14477727.56,RENTING is financially better
+Anandi View,kolkata,3960000.0,1183.0,2,3350.0,1807413.52,7425547.92,RENTING is financially better
+GODREJ BLUE,kolkata,22400000.000000004,1510.0,4,14900.0,10223753.26,29641551.65,RENTING is financially better
+Merlin Rise Sports Republic Phase 1 A,kolkata,5600000.0,650.0,1,8615.384615384615,2555938.31,13861964.75,RENTING is financially better
+Merlin Lakescape,kolkata,7800000.0,900.0,1,8667.0,3560056.94,14838107.48,RENTING is financially better
+Rohra Imperial,kolkata,6430000.0,1148.0,5,5600.0,2934764.89,11026686.9,RENTING is financially better
+F Residences Merlin,kolkata,9200000.0,1314.0,4,7000.0,4199041.52,13436374.27,RENTING is financially better
+Utalika Luxury Phase 5,kolkata,8000000.0,485.0,1,8180.0,3651340.45,18400576.51,RENTING is financially better
+Ambuja Urvisha The Condoville,kolkata,24000000.0,1210.0,2,14277.0,10954021.35,34175100.33,RENTING is financially better
+Urbanyx court,bhubaneswar,15300000.0,1359.0,3,7000.0,6983188.61,21286811.9,RENTING is financially better
+Urbanyx court,bhubaneswar,13000000.0,1212.0,4,7000.0,5933428.23,19358728.78,RENTING is financially better
+Assotech Avenue 07,bhubaneswar,21300000.0,1503.0,4,8917.0,9721693.94,28217052.46,RENTING is financially better
+DHPL SCB RESIDENCY,bhubaneswar,8620000.0,1286.0,3,6700.0,3934319.33,12878187.48,RENTING is financially better
+Laxmi Fresh Living,bhubaneswar,15300000.0,2050.0,3,7500.0,6983188.61,15803154.07,RENTING is financially better
+Shivgram Residency,bhubaneswar,10400000.0,1099.0,4,5850.0,4746742.58,16757177.48,RENTING is financially better
+Rashmi Lifestyle Phase II,bhubaneswar,10900000.0,1770.0,3,6208.0,4974951.36,12104986.23,RENTING is financially better
+Tata Ariana Phase 3,bhubaneswar,10500000.0,708.0,1,14830.50847457627,4792384.34,19994636.62,RENTING is financially better
+Jay Jagannathswami Pramod Signature,bhubaneswar,11500000.0,1094.0,4,7190.0,5248801.89,18276906.62,RENTING is financially better
+Kalvik Adidev,bhubaneswar,18700000.0,1284.0,3,11902.0,8535008.3,26456699.04,RENTING is financially better
+Motwani Anantara,bhubaneswar,17000000.0,1245.0,3,7000.0,7759098.45,24478846.39,RENTING is financially better
+Motwani Anantara,bhubaneswar,17000000.0,1245.0,5,7000.0,7759098.45,24478846.39,RENTING is financially better
+Nawah Boulevard,bhubaneswar,39900000.0,4871.0,4,8200.0,18211060.49,26515480.26,RENTING is financially better
+DN Pallaciya,bhubaneswar,20300000.0,2200.0,2,9263.0,9265276.39,21340279.67,RENTING is financially better
+Kalvik Adidev,bhubaneswar,15800000.0,1284.0,3,10102.0,7211397.39,22554749.07,RENTING is financially better
+EVOS ALCHEMY,bhubaneswar,24000000.0,2694.0,3,8909.0,10954021.35,22398330.12,RENTING is financially better
+Falcon Tatva,bhubaneswar,20600000.0,1527.0,3,8750.0,9402201.65,27084742.58,RENTING is financially better
+Springville Greens Llp Phase II,bhubaneswar,8100000.0,778.0,1,9101.0,3696982.2,16209928.61,RENTING is financially better
+Laxmi Green View,bhubaneswar,7570000.0,986.0,1,5508.0,3455080.9,13846161.19,RENTING is financially better
+Utkal Levels,bhubaneswar,17200000.0,1589.0,4,7304.0,7850381.96,22018021.21,RENTING is financially better
+EVOS ALCHEMY,bhubaneswar,20000000.0,1490.0,4,8600.0,9128351.12,26571068.25,RENTING is financially better
+Panchamukhi Lites,bhubaneswar,7700000.0,1375.0,4,5310.0,3514415.18,10934038.71,RENTING is financially better
+Royal Habitat,bhubaneswar,8100000.0,1255.0,2,6454.0,3696982.2,12424538.19,RENTING is financially better
+TRIKUTA RADIANT,bhubaneswar,11500000.0,1450.0,2,6970.0,5248801.89,15451751.5,RENTING is financially better
+Ethics Arcon,bhubaneswar,8300000.0,930.0,1,6776.0,3788265.72,15272782.6,RENTING is financially better
+Acropolis,bhubaneswar,7350000.0,1450.0,2,5198.0,3354669.04,9867926.54,RENTING is financially better
+Satyabadi Residency,bhubaneswar,14900000.0,999.0,1,10061.0,6800621.59,23605510.34,RENTING is financially better
+Utkal Royal Residency,bhubaneswar,14000000.0,1203.0,4,11638.0,6389845.78,20775651.23,RENTING is financially better
+AcreRise AZURE,cuttack,9410000.0,915.0,1,5649.0,4294889.2,16885325.03,RENTING is financially better
+AcreRise AZURE,cuttack,8410000.0,850.0,1,5649.0,3838471.65,16055653.92,RENTING is financially better
+SRC Signature,cuttack,7900000.0,890.0,1,5265.0,3605698.69,15052015.77,RENTING is financially better
+AcreRise AZURE,cuttack,9410000.0,915.0,1,5649.0,4294889.2,16885325.03,RENTING is financially better
+AcreRise AZURE,cuttack,9410000.0,915.0,1,5649.0,4294889.2,16885325.03,RENTING is financially better
+AcreRise AZURE,cuttack,8410000.0,850.0,1,5649.0,3838471.65,16055653.92,RENTING is financially better
+Saswat Riverside,cuttack,10800000.0,1078.0,4,5950.0,4929309.61,17462029.89,RENTING is financially better
+Builders Consortium Tridev Ekam,cuttack,8400000.0,665.0,1,6500.0,3833907.47,17510327.28,RENTING is financially better
+Diamond City By Eastern Estate Construction & Developers Pvt. Ltd.,cuttack,11800000.0,1033.0,3,7200.0,5385727.16,19164642.18,RENTING is financially better
+AcreRise AZURE,cuttack,9160000.0,915.0,1,5499.0,4180784.81,16548950.03,RENTING is financially better
+Builders Consortium Tridev Ekam,cuttack,11900000.0,1051.0,5,6670.0,5431368.92,19156347.26,RENTING is financially better
+Metro Manorma Complex,cuttack,11000000.0,1390.0,3,7914.0,5020593.12,15255151.24,RENTING is financially better
+AcreRise AZURE,cuttack,9000000.0,850.0,1,6048.0,4107758.0,16849498.92,RENTING is financially better
+Mahadev Greens,cuttack,10000000.0,866.0,1,5794.0,4564175.56,18068025.64,RENTING is financially better
+Acrerise Aura,cuttack,6970000.0,900.0,1,5016.0,3181230.37,13721342.49,RENTING is financially better
+Diamond City By Eastern Estate Construction & Developers Pvt. Ltd.,cuttack,8080000.0,785.0,1,6800.0,3687853.85,16127467.81,RENTING is financially better
+Triveni Sri Ramdeo Garden,ranchi,5370000.0,1450.0,3,3700.0,2450962.28,7203836.56,RENTING is financially better
+Vikramsila Garden,ranchi,7080000.0,1539.0,5,4600.0,3231436.3,8798352.77,RENTING is financially better
+Sushila Sadan,ranchi,10000000.0,1550.0,3,6452.0,4564175.56,12639918.62,RENTING is financially better
+Vikramshila Vatika,ranchi,7700000.0,1770.0,2,4350.0,3514415.18,7799386.26,RENTING is financially better
+Global Platinum,ranchi,8000000.0,1200.0,5,6154.0,3651340.45,12726458.78,RENTING is financially better
+Balaji enclave,ranchi,4500000.0,1100.0,4,4090.909090909091,2053879.0,8810791.72,RENTING is financially better
+Lucky Buildcon Dream Tower,ranchi,8500000.0,1550.0,3,5484.0,3879549.23,10621668.63,RENTING is financially better
+Genesis,ranchi,11000000.0,1777.0,2,6190.0,5020593.12,12183985.43,RENTING is financially better
+Triveni Nilu Enclave,ranchi,4860000.0,950.0,1,3596.0,2218189.32,10485546.06,RENTING is financially better
+Dwaraka Dham Apartments,ranchi,7300000.0,1538.0,5,4746.0,3331848.16,9102298.59,RENTING is financially better
+Tripti Apartment,ranchi,9000000.0,1000.0,4,7500.0,4107758.0,15659124.57,RENTING is financially better
+Kashish Sail City,ranchi,8000000.0,1200.0,4,5079.0,3651340.45,12726458.78,RENTING is financially better
+NK Oak Forest,ranchi,11500000.0,2005.0,4,5736.0,5248801.89,11047366.41,RENTING is financially better
+Vimal Shyam Vihar,ranchi,9000000.0,1600.0,3,5625.0,4107758.0,10897627.18,RENTING is financially better
+Shalimar Bagh,ranchi,6000000.0,1240.0,5,4000.0,2738505.34,9718025.64,RENTING is financially better
+Vastu Sushila Garden,ranchi,11000000.0,2015.0,5,5500.0,5020593.12,10295258.13,RENTING is financially better
+Mansarovar Priya Enclave,ranchi,6800000.0,1700.0,5,4000.0,3103639.38,7143944.3,RENTING is financially better
+Nisith Palm Arin Garden,ranchi,7709999.999999999,1835.0,3,4200.0,3518979.36,7297012.38,RENTING is financially better
+JAYSRI Green City,ranchi,6340000.0,1152.0,5,5500.0,2893687.31,10873848.59,RENTING is financially better
+Sharda Green,ranchi,8400000.0,1648.0,2,5100.0,3833907.47,9709407.39,RENTING is financially better
+R K Faii Residency,ranchi,14200000.0,2033.0,2,7000.0,6481129.3,14458013.17,RENTING is financially better
+Palm Vista Forest by Nisith Keshari Construction,ranchi,8760000.0,1990.0,2,4400.0,3998217.79,7479733.88,RENTING is financially better
+ARYAN ASHRAY,ranchi,5490000.0,1568.0,5,3500.0,2505732.38,6428868.74,RENTING is financially better
+Jagannath Gardens,ranchi,6260000.0,1390.0,4,4500.0,2857173.9,8877481.29,RENTING is financially better
+NK Oak Forest,ranchi,11700000.0,1955.0,2,6000.0,5340085.41,11713257.86,RENTING is financially better
+Rose Avenue,ranchi,8490000.0,1845.0,4,4599.0,3874985.05,8267144.08,RENTING is financially better
+Oceanik Empire,ranchi,8159999.999999999,1700.0,4,4800.0,3724367.26,8973824.29,RENTING is financially better
+Ashiana Anantara,jamshedpur,8600000.0,1196.0,4,6056.0,3925190.98,13565502.09,RENTING is financially better
+Swarna Palace,jamshedpur,6000000.0,1390.0,5,4317.0,2738505.34,8527651.29,RENTING is financially better
+ATC Extension by Aastha Group,jamshedpur,6300000.0,1551.0,3,4062.0,2875430.6,7653632.83,RENTING is financially better
+Shree Triveni Imperial,jamshedpur,4770000.0,1021.0,3,4672.0,2177111.74,9801007.2,RENTING is financially better
+City Palace,jamshedpur,4400000.0,900.0,1,4356.0,2008237.25,10263407.51,RENTING is financially better
+Maya Heritage,jamshedpur,12500000.0,1623.0,2,7702.0,5705219.45,15424353.08,RENTING is financially better
+H B Apartment,jamshedpur,4000000.0,925.0,1,3721.0,1825670.22,9526811.79,RENTING is financially better
+Chandra Niwas,jamshedpur,5000000.0,1000.0,5,5000.0,2282087.78,10277124.61,RENTING is financially better
+Kay Pee Enclave,jamshedpur,5100000.0,875.0,1,4670.0,2327729.54,11403653.23,RENTING is financially better
+Srinath Rock Garden,jamshedpur,3800000.0,831.0,1,4572.80385078219,1734386.71,10003679.72,RENTING is financially better
+Aastha Twin City,jamshedpur,7100000.0,1497.0,5,4743.0,3240564.65,9158567.58,RENTING is financially better
+Ram Niketan,raipur,3500000.0,1045.0,4,3349.0,1597461.45,7901762.32,RENTING is financially better
+Sachdev Salasar Greens,raipur,5010000.0,1000.0,5,3500.0,2286651.96,10290579.61,RENTING is financially better
+Raheja Nirwana,raipur,16900000.0,3800.0,3,7860.0,7713456.7,4068253.33,BUYING is financially better
+Pioneer Green Land,raipur,4200000.0,953.0,1,4407.13536201469,1916953.74,9573708.58,RENTING is financially better
+CG Housing Board Colony,raipur,2500000.0,792.0,1,3156.5656565656564,1141043.89,8564027.06,RENTING is financially better
+RS Empressia Elite,raipur,3310000.0,1015.0,3,3262.0,1510742.11,7884192.19,RENTING is financially better
+G T Natura,raipur,3300000.0,1200.0,4,2750.0,1506177.93,6402608.83,RENTING is financially better
+Ashoka Royale,raipur,9100000.0,2291.0,5,3972.0,4153399.76,5548519.35,RENTING is financially better
+Harshit Landmark,raipur,2800000.0,600.0,1,3883.0,1277969.16,10491356.23,RENTING is financially better
+Bajrang Delmark Vedanta City,raipur,3500000.0,1500.0,2,2333.0,1597461.45,4290960.13,RENTING is financially better
+Vrindawan Gardens,raipur,1950000.0,895.0,1,1773.0,890014.23,7006611.68,RENTING is financially better
+Celeno Paradise,raipur,3700000.0,1045.0,4,3541.0,1688744.96,8170862.32,RENTING is financially better
+Sai vihar,raipur,2700000.0,850.0,1,2571.0,1232327.4,8372848.98,RENTING is financially better
+Swarnima Era,bilaspur,5350000.0,959.0,1,4990.0,2441833.92,11073418.59,RENTING is financially better
+TATTVA APAS,nagpur,5400000.0,1200.0,3,4500.0,2464654.8,9228158.81,RENTING is financially better
+Dhuni ARCTIC,nagpur,7890000.000000001,1775.0,2,4444.0,3601134.52,8015352.12,RENTING is financially better
+TATTVA APAS,nagpur,5400000.0,1200.0,4,4500.0,2464654.8,9228158.81,RENTING is financially better
+TATTVA APAS,nagpur,5430000.0,1206.0,3,4502.0,2478347.33,9220908.83,RENTING is financially better
+Shree Siddheshwar Nagar 2,nagpur,8000000.0,1518.0,2,5270.0,3651340.45,10202865.16,RENTING is financially better
+MB Town 4 Phase 1,nagpur,3400000.0,1000.0,3,3400.0,1551819.69,8124324.63,RENTING is financially better
+Sharma Narmada Residency,nagpur,3910000.0,1222.0,4,3200.0,1784592.64,7048775.59,RENTING is financially better
+K Square Nerium,nagpur,5000000.0,1200.0,5,4167.0,2282087.78,8689958.81,RENTING is financially better
+Advik Buildsworth The One World,nagpur,6120000.0,1200.0,5,5100.0,2793275.44,10196918.8,RENTING is financially better
+TATTVA APAS,nagpur,7330000.0,1629.0,5,4500.0,3345540.69,8420503.15,RENTING is financially better
+Anjani Exotica,nagpur,8490000.0,1697.0,2,5000.0,3874985.05,9441646.77,RENTING is financially better
+Aakar Millenium,nashik,7500000.0,810.0,1,6039.0,3423131.67,15148682.09,RENTING is financially better
+Shree Tirumala Anmol,nashik,4500000.0,565.0,1,5590.0,2053879.0,13056460.22,RENTING is financially better
+Maitreya Pandav Van,nashik,11000000.0,1750.0,2,5366.0,5020593.12,12398252.81,RENTING is financially better
+Nirmans Vrindavan Gardens,nashik,3000000.0,764.0,1,3927.0,1369252.67,9458980.27,RENTING is financially better
+ABH Treeland,nashik,8000000.0,733.0,1,7782.0,3651340.45,16432490.92,RENTING is financially better
+Ekta Greenville Villa,nashik,6900000.0,1485.0,2,4646.0,3149281.14,8984697.53,RENTING is financially better
+Samraat Tropicano,nashik,6100000.0,1010.0,2,6040.0,2784147.09,11677816.31,RENTING is financially better
+Gajra Avenue,nashik,4000000.0,1200.0,3,3460.0,1825670.22,7344458.82,RENTING is financially better
+Vista Phase II,nashik,6500000.0,1000.0,5,5000.0,2966714.11,12295374.59,RENTING is financially better
+ABH Treeland,nashik,13799999.999999998,1150.0,4,8118.0,6298562.27,20927150.17,RENTING is financially better
+Ekta Greenville,nashik,3800000.0,900.0,1,3455.0,1734386.71,9456107.52,RENTING is financially better
+Karda Hari Vishwa,nashik,7200000.0,1405.0,3,5125.0,3286206.4,10023213.85,RENTING is financially better
+Garden County,nashik,5000000.0,995.0,1,5025.0,2282087.78,10316803.75,RENTING is financially better
+Samraat Gokuldham,nashik,6600000.0,800.0,1,6000.0,3012355.87,14017090.39,RENTING is financially better
+Samraat Apna Ghar,nashik,4500000.0,816.0,1,5515.0,2053879.0,11064567.15,RENTING is financially better
+Ashoka Royale,nashik,6000000.0,1000.0,4,6250.0,2738505.34,11622624.6,RENTING is financially better
+Karda Hari Vihar I,nashik,4800000.0,1127.0,2,4259.0,2190804.27,9000174.33,RENTING is financially better
+Peninsula Ashok Astoria,nashik,6600000.0,1150.0,4,4889.0,3012355.87,11239550.25,RENTING is financially better
+Shree Prakash Residency,nashik,4100000.0,622.0,1,4940.0,1871311.98,12065917.97,RENTING is financially better
+Gajra Anmol Apartment,nashik,4600000.0,750.0,1,4646.0,2099520.76,11722881.86,RENTING is financially better
+Shyam Vista,nashik,4800000.0,750.0,1,5333.0,2190804.27,11991981.86,RENTING is financially better
+Bishnoi Residency,nashik,3500000.0,588.0,1,4167.0,1597461.45,11528436.17,RENTING is financially better
+Nayantara Presidency,nashik,5300000.0,1270.0,2,4173.0,2419013.05,8538100.78,RENTING is financially better
+Shreeji Pinnacle,nashik,3800000.0,700.0,1,3800.0,1734386.71,11043273.32,RENTING is financially better
+ashoka Atharva Heights,nashik,3750000.0,855.0,1,4386.0,1711565.84,9745944.82,RENTING is financially better
+Samnani Ishwar Prestige,nashik,12500000.0,1450.0,3,7353.0,5705219.45,16797251.49,RENTING is financially better
+Deven Parijat,aurangabad,2900000.0,645.0,1,4056.0,1323610.91,10268793.92,RENTING is financially better
+Apratim Vaastu,aurangabad,4300000.0,950.0,1,4526.0,1962595.49,9732066.07,RENTING is financially better
+Township Sainik Vihar,aurangabad,3300000.0,713.0,1,4628.330995792427,1506177.93,10267357.54,RENTING is financially better
+Kasliwal Marvel Tapadia Town,aurangabad,13000000.0,1500.0,2,8125.0,5933428.23,17073210.04,RENTING is financially better
+Tirumala Hill,aurangabad,7200000.0,750.0,1,6857.0,3286206.4,15221181.83,RENTING is financially better
+Manjeet Pride,aurangabad,4000000.0,682.0,1,5865.0,1825670.22,11455218.24,RENTING is financially better
+JP Heights,aurangabad,2900000.0,549.0,1,4833.0,1323610.91,11030633.5,RENTING is financially better
+Gayatri Vaishnaoi Eternis,mysore,7200000.0,1037.0,5,6943.105110896818,3286206.4,12943598.91,RENTING is financially better
+Vinyasa Bharati,mysore,8000000.0,1000.0,5,6667.0,3651340.45,14313624.58,RENTING is financially better
+Gayatri Vaishnaoi Eternis,mysore,7500000.0,1037.0,3,7232.0,3423131.67,13347248.91,RENTING is financially better
+Brigade Topaz,mysore,14500000.0,1628.0,4,8907.0,6618054.56,18075673.91,RENTING is financially better
+Prithvi Lifestyle,mysore,10300000.0,1200.0,2,8000.0,4701100.83,15821108.76,RENTING is financially better
+Santhosh Dhruvatara,mysore,8000000.0,1200.0,2,6667.0,3651340.45,12726458.78,RENTING is financially better
+Trendz Whispering Woods,mysore,4200000.0,820.0,1,5122.0,1916953.74,10629173.83,RENTING is financially better
+Zuari Garden City,mysore,4400000.0,750.0,1,5867.0,2008237.25,11453781.86,RENTING is financially better
+Shubham Diwans,mysore,7500000.0,1181.0,3,6351.0,3423131.67,12204489.54,RENTING is financially better
+Suvarna Millennium,mysore,13000000.0,1450.0,4,8125.0,5933428.23,17470001.48,RENTING is financially better
+Brigade Topaz,mysore,10500000.0,1266.0,5,8294.0,4792384.34,15566444.04,RENTING is financially better
+Shriram Purnashri,mysore,7500000.0,1001.0,5,5678.0,3423131.67,13632938.75,RENTING is financially better
+Brigade Topaz,mysore,14000000.0,1018.0,4,8685.0,6389845.78,22243779.6,RENTING is financially better
+Brigade Sapphire,mysore,8500000.0,961.0,1,8845.0,3879549.23,15295871.9,RENTING is financially better
+Casagrand Majestica,chennai,12900000.0,2117.0,2,6100.0,5887786.47,12042253.55,RENTING is financially better
+TVS Emerald Udyana Phase III,chennai,13100000.0,1839.0,2,7139.0,5979069.98,14517514.01,RENTING is financially better
+Godrej Azure,chennai,15900000.0,1950.0,5,8154.0,7257039.14,17404036.96,RENTING is financially better
+Incor PBEL City,chennai,9440000.0,1370.0,4,6888.0,4308581.73,13314887.84,RENTING is financially better
+Doshi Risington,chennai,15300000.0,1599.0,3,9615.0,6983188.61,19382212.94,RENTING is financially better
+Nutech Elevate 21,chennai,21100000.0,1764.0,4,12002.0,9630410.43,25876701.1,RENTING is financially better
+Rajparis Blue Jewel,chennai,22700000.0,1657.0,5,8193.0,10360678.52,28878634.79,RENTING is financially better
+Rohaan Daisy Garden,chennai,7620000.0,1088.0,3,6999.0,3477901.78,13103981.63,RENTING is financially better
+Eeshanyas Classic Meadows,coimbatore,15500000.0,2220.0,2,6982.0,7074472.12,14723163.14,RENTING is financially better
+Radiance Riverwoods,coimbatore,11200000.000000002,1137.0,4,7093.0,5111876.63,17532015.98,RENTING is financially better
+Radiance Imperia,coimbatore,22700000.0,2888.0,2,7860.0,10360678.52,19109629.31,RENTING is financially better
+Pinnacle Pavilion,coimbatore,25200000.0,1789.0,4,10080.0,11501722.41,31194855.34,RENTING is financially better
+Star Paradise,coimbatore,6200000.0,850.0,1,5391.0,2829788.85,13082098.94,RENTING is financially better
+Sree Dakshas Macie,coimbatore,16000000.0,1324.0,3,8954.0,7302680.9,22506415.91,RENTING is financially better
+Radiance Imperia,coimbatore,32100000.0,4174.0,3,7700.0,14651003.55,21551853.14,RENTING is financially better
+Gandhimanagar,coimbatore,7000000.0,900.0,1,5443.0,3194922.89,13761707.49,RENTING is financially better
+Oak Canopy,coimbatore,8830000.0,1270.0,2,6950.0,4030167.02,13287715.74,RENTING is financially better
+Marutham Coconut Grove,coimbatore,5550000.0,700.0,1,5206.0,2533117.44,13397898.3,RENTING is financially better
+Casagrand Eternia II,coimbatore,4600000.0,700.0,1,7256.0,2099520.76,12119673.31,RENTING is financially better
+Coral Ennar,coimbatore,10800000.0,1616.0,3,6725.0,4929309.61,13192553.9,RENTING is financially better
+Sree Dakshas Atulaniya,coimbatore,13799999.999999998,1712.0,2,8061.0,6298562.27,16467214.28,RENTING is financially better
+VSK Ashwattha Apartment,coimbatore,9500000.0,901.0,1,6795.0,4335966.78,17117521.63,RENTING is financially better
+Incor Lake City,hyderabad,10900000.0,1828.0,3,5997.0,4974951.36,11644708.15,RENTING is financially better
+The Marquise,hyderabad,59900000.0,5235.0,3,11453.0,27339411.61,50536838.3,RENTING is financially better
+Brigade Gateway,hyderabad,54500000.0,3078.0,2,17706.0,24874756.8,60388721.48,RENTING is financially better
+Ramky One Symphony,hyderabad,12200000.0,1585.0,4,7700.0,5568294.18,15322264.58,RENTING is financially better
+Tridasa Rise,hyderabad,15300000.0,2134.0,2,7200.0,6983188.61,15136544.44,RENTING is financially better
+Muppas Melody,hyderabad,13100000.0,1655.0,5,7944.0,5979069.98,15977706.54,RENTING is financially better
+Rajapushpa Skyra,hyderabad,32900000.0,3140.0,3,10499.0,15016137.59,30833900.3,RENTING is financially better
+Brigade Gateway,hyderabad,54500000.0,3078.0,4,17706.0,24874756.8,60388721.48,RENTING is financially better
+Lansum El Palacio,hyderabad,18500000.0,2320.0,2,7999.0,8443724.79,17966080.21,RENTING is financially better
+Prestige Spring Heights,hyderabad,17700000.0,2100.0,5,8430.0,8078590.74,18635562.6,RENTING is financially better
+Brigade Gateway,hyderabad,54500000.0,3078.0,5,17706.0,24874756.8,60388721.48,RENTING is financially better
+Aparna Newlands,hyderabad,14200000.0,1475.0,4,9649.0,6481129.3,18886205.75,RENTING is financially better
+Brigade Gateway,hyderabad,54500000.0,3078.0,4,17706.0,24874756.8,60388721.48,RENTING is financially better
+Rajapushpa Pristinia,hyderabad,27700000.0,3000.0,5,9233.0,12642766.3,24948316.41,RENTING is financially better
+Candeur Lakescape,hyderabad,15200000.0,1607.0,4,9471.0,6937546.85,19184176.31,RENTING is financially better
+Rubrick Tripura,hyderabad,10200000.0,1850.0,4,5566.0,4655459.07,10528269.92,RENTING is financially better
+Makuta Nirvana,hyderabad,11500000.0,2114.0,4,5456.0,5248801.89,10182361.05,RENTING is financially better
+Nikhila Royal Pavilion,hyderabad,18200000.0,3135.0,3,5837.0,8306799.52,11094729.59,RENTING is financially better
+Altitudes By DSR,hyderabad,17300000.0,2278.0,4,7599.0,7896023.72,16684785.04,RENTING is financially better
+Brigade Gateway,hyderabad,58700000.0,3917.0,2,15000.0,26791710.54,59381660.92,RENTING is financially better
+Fuzen Park Edge,hyderabad,9440000.0,1815.0,3,5200.0,4308581.73,9783443.94,RENTING is financially better
+Ramky One Symphony,hyderabad,12200000.0,1585.0,5,7700.0,5568294.18,15322264.58,RENTING is financially better
+Brigade Gateway,hyderabad,49000000.0,3067.0,4,15977.0,22364460.25,53075765.65,RENTING is financially better
+Rajapushpa Sierra,hyderabad,18300000.0,2555.0,3,7199.0,8352441.28,15832060.4,RENTING is financially better
+Sumadhuras Gardens By The Brook,hyderabad,13700000.000000002,1680.0,5,8177.0,6252920.52,16586610.81,RENTING is financially better
+Rubrick Tripura,hyderabad,10200000.0,1850.0,3,5566.0,4655459.07,10528269.92,RENTING is financially better
+Aparna Zenon,hyderabad,18100000.0,990.0,1,11963.0,8261157.76,27982532.77,RENTING is financially better
+Indo Eco O2 Zone Villas,hyderabad,20300000.0,2958.0,3,6875.0,9265276.39,15324921.3,RENTING is financially better
+Kesineni Northscape,hyderabad,16399999.999999998,2360.0,5,6990.0,7485247.92,14823097.07,RENTING is financially better
+Omsree Skypark,hyderabad,16700000.0,2235.0,5,7500.0,7622173.19,16218725.69,RENTING is financially better
+Skanda Avenues,hyderabad,10600000.0,1989.0,5,5358.0,4838026.09,9963389.69,RENTING is financially better
+Godrej Madison Avenue,hyderabad,37700000.0,3067.0,5,12305.0,17206941.86,37871615.77,RENTING is financially better
+Lansum Encanto,hyderabad,41200000.0,4130.0,5,9987.0,18804403.31,34145079.52,RENTING is financially better
+Ramky One Harmony,hyderabad,11700000.0,1595.0,3,7350.0,5340085.41,14570156.3,RENTING is financially better
+Sri Jagathswapna Spanesta,hyderabad,27600000.0,3900.0,4,7099.0,12597124.55,17671520.32,RENTING is financially better
+Bommarillu Nandanavanam,hyderabad,8030000.0,1575.0,4,5100.0,3665032.98,9790887.91,RENTING is financially better
+Team4 Arka,hyderabad,27300000.0,2420.0,3,11300.0,12460199.28,29012897.22,RENTING is financially better
+Sobha Marina One,kochi,30000000.0,2294.0,4,13078.0,13692526.68,33645661.65,RENTING is financially better
+Sobha Marina One,kochi,37000000.0,2523.0,3,14665.0,16887449.57,41246856.74,RENTING is financially better
+Candlewood,kochi,7000000.0,1160.0,3,6034.0,3194922.89,11698391.95,RENTING is financially better
+TATA Tritvam,kochi,30000000.0,1600.0,2,13123.0,13692526.68,39153126.96,RENTING is financially better
+Sobha Marina One,kochi,30000000.0,1824.0,2,12087.0,13692526.68,37375501.27,RENTING is financially better
+Skyline Gateway,kochi,11000000.0,1250.0,4,8800.0,5020593.12,16366167.3,RENTING is financially better
+Gokulam Aditya,kochi,4200000.0,850.0,1,4421.0,1916953.74,10391098.96,RENTING is financially better
+Olive Courtyard,kochi,9000000.0,1110.0,3,5678.0,4107758.0,14786183.38,RENTING is financially better
+Royal Garden,kochi,6000000.0,1350.0,4,4444.0,2738505.34,8845084.45,RENTING is financially better
+Kent Oakville,kochi,12500000.0,1500.0,3,6944.0,5705219.45,16400460.04,RENTING is financially better
+NCC Urban Senate,kochi,13600000.000000002,1475.0,3,8134.0,6207278.76,18078905.75,RENTING is financially better
+Green Vistas Prakrriti,kochi,9200000.0,1680.0,2,5437.0,4199041.52,10531860.86,RENTING is financially better
+Green Vistas Prakrriti,kochi,7800000.0,1319.0,2,5914.0,3560056.94,11512995.13,RENTING is financially better
+Infra Prosper,kochi,5500000.0,1128.0,4,4876.0,2510296.56,9934088.49,RENTING is financially better
+Sobha Ridge Whispering Hill,trivandrum,20800000.0,1450.0,5,11886.0,9493485.17,27964901.41,RENTING is financially better
+Sobha Ridge Whispering Hill,trivandrum,21300000.0,1750.0,3,12171.0,9721693.94,26256902.71,RENTING is financially better
+Olive Cressida,trivandrum,10000000.0,1696.0,3,5896.0,4564175.56,11481287.58,RENTING is financially better
+Confident Phoenix III,trivandrum,5000000.0,850.0,1,4587.0,2282087.78,11467498.96,RENTING is financially better
+SFS Stanford,trivandrum,8500000.0,1503.0,5,5655.0,3879549.23,10994652.59,RENTING is financially better
+Confident Zenith,trivandrum,3900000.0,700.0,1,4699.0,1780028.47,11177823.32,RENTING is financially better
+Artech Life Spaces,trivandrum,12000000.0,1041.0,5,7571.0,5477010.67,19370255.55,RENTING is financially better
+Condor Cyber Gardens Carnations,trivandrum,15000000.0,1720.0,2,8721.0,6846263.34,18018327.64,RENTING is financially better
+Confident Zenith,trivandrum,4300000.0,750.0,1,5150.0,1962595.49,11319231.86,RENTING is financially better
+Muthoot Homez Kowdiar,trivandrum,19900000.0,1800.0,4,8604.0,9082709.37,23976411.27,RENTING is financially better
+Nikunjam I Park,trivandrum,14200000.0,1859.0,3,7639.0,6481129.3,15838847.42,RENTING is financially better
+Asset Signature Phase 1,trivandrum,5500000.0,1200.0,2,3929.0,2510296.56,9362708.81,RENTING is financially better
+Sobha Ridge Whispering Hill,trivandrum,19200000.0,1600.0,2,10971.0,8763217.08,24621727.07,RENTING is financially better
+Sobha Silver Estate,thrissur,27200000.000000004,2613.0,5,10409.0,12414557.52,27346732.23,RENTING is financially better
+Sobha Metropolis,thrissur,19600000.0,1781.0,2,11005.0,8945784.1,23723542.02,RENTING is financially better
+federal residency,thrissur,5270000.0,1255.0,3,4199.203187250996,2405320.52,8616773.22,RENTING is financially better
+Parkland Silver Oak,thrissur,5400000.0,1100.0,5,4909.0,2464654.8,10021741.71,RENTING is financially better
+Confident Orion,thrissur,4950000.0,1100.0,3,4500.0,2259266.9,9416266.71,RENTING is financially better
+Sobha Metropolis,thrissur,20000000.0,1215.0,5,9560.0,9128351.12,28753421.23,RENTING is financially better
+Sapthavarna Souparnika Regency,thrissur,5000000.0,1250.0,5,4000.0,2282087.78,8293167.36,RENTING is financially better
+The Eyrie,thrissur,9450000.0,1614.0,2,5855.0,4313145.9,11392000.57,RENTING is financially better
+DD Majestic Mount,kottayam,5250000.0,1054.0,4,4981.0,2396192.17,10184964.84,RENTING is financially better
+Asset Chrisabelle,kottayam,12700000.0,1763.0,4,7204.0,5796502.96,14582437.02,RENTING is financially better
+Jewel Cape Town,kottayam,9780000.0,1365.0,5,5589.0,4463763.7,13812036.98,RENTING is financially better
+Jewel Water Lilly,kottayam,5500000.0,1400.0,4,3929.0,2510296.56,7775543.01,RENTING is financially better

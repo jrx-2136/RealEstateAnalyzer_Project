@@ -1,4 +1,39 @@
-requests
-beautifulsoup4
-lxml
-playwright
+# ---------------------------
+# Scraping
+# ---------------------------
+requests>=2.32.0
+beautifulsoup4>=4.12.3
+lxml>=5.1.0
+playwright>=1.42.0
+
+# ---------------------------
+# Data Processing
+# ---------------------------
+pandas>=2.2.0,<2.3
+numpy>=1.26.0,<2.1
+
+# ---------------------------
+# Vector Store
+# ---------------------------
+faiss-cpu>=1.7.4
+sentence-transformers>=2.6.0
+langchain-huggingface>=0.1.2
+
+# ---------------------------
+# LangChain (LOCKED)
+# ---------------------------
+langchain>=0.2.6,<0.3
+langchain-community>=0.2.6,<0.3
+langchain-core>=0.2.6,<0.3
+
+# ---------------------------
+# Gemini (LLM only)
+# ---------------------------
+langchain-google-genai>=1.0.4
+google-generativeai>=0.8.3
+
+# ---------------------------
+# Utils
+# ---------------------------
+python-dotenv>=1.0.1
+tqdm>=4.66.2

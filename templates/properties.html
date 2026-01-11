@@ -1,0 +1,884 @@
+{% extends "base.html" %}
+
+{% block title %}Browse Properties | Real Estate Investment Analyzer{% endblock %}
+
+{% block extra_head %}
+<!-- Leaflet CSS for Map View -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+    /* Property card hover effects */
+    .property-card {
+        transition: all 0.3s ease;
+    }
+    .property-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Filter panel styling */
+    .filter-section {
+        border-bottom: 1px solid rgba(71, 85, 105, 0.3);
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+    .filter-section:last-child {
+        border-bottom: none;
+    }
+    
+    /* Range slider styling */
+    input[type="range"] {
+        -webkit-appearance: none;
+        height: 6px;
+        background: #334155;
+        border-radius: 3px;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 18px;
+        height: 18px;
+        background: #8b5cf6;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 2px 6px rgba(139, 92, 246, 0.4);
+    }
+    
+    /* Map container */
+    #map {
+        height: 500px;
+        border-radius: 12px;
+    }
+    
+    /* Badge styling */
+    .badge-buy {
+        background: linear-gradient(135deg, #22c55e, #16a34a);
+    }
+    .badge-rent {
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+    }
+    
+    /* Loading skeleton */
+    .skeleton {
+        background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+    }
+    @keyframes shimmer {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div x-data="propertyBrowser()" x-init="init()">
+    
+    <!-- Page Header -->
+    <div class="mb-8">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+            <div>
+                <h1 class="text-3xl font-bold text-white flex items-center">
+                    <i class="fas fa-building text-violet-400 mr-3"></i>
+                    Browse Properties
+                </h1>
+                <p class="text-slate-400 mt-2">Find your ideal investment property from <span class="text-violet-400 font-semibold" x-text="totalProperties"></span> listings</p>
+            </div>
+            
+            <!-- View Toggle -->
+            <div class="flex items-center space-x-2 mt-4 md:mt-0">
+                <button @click="viewMode = 'grid'" 
+                        :class="viewMode === 'grid' ? 'bg-violet-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'"
+                        class="px-4 py-2 rounded-lg transition flex items-center space-x-2">
+                    <i class="fas fa-th-large"></i>
+                    <span>Grid</span>
+                </button>
+                <button @click="viewMode = 'list'" 
+                        :class="viewMode === 'list' ? 'bg-violet-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'"
+                        class="px-4 py-2 rounded-lg transition flex items-center space-x-2">
+                    <i class="fas fa-list"></i>
+                    <span>List</span>
+                </button>
+                <button @click="viewMode = 'map'" 
+                        :class="viewMode === 'map' ? 'bg-violet-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'"
+                        class="px-4 py-2 rounded-lg transition flex items-center space-x-2">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <span>Map</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="flex flex-col lg:flex-row gap-8">
+        
+        <!-- Filters Sidebar -->
+        <div class="lg:w-80 flex-shrink-0">
+            <div class="bg-slate-800/80 rounded-xl p-6 border border-slate-700 sticky top-24">
+                <h3 class="text-lg font-bold text-white mb-4 flex items-center">
+                    <i class="fas fa-filter text-violet-400 mr-2"></i>
+                    Filters
+                </h3>
+                
+                <!-- City Filter -->
+                <div class="filter-section">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">City</label>
+                    <select x-model="filters.city" @change="applyFilters()"
+                            class="w-full bg-slate-900 border border-slate-600 rounded-lg px-4 py-2.5 text-white focus:border-violet-500 focus:ring-1 focus:ring-violet-500 transition">
+                        <option value="all">All Cities</option>
+                        {% for city in cities %}
+                        <option value="{{ city }}">{{ city|title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <!-- Location Filter -->
+                <div class="filter-section">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Location / Project</label>
+                    <input type="text" x-model="filters.location" @input="debounceFilter()"
+                           placeholder="Search location or project..."
+                           class="w-full bg-slate-900 border border-slate-600 rounded-lg px-4 py-2.5 text-white focus:border-violet-500 focus:ring-1 focus:ring-violet-500 transition placeholder-slate-500">
+                </div>
+                
+                <!-- Price Range -->
+                <div class="filter-section">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Price Range</label>
+                    <div class="flex items-center space-x-3 mb-3">
+                        <input type="number" x-model="filters.minPrice" @input="debounceFilter()"
+                               placeholder="Min (₹)"
+                               class="w-full bg-slate-900 border border-slate-600 rounded-lg px-3 py-2 text-white text-sm focus:border-violet-500 transition">
+                        <span class="text-slate-500">-</span>
+                        <input type="number" x-model="filters.maxPrice" @input="debounceFilter()"
+                               placeholder="Max (₹)"
+                               class="w-full bg-slate-900 border border-slate-600 rounded-lg px-3 py-2 text-white text-sm focus:border-violet-500 transition">
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <button @click="setQuickPrice(5000000, 10000000)" class="text-xs bg-slate-700 hover:bg-slate-600 text-slate-300 px-2 py-1 rounded transition">50L - 1Cr</button>
+                        <button @click="setQuickPrice(10000000, 20000000)" class="text-xs bg-slate-700 hover:bg-slate-600 text-slate-300 px-2 py-1 rounded transition">1Cr - 2Cr</button>
+                        <button @click="setQuickPrice(20000000, 50000000)" class="text-xs bg-slate-700 hover:bg-slate-600 text-slate-300 px-2 py-1 rounded transition">2Cr - 5Cr</button>
+                        <button @click="setQuickPrice(50000000, null)" class="text-xs bg-slate-700 hover:bg-slate-600 text-slate-300 px-2 py-1 rounded transition">5Cr+</button>
+                    </div>
+                </div>
+                
+                <!-- BHK Filter -->
+                <div class="filter-section">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">BHK</label>
+                    <div class="flex flex-wrap gap-2">
+                        <button @click="toggleBhk('all')" 
+                                :class="filters.bhk === 'all' ? 'bg-violet-600 text-white' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'"
+                                class="px-3 py-1.5 rounded-lg text-sm transition">All</button>
+                        <template x-for="bhk in [1, 2, 3, 4, 5]" :key="bhk">
+                            <button @click="toggleBhk(bhk)" 
+                                    :class="filters.bhk === bhk ? 'bg-violet-600 text-white' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'"
+                                    class="px-3 py-1.5 rounded-lg text-sm transition" x-text="bhk + ' BHK'"></button>
+                        </template>
+                    </div>
+                </div>
+                
+                <!-- Area Range -->
+                <div class="filter-section">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Area (sqft)</label>
+                    <div class="flex items-center space-x-3">
+                        <input type="number" x-model="filters.minArea" @input="debounceFilter()"
+                               placeholder="Min"
+                               class="w-full bg-slate-900 border border-slate-600 rounded-lg px-3 py-2 text-white text-sm focus:border-violet-500 transition">
+                        <span class="text-slate-500">-</span>
+                        <input type="number" x-model="filters.maxArea" @input="debounceFilter()"
+                               placeholder="Max"
+                               class="w-full bg-slate-900 border border-slate-600 rounded-lg px-3 py-2 text-white text-sm focus:border-violet-500 transition">
+                    </div>
+                </div>
+                
+                <!-- Buy vs Rent Recommendation -->
+                <div class="filter-section">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Recommendation</label>
+                    <div class="flex flex-wrap gap-2">
+                        <button @click="filters.decision = 'all'; applyFilters()" 
+                                :class="filters.decision === 'all' ? 'bg-violet-600 text-white' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'"
+                                class="px-3 py-1.5 rounded-lg text-sm transition">All</button>
+                        <button @click="filters.decision = 'buy'; applyFilters()" 
+                                :class="filters.decision === 'buy' ? 'bg-emerald-600 text-white' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'"
+                                class="px-3 py-1.5 rounded-lg text-sm transition flex items-center space-x-1">
+                            <i class="fas fa-home text-xs"></i>
+                            <span>Buy</span>
+                        </button>
+                        <button @click="filters.decision = 'rent'; applyFilters()" 
+                                :class="filters.decision === 'rent' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'"
+                                class="px-3 py-1.5 rounded-lg text-sm transition flex items-center space-x-1">
+                            <i class="fas fa-key text-xs"></i>
+                            <span>Rent</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Clear Filters -->
+                <button @click="clearFilters()" 
+                        class="w-full mt-4 bg-slate-700 hover:bg-slate-600 text-slate-300 py-2.5 rounded-lg transition flex items-center justify-center space-x-2">
+                    <i class="fas fa-times"></i>
+                    <span>Clear All Filters</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="flex-1">
+            
+            <!-- Results Header -->
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 bg-slate-800/50 rounded-xl p-4 border border-slate-700/50">
+                <div class="mb-3 sm:mb-0">
+                    <p class="text-slate-300">
+                        Showing <span class="text-white font-semibold" x-text="filteredProperties.length"></span> 
+                        of <span class="text-violet-400" x-text="totalProperties"></span> properties
+                    </p>
+                </div>
+                
+                <!-- Sorting -->
+                <div class="flex items-center space-x-3">
+                    <label class="text-slate-400 text-sm">Sort by:</label>
+                    <select x-model="sortBy" @change="sortProperties()"
+                            class="bg-slate-900 border border-slate-600 rounded-lg px-3 py-2 text-white text-sm focus:border-violet-500 transition">
+                        <option value="price_asc">Price: Low to High</option>
+                        <option value="price_desc">Price: High to Low</option>
+                        <option value="price_sqft_asc">Price/Sqft: Low to High</option>
+                        <option value="price_sqft_desc">Price/Sqft: High to Low</option>
+                        <option value="area_desc">Area: Large to Small</option>
+                        <option value="area_asc">Area: Small to Large</option>
+                        <option value="buy_advantage">Buy Advantage</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- Grid View -->
+            <div x-show="viewMode === 'grid'" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                <template x-for="property in paginatedProperties" :key="property.location + property.price">
+                    <div class="property-card bg-slate-800/80 rounded-xl overflow-hidden border border-slate-700 hover:border-violet-500/50">
+                        <!-- Property Header -->
+                        <div class="relative h-48 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
+                            <i class="fas fa-building text-6xl text-slate-600"></i>
+                            <!-- Decision Badge -->
+                            <div class="absolute top-3 right-3">
+                                <span :class="property.decision.toLowerCase().includes('buy') ? 'badge-buy' : 'badge-rent'"
+                                      class="px-3 py-1 rounded-full text-xs font-semibold text-white">
+                                    <i :class="property.decision.toLowerCase().includes('buy') ? 'fas fa-home' : 'fas fa-key'" class="mr-1"></i>
+                                    <span x-text="property.decision.toLowerCase().includes('buy') ? 'Buy' : 'Rent'"></span>
+                                </span>
+                            </div>
+                            <!-- BHK Badge -->
+                            <div class="absolute top-3 left-3">
+                                <span class="bg-slate-900/80 px-3 py-1 rounded-full text-xs font-semibold text-white">
+                                    <span x-text="property.bhk"></span> BHK
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- Property Details -->
+                        <div class="p-5">
+                            <h3 class="text-lg font-bold text-white mb-1 truncate" x-text="property.location"></h3>
+                            <p class="text-slate-400 text-sm mb-4 flex items-center">
+                                <i class="fas fa-map-marker-alt text-violet-400 mr-2"></i>
+                                <span x-text="property.city.charAt(0).toUpperCase() + property.city.slice(1)"></span>
+                            </p>
+                            
+                            <!-- Price -->
+                            <div class="mb-4">
+                                <p class="text-2xl font-bold text-emerald-400" x-text="'₹' + formatPrice(property.price)"></p>
+                                <p class="text-slate-500 text-sm" x-text="'₹' + formatNumber(property.price_per_sqft) + '/sqft'"></p>
+                            </div>
+                            
+                            <!-- Quick Stats -->
+                            <div class="grid grid-cols-2 gap-3 mb-4">
+                                <div class="bg-slate-900/50 rounded-lg p-2 text-center">
+                                    <p class="text-xs text-slate-500">Area</p>
+                                    <p class="text-sm font-semibold text-white" x-text="formatNumber(property.area_sqft) + ' sqft'"></p>
+                                </div>
+                                <div class="bg-slate-900/50 rounded-lg p-2 text-center">
+                                    <p class="text-xs text-slate-500">Buy Advantage</p>
+                                    <p class="text-sm font-semibold" 
+                                       :class="property.buy_advantage >= 0 ? 'text-emerald-400' : 'text-red-400'"
+                                       x-text="(property.buy_advantage >= 0 ? '+' : '') + property.buy_advantage.toFixed(1) + '%'"></p>
+                                </div>
+                            </div>
+                            
+                            <!-- View Details Button -->
+                            <button @click="showPropertyModal(property)"
+                                    class="w-full bg-violet-600 hover:bg-violet-500 text-white py-2.5 rounded-lg transition font-medium">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </template>
+            </div>
+            
+            <!-- List View -->
+            <div x-show="viewMode === 'list'" class="space-y-4">
+                <template x-for="property in paginatedProperties" :key="property.location + property.price">
+                    <div class="property-card bg-slate-800/80 rounded-xl p-5 border border-slate-700 hover:border-violet-500/50 flex flex-col md:flex-row md:items-center gap-4">
+                        <!-- Icon -->
+                        <div class="w-24 h-24 bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-building text-3xl text-slate-600"></i>
+                        </div>
+                        
+                        <!-- Details -->
+                        <div class="flex-1">
+                            <div class="flex items-start justify-between mb-2">
+                                <div>
+                                    <h3 class="text-lg font-bold text-white" x-text="property.location"></h3>
+                                    <p class="text-slate-400 text-sm flex items-center">
+                                        <i class="fas fa-map-marker-alt text-violet-400 mr-2"></i>
+                                        <span x-text="property.city.charAt(0).toUpperCase() + property.city.slice(1)"></span>
+                                    </p>
+                                </div>
+                                <span :class="property.decision.toLowerCase().includes('buy') ? 'badge-buy' : 'badge-rent'"
+                                      class="px-3 py-1 rounded-full text-xs font-semibold text-white">
+                                    <span x-text="property.decision.toLowerCase().includes('buy') ? 'Buy' : 'Rent'"></span>
+                                </span>
+                            </div>
+                            
+                            <div class="flex flex-wrap gap-4 text-sm">
+                                <span class="text-slate-400"><i class="fas fa-bed mr-1"></i> <span x-text="property.bhk"></span> BHK</span>
+                                <span class="text-slate-400"><i class="fas fa-ruler-combined mr-1"></i> <span x-text="formatNumber(property.area_sqft)"></span> sqft</span>
+                                <span class="text-slate-400"><i class="fas fa-tag mr-1"></i> ₹<span x-text="formatNumber(property.price_per_sqft)"></span>/sqft</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Price & Action -->
+                        <div class="text-right flex-shrink-0">
+                            <p class="text-2xl font-bold text-emerald-400 mb-1" x-text="'₹' + formatPrice(property.price)"></p>
+                            <p class="text-sm mb-3" 
+                               :class="property.buy_advantage >= 0 ? 'text-emerald-400' : 'text-red-400'"
+                               x-text="'Buy Advantage: ' + (property.buy_advantage >= 0 ? '+' : '') + property.buy_advantage.toFixed(1) + '%'"></p>
+                            <button @click="showPropertyModal(property)"
+                                    class="bg-violet-600 hover:bg-violet-500 text-white px-4 py-2 rounded-lg transition text-sm font-medium">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </template>
+            </div>
+            
+            <!-- Map View -->
+            <div x-show="viewMode === 'map'">
+                <div class="bg-slate-800/80 rounded-xl p-6 border border-slate-700">
+                    <!-- Map Container (shown if coordinates available) -->
+                    <div x-show="hasMapData" id="propertyMap" class="h-96 rounded-lg z-0"></div>
+                    
+                    <!-- Fallback Message (shown if no coordinates) -->
+                    <div x-show="!hasMapData" class="flex items-center justify-center h-96 bg-slate-900 rounded-lg">
+                        <div class="text-center">
+                            <i class="fas fa-map-marked-alt text-6xl text-slate-600 mb-4"></i>
+                            <p class="text-slate-400 text-lg">Map view unavailable</p>
+                            <p class="text-slate-500 text-sm mt-2">Location coordinates are not available in the current dataset.</p>
+                            <p class="text-slate-500 text-sm">Use Grid or List view to browse properties.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Map Legend (shown if map is active) -->
+                    <div x-show="hasMapData" class="mt-4 flex items-center justify-center space-x-6 text-sm">
+                        <div class="flex items-center">
+                            <span class="w-4 h-4 bg-emerald-500 rounded-full mr-2"></span>
+                            <span class="text-slate-400">Buy Recommended</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-4 h-4 bg-indigo-500 rounded-full mr-2"></span>
+                            <span class="text-slate-400">Rent Recommended</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <div x-show="totalPages > 1" class="mt-8 flex items-center justify-center space-x-2">
+                <button @click="currentPage = Math.max(1, currentPage - 1)" 
+                        :disabled="currentPage === 1"
+                        :class="currentPage === 1 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-slate-700'"
+                        class="px-4 py-2 bg-slate-800 text-slate-300 rounded-lg transition">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <template x-for="page in visiblePages" :key="page">
+                    <button @click="currentPage = page"
+                            :class="currentPage === page ? 'bg-violet-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'"
+                            class="px-4 py-2 rounded-lg transition"
+                            x-text="page"></button>
+                </template>
+                
+                <button @click="currentPage = Math.min(totalPages, currentPage + 1)"
+                        :disabled="currentPage === totalPages"
+                        :class="currentPage === totalPages ? 'opacity-50 cursor-not-allowed' : 'hover:bg-slate-700'"
+                        class="px-4 py-2 bg-slate-800 text-slate-300 rounded-lg transition">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <!-- No Results -->
+            <div x-show="filteredProperties.length === 0" class="text-center py-16">
+                <i class="fas fa-search text-6xl text-slate-600 mb-4"></i>
+                <p class="text-slate-400 text-xl">No properties found</p>
+                <p class="text-slate-500 mt-2">Try adjusting your filters or clearing them to see more results.</p>
+                <button @click="clearFilters()" class="mt-4 bg-violet-600 hover:bg-violet-500 text-white px-6 py-2 rounded-lg transition">
+                    Clear Filters
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Property Detail Modal -->
+    <div x-show="selectedProperty" 
+         x-transition:enter="transition ease-out duration-300"
+         x-transition:enter-start="opacity-0"
+         x-transition:enter-end="opacity-100"
+         x-transition:leave="transition ease-in duration-200"
+         x-transition:leave-start="opacity-100"
+         x-transition:leave-end="opacity-0"
+         class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+         @click.self="selectedProperty = null">
+        
+        <div x-show="selectedProperty"
+             x-transition:enter="transition ease-out duration-300"
+             x-transition:enter-start="opacity-0 scale-95"
+             x-transition:enter-end="opacity-100 scale-100"
+             class="bg-slate-800 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto border border-slate-700">
+            
+            <template x-if="selectedProperty">
+                <div>
+                    <!-- Modal Header -->
+                    <div class="relative h-56 bg-gradient-to-br from-violet-900 to-indigo-900 flex items-center justify-center">
+                        <i class="fas fa-building text-8xl text-violet-400/30"></i>
+                        <button @click="selectedProperty = null" 
+                                class="absolute top-4 right-4 bg-slate-900/50 hover:bg-slate-900 text-white p-2 rounded-full transition">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <div class="absolute bottom-4 left-6">
+                            <span :class="selectedProperty.decision.toLowerCase().includes('buy') ? 'badge-buy' : 'badge-rent'"
+                                  class="px-4 py-2 rounded-full text-sm font-semibold text-white">
+                                <i :class="selectedProperty.decision.toLowerCase().includes('buy') ? 'fas fa-home' : 'fas fa-key'" class="mr-2"></i>
+                                <span x-text="selectedProperty.decision.toLowerCase().includes('buy') ? 'Recommended: Buy' : 'Recommended: Rent'"></span>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal Body -->
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold text-white mb-2" x-text="selectedProperty.location"></h2>
+                        <p class="text-slate-400 mb-6 flex items-center">
+                            <i class="fas fa-map-marker-alt text-violet-400 mr-2"></i>
+                            <span x-text="selectedProperty.city.charAt(0).toUpperCase() + selectedProperty.city.slice(1)"></span>
+                        </p>
+                        
+                        <!-- Price Section -->
+                        <div class="bg-slate-900/50 rounded-xl p-4 mb-6">
+                            <p class="text-3xl font-bold text-emerald-400 mb-1" x-text="'₹' + formatPrice(selectedProperty.price)"></p>
+                            <p class="text-slate-400" x-text="'₹' + formatNumber(selectedProperty.price_per_sqft) + ' per sqft'"></p>
+                        </div>
+                        
+                        <!-- Property Details Grid -->
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                            <div class="bg-slate-900/50 rounded-lg p-4 text-center">
+                                <i class="fas fa-bed text-violet-400 text-xl mb-2"></i>
+                                <p class="text-slate-500 text-xs">Bedrooms</p>
+                                <p class="text-white font-bold" x-text="selectedProperty.bhk + ' BHK'"></p>
+                            </div>
+                            <div class="bg-slate-900/50 rounded-lg p-4 text-center">
+                                <i class="fas fa-ruler-combined text-violet-400 text-xl mb-2"></i>
+                                <p class="text-slate-500 text-xs">Area</p>
+                                <p class="text-white font-bold" x-text="formatNumber(selectedProperty.area_sqft) + ' sqft'"></p>
+                            </div>
+                            <div class="bg-slate-900/50 rounded-lg p-4 text-center">
+                                <i class="fas fa-chart-line text-violet-400 text-xl mb-2"></i>
+                                <p class="text-slate-500 text-xs">Buy Advantage</p>
+                                <p class="font-bold" 
+                                   :class="selectedProperty.buy_advantage >= 0 ? 'text-emerald-400' : 'text-red-400'"
+                                   x-text="(selectedProperty.buy_advantage >= 0 ? '+' : '') + selectedProperty.buy_advantage.toFixed(2) + '%'"></p>
+                            </div>
+                            <div class="bg-slate-900/50 rounded-lg p-4 text-center">
+                                <i class="fas fa-tag text-violet-400 text-xl mb-2"></i>
+                                <p class="text-slate-500 text-xs">Price/Sqft</p>
+                                <p class="text-white font-bold" x-text="'₹' + formatNumber(selectedProperty.price_per_sqft)"></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Wealth Comparison -->
+                        <div class="bg-slate-900/50 rounded-xl p-4 mb-6">
+                            <h4 class="text-white font-semibold mb-4 flex items-center">
+                                <i class="fas fa-balance-scale text-violet-400 mr-2"></i>
+                                20-Year Wealth Projection
+                            </h4>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="text-center p-3 rounded-lg" :class="selectedProperty.wealth_buying > selectedProperty.wealth_renting ? 'bg-emerald-900/30 border border-emerald-500/30' : 'bg-slate-800'">
+                                    <p class="text-slate-400 text-sm mb-1">If You Buy</p>
+                                    <p class="text-xl font-bold" :class="selectedProperty.wealth_buying > selectedProperty.wealth_renting ? 'text-emerald-400' : 'text-white'"
+                                       x-text="'₹' + formatPrice(selectedProperty.wealth_buying)"></p>
+                                </div>
+                                <div class="text-center p-3 rounded-lg" :class="selectedProperty.wealth_renting > selectedProperty.wealth_buying ? 'bg-indigo-900/30 border border-indigo-500/30' : 'bg-slate-800'">
+                                    <p class="text-slate-400 text-sm mb-1">If You Rent & Invest</p>
+                                    <p class="text-xl font-bold" :class="selectedProperty.wealth_renting > selectedProperty.wealth_buying ? 'text-indigo-400' : 'text-white'"
+                                       x-text="'₹' + formatPrice(selectedProperty.wealth_renting)"></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Decision Explanation -->
+                        <div class="bg-slate-900/50 rounded-xl p-4">
+                            <h4 class="text-white font-semibold mb-2 flex items-center">
+                                <i class="fas fa-lightbulb text-yellow-400 mr-2"></i>
+                                Investment Analysis
+                            </h4>
+                            <p class="text-slate-300" x-text="selectedProperty.decision"></p>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
+</div>
+
+<script>
+function propertyBrowser() {
+    return {
+        // State
+        properties: [],
+        filteredProperties: [],
+        totalProperties: 0,
+        viewMode: 'grid',
+        currentPage: 1,
+        perPage: 12,
+        sortBy: 'price_asc',
+        selectedProperty: null,
+        debounceTimer: null,
+        
+        // Map state
+        map: null,
+        markers: [],
+        hasMapData: false,
+        
+        // Filters
+        filters: {
+            city: 'all',
+            location: '',
+            minPrice: '',
+            maxPrice: '',
+            bhk: 'all',
+            minArea: '',
+            maxArea: '',
+            decision: 'all'
+        },
+        
+        // Initialize
+        async init() {
+            await this.loadProperties();
+            
+            // Watch for view mode changes to initialize map
+            this.$watch('viewMode', (value) => {
+                if (value === 'map' && this.hasMapData && !this.map) {
+                    this.$nextTick(() => this.initMap());
+                }
+            });
+        },
+        
+        // Load properties from API
+        async loadProperties() {
+            try {
+                const response = await fetch('/api/properties/browse');
+                const data = await response.json();
+                this.properties = data.properties;
+                this.totalProperties = data.total;
+                this.filteredProperties = [...this.properties];
+                this.sortProperties();
+                
+                // Check if any properties have valid coordinates
+                this.checkMapDataAvailability();
+            } catch (error) {
+                console.error('Error loading properties:', error);
+            }
+        },
+        
+        // Check if dataset contains valid lat/lng coordinates
+        checkMapDataAvailability() {
+            try {
+                // Check if at least one property has valid coordinates
+                this.hasMapData = this.properties.some(p => 
+                    p.latitude !== undefined && 
+                    p.longitude !== undefined && 
+                    !isNaN(parseFloat(p.latitude)) && 
+                    !isNaN(parseFloat(p.longitude)) &&
+                    parseFloat(p.latitude) !== 0 &&
+                    parseFloat(p.longitude) !== 0
+                );
+            } catch (error) {
+                console.warn('Map data check failed:', error);
+                this.hasMapData = false;
+            }
+        },
+        
+        // Initialize Leaflet map (only called if hasMapData is true)
+        initMap() {
+            try {
+                // Safety check
+                if (this.map) return;
+                
+                const mapContainer = document.getElementById('propertyMap');
+                if (!mapContainer) {
+                    console.warn('Map container not found');
+                    return;
+                }
+                
+                // Get properties with valid coordinates
+                const mappableProperties = this.filteredProperties.filter(p =>
+                    p.latitude && p.longitude &&
+                    !isNaN(parseFloat(p.latitude)) &&
+                    !isNaN(parseFloat(p.longitude))
+                );
+                
+                if (mappableProperties.length === 0) {
+                    this.hasMapData = false;
+                    return;
+                }
+                
+                // Calculate center from average coordinates
+                const avgLat = mappableProperties.reduce((sum, p) => sum + parseFloat(p.latitude), 0) / mappableProperties.length;
+                const avgLng = mappableProperties.reduce((sum, p) => sum + parseFloat(p.longitude), 0) / mappableProperties.length;
+                
+                // Initialize map centered on data or India
+                this.map = L.map('propertyMap').setView([avgLat || 20.5937, avgLng || 78.9629], 5);
+                
+                // Add OpenStreetMap tile layer (free)
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors',
+                    maxZoom: 18
+                }).addTo(this.map);
+                
+                // Add markers for each property
+                this.addMapMarkers(mappableProperties);
+                
+                // Fit bounds to show all markers
+                if (this.markers.length > 0) {
+                    const group = L.featureGroup(this.markers);
+                    this.map.fitBounds(group.getBounds().pad(0.1));
+                }
+            } catch (error) {
+                console.error('Map initialization failed:', error);
+                this.hasMapData = false;
+            }
+        },
+        
+        // Add markers to map
+        addMapMarkers(properties) {
+            try {
+                // Clear existing markers
+                this.markers.forEach(marker => marker.remove());
+                this.markers = [];
+                
+                properties.forEach(property => {
+                    const lat = parseFloat(property.latitude);
+                    const lng = parseFloat(property.longitude);
+                    
+                    if (isNaN(lat) || isNaN(lng)) return;
+                    
+                    // Determine marker color based on decision
+                    const isBuy = property.decision.toLowerCase().includes('buy');
+                    const markerColor = isBuy ? '#22c55e' : '#6366f1';
+                    
+                    // Create custom icon
+                    const icon = L.divIcon({
+                        className: 'custom-marker',
+                        html: `<div style="background-color: ${markerColor}; width: 24px; height: 24px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 6px rgba(0,0,0,0.3);"></div>`,
+                        iconSize: [24, 24],
+                        iconAnchor: [12, 12]
+                    });
+                    
+                    // Create marker with popup
+                    const marker = L.marker([lat, lng], { icon })
+                        .bindPopup(`
+                            <div style="min-width: 200px;">
+                                <h3 style="font-weight: bold; margin-bottom: 8px;">${property.location}</h3>
+                                <p style="color: #666; margin-bottom: 4px;">${property.city}</p>
+                                <p style="font-size: 18px; font-weight: bold; color: #10b981; margin-bottom: 8px;">
+                                    ₹${this.formatPrice(property.price)}
+                                </p>
+                                <div style="display: flex; gap: 12px; font-size: 12px; color: #888;">
+                                    <span>${property.bhk} BHK</span>
+                                    <span>${Math.round(property.area_sqft)} sqft</span>
+                                </div>
+                                <div style="margin-top: 8px; padding: 4px 8px; background: ${isBuy ? '#dcfce7' : '#e0e7ff'}; border-radius: 4px; font-size: 12px; text-align: center;">
+                                    ${isBuy ? '✓ Buy Recommended' : '→ Rent Recommended'}
+                                </div>
+                            </div>
+                        `);
+                    
+                    marker.addTo(this.map);
+                    this.markers.push(marker);
+                });
+            } catch (error) {
+                console.error('Failed to add map markers:', error);
+            }
+        },
+        
+        // Update map markers when filters change
+        updateMapMarkers() {
+            if (this.map && this.hasMapData) {
+                const mappableProperties = this.filteredProperties.filter(p =>
+                    p.latitude && p.longitude &&
+                    !isNaN(parseFloat(p.latitude)) &&
+                    !isNaN(parseFloat(p.longitude))
+                );
+                this.addMapMarkers(mappableProperties);
+            }
+        },
+        
+        // Apply filters
+        applyFilters() {
+            this.filteredProperties = this.properties.filter(p => {
+                // City filter
+                if (this.filters.city !== 'all' && p.city !== this.filters.city) return false;
+                
+                // Location search
+                if (this.filters.location && !p.location.toLowerCase().includes(this.filters.location.toLowerCase())) return false;
+                
+                // Price range
+                if (this.filters.minPrice && p.price < parseFloat(this.filters.minPrice)) return false;
+                if (this.filters.maxPrice && p.price > parseFloat(this.filters.maxPrice)) return false;
+                
+                // BHK
+                if (this.filters.bhk !== 'all' && p.bhk !== this.filters.bhk) return false;
+                
+                // Area range
+                if (this.filters.minArea && p.area_sqft < parseFloat(this.filters.minArea)) return false;
+                if (this.filters.maxArea && p.area_sqft > parseFloat(this.filters.maxArea)) return false;
+                
+                // Decision
+                if (this.filters.decision !== 'all') {
+                    const isBuy = p.decision.toLowerCase().includes('buy');
+                    if (this.filters.decision === 'buy' && !isBuy) return false;
+                    if (this.filters.decision === 'rent' && isBuy) return false;
+                }
+                
+                return true;
+            });
+            
+            this.currentPage = 1;
+            this.sortProperties();
+            
+            // Update map markers if map is active
+            if (this.viewMode === 'map') {
+                this.updateMapMarkers();
+            }
+        },
+        
+        // Debounced filter for text inputs
+        debounceFilter() {
+            clearTimeout(this.debounceTimer);
+            this.debounceTimer = setTimeout(() => {
+                this.applyFilters();
+            }, 300);
+        },
+        
+        // Sort properties
+        sortProperties() {
+            const sorted = [...this.filteredProperties];
+            
+            switch (this.sortBy) {
+                case 'price_asc':
+                    sorted.sort((a, b) => a.price - b.price);
+                    break;
+                case 'price_desc':
+                    sorted.sort((a, b) => b.price - a.price);
+                    break;
+                case 'price_sqft_asc':
+                    sorted.sort((a, b) => a.price_per_sqft - b.price_per_sqft);
+                    break;
+                case 'price_sqft_desc':
+                    sorted.sort((a, b) => b.price_per_sqft - a.price_per_sqft);
+                    break;
+                case 'area_desc':
+                    sorted.sort((a, b) => b.area_sqft - a.area_sqft);
+                    break;
+                case 'area_asc':
+                    sorted.sort((a, b) => a.area_sqft - b.area_sqft);
+                    break;
+                case 'buy_advantage':
+                    sorted.sort((a, b) => b.buy_advantage - a.buy_advantage);
+                    break;
+            }
+            
+            this.filteredProperties = sorted;
+        },
+        
+        // Quick price preset
+        setQuickPrice(min, max) {
+            this.filters.minPrice = min;
+            this.filters.maxPrice = max || '';
+            this.applyFilters();
+        },
+        
+        // Toggle BHK
+        toggleBhk(bhk) {
+            this.filters.bhk = bhk;
+            this.applyFilters();
+        },
+        
+        // Clear all filters
+        clearFilters() {
+            this.filters = {
+                city: 'all',
+                location: '',
+                minPrice: '',
+                maxPrice: '',
+                bhk: 'all',
+                minArea: '',
+                maxArea: '',
+                decision: 'all'
+            };
+            this.filteredProperties = [...this.properties];
+            this.currentPage = 1;
+            this.sortProperties();
+        },
+        
+        // Show property modal
+        showPropertyModal(property) {
+            this.selectedProperty = property;
+        },
+        
+        // Pagination
+        get totalPages() {
+            return Math.ceil(this.filteredProperties.length / this.perPage);
+        },
+        
+        get paginatedProperties() {
+            const start = (this.currentPage - 1) * this.perPage;
+            return this.filteredProperties.slice(start, start + this.perPage);
+        },
+        
+        get visiblePages() {
+            const pages = [];
+            const total = this.totalPages;
+            const current = this.currentPage;
+            
+            let start = Math.max(1, current - 2);
+            let end = Math.min(total, current + 2);
+            
+            if (end - start < 4) {
+                if (start === 1) end = Math.min(5, total);
+                else start = Math.max(1, total - 4);
+            }
+            
+            for (let i = start; i <= end; i++) {
+                pages.push(i);
+            }
+            
+            return pages;
+        },
+        
+        // Formatting helpers
+        formatPrice(price) {
+            if (price >= 10000000) {
+                return (price / 10000000).toFixed(2) + ' Cr';
+            } else if (price >= 100000) {
+                return (price / 100000).toFixed(2) + ' L';
+            }
+            return price.toLocaleString('en-IN');
+        },
+        
+        formatNumber(num) {
+            return Math.round(num).toLocaleString('en-IN');
+        }
+    };
+}
+</script>
+{% endblock %}

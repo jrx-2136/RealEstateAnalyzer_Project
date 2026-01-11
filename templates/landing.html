@@ -1,0 +1,297 @@
+{% extends "base.html" %}
+
+{% block title %}Real Estate Investment Analyzer | Buy vs Rent Analysis{% endblock %}
+
+{% block content %}
+<div x-data="{ 
+    searchCity: 'all',
+    minBudget: '',
+    maxBudget: '',
+    propertyType: 'buy'
+}">
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden -mt-8 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-20 mb-16">
+        <!-- Background gradient overlay -->
+        <div class="absolute inset-0 bg-gradient-to-br from-violet-900/20 via-slate-900 to-indigo-900/20"></div>
+        
+        <!-- Animated background elements -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute -top-40 -right-40 w-80 h-80 bg-violet-500/10 rounded-full blur-3xl"></div>
+            <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto text-center">
+            <!-- Badge -->
+            <div class="inline-flex items-center px-4 py-2 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-300 text-sm mb-8">
+                <i class="fas fa-chart-line mr-2"></i>
+                Data-Driven Investment Decisions
+            </div>
+            
+            <!-- Main Headline -->
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                Smarter Real Estate<br>
+                <span class="bg-gradient-to-r from-violet-400 to-indigo-400 bg-clip-text text-transparent">Investment Decisions</span>
+            </h1>
+            
+            <!-- Subheadline -->
+            <p class="text-xl text-slate-400 max-w-3xl mx-auto mb-10">
+                Analyze properties, compare Buy vs Rent, and identify undervalued opportunities using real data from 895+ listings across India.
+            </p>
+            
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+                <a href="/properties" class="w-full sm:w-auto bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl shadow-violet-500/25 transition flex items-center justify-center space-x-2">
+                    <i class="fas fa-building"></i>
+                    <span>Explore Properties</span>
+                </a>
+                <a href="/dashboard" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white px-8 py-4 rounded-xl font-semibold text-lg border border-slate-700 transition flex items-center justify-center space-x-2">
+                    <i class="fas fa-chart-line"></i>
+                    <span>View Investment Dashboard</span>
+                </a>
+            </div>
+            
+            <!-- Stats Row -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700/50 rounded-xl p-4">
+                    <div class="text-3xl font-bold text-white">895+</div>
+                    <div class="text-slate-400 text-sm">Properties Analyzed</div>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700/50 rounded-xl p-4">
+                    <div class="text-3xl font-bold text-emerald-400">5</div>
+                    <div class="text-slate-400 text-sm">Major Cities</div>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700/50 rounded-xl p-4">
+                    <div class="text-3xl font-bold text-violet-400">AI</div>
+                    <div class="text-slate-400 text-sm">Powered Analysis</div>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700/50 rounded-xl p-4">
+                    <div class="text-3xl font-bold text-indigo-400">100%</div>
+                    <div class="text-slate-400 text-sm">Data-Driven</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="mb-20">
+        <div class="bg-slate-800/80 rounded-2xl p-8 border border-slate-700/50 shadow-xl">
+            <h2 class="text-2xl font-bold text-white mb-6 text-center">Find Your Perfect Property</h2>
+            
+            <form action="/properties" method="GET" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-end">
+                <!-- City Selector -->
+                <div>
+                    <label class="block text-sm font-medium text-slate-400 mb-2">City</label>
+                    <select name="city" x-model="searchCity"
+                            class="w-full px-4 py-3 bg-slate-900 border border-slate-700 text-slate-200 rounded-xl focus:ring-2 focus:ring-violet-500 focus:border-violet-500 transition">
+                        <option value="all">All Cities</option>
+                        {% for city in cities %}
+                        <option value="{{ city }}">{{ city|title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <!-- Min Budget -->
+                <div>
+                    <label class="block text-sm font-medium text-slate-400 mb-2">Min Budget (₹)</label>
+                    <input type="number" name="min_budget" x-model="minBudget" placeholder="e.g., 50,00,000"
+                           class="w-full px-4 py-3 bg-slate-900 border border-slate-700 text-slate-200 placeholder-slate-500 rounded-xl focus:ring-2 focus:ring-violet-500 focus:border-violet-500 transition">
+                </div>
+                
+                <!-- Max Budget -->
+                <div>
+                    <label class="block text-sm font-medium text-slate-400 mb-2">Max Budget (₹)</label>
+                    <input type="number" name="max_budget" x-model="maxBudget" placeholder="e.g., 2,00,00,000"
+                           class="w-full px-4 py-3 bg-slate-900 border border-slate-700 text-slate-200 placeholder-slate-500 rounded-xl focus:ring-2 focus:ring-violet-500 focus:border-violet-500 transition">
+                </div>
+                
+                <!-- Buy/Rent Toggle -->
+                <div>
+                    <label class="block text-sm font-medium text-slate-400 mb-2">Looking to</label>
+                    <div class="flex bg-slate-900 rounded-xl p-1 border border-slate-700">
+                        <button type="button" @click="propertyType = 'buy'"
+                                :class="propertyType === 'buy' ? 'bg-emerald-600 text-white' : 'text-slate-400 hover:text-white'"
+                                class="flex-1 py-2 px-4 rounded-lg font-medium transition">
+                            Buy
+                        </button>
+                        <button type="button" @click="propertyType = 'rent'"
+                                :class="propertyType === 'rent' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'"
+                                class="flex-1 py-2 px-4 rounded-lg font-medium transition">
+                            Rent
+                        </button>
+                    </div>
+                    <input type="hidden" name="decision" :value="propertyType === 'buy' ? 'buy' : 'rent'">
+                </div>
+                
+                <!-- Search Button -->
+                <div>
+                    <button type="submit" 
+                            class="w-full bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white px-6 py-3 rounded-xl font-semibold transition shadow-lg shadow-violet-500/20 flex items-center justify-center space-x-2">
+                        <i class="fas fa-search"></i>
+                        <span>Search Properties</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section class="mb-20">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white mb-4">Why Choose Our Analyzer?</h2>
+            <p class="text-slate-400 max-w-2xl mx-auto">Make informed investment decisions with powerful analytics and AI-driven insights.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Feature 1: Investment Metrics -->
+            <div class="bg-slate-800/60 rounded-xl p-6 border border-slate-700/50 hover:border-violet-500/50 transition group">
+                <div class="w-14 h-14 bg-emerald-500/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-500/20 transition">
+                    <i class="fas fa-percentage text-2xl text-emerald-400"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-2">Investment Metrics</h3>
+                <p class="text-slate-400 text-sm">Calculate ROI, Cap Rate, Cash-on-Cash returns, and more. Understand the true profitability of each property.</p>
+            </div>
+            
+            <!-- Feature 2: Buy vs Rent -->
+            <div class="bg-slate-800/60 rounded-xl p-6 border border-slate-700/50 hover:border-violet-500/50 transition group">
+                <div class="w-14 h-14 bg-violet-500/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-violet-500/20 transition">
+                    <i class="fas fa-balance-scale text-2xl text-violet-400"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-2">Buy vs Rent Analysis</h3>
+                <p class="text-slate-400 text-sm">Make the right decision — our wealth comparison analysis shows which option builds more wealth over time.</p>
+            </div>
+            
+            <!-- Feature 3: AI Assistant -->
+            <div class="bg-slate-800/60 rounded-xl p-6 border border-slate-700/50 hover:border-violet-500/50 transition group">
+                <div class="w-14 h-14 bg-indigo-500/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition">
+                    <i class="fas fa-robot text-2xl text-indigo-400"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-2">AI-Powered Assistant</h3>
+                <p class="text-slate-400 text-sm">Ask questions in natural language. Our RAG-based AI provides answers grounded in real property data.</p>
+            </div>
+            
+            <!-- Feature 4: Market Analytics -->
+            <div class="bg-slate-800/60 rounded-xl p-6 border border-slate-700/50 hover:border-violet-500/50 transition group">
+                <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-amber-500/20 transition">
+                    <i class="fas fa-chart-bar text-2xl text-amber-400"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-2">Market Analytics</h3>
+                <p class="text-slate-400 text-sm">City-wise comparisons, price trends, and investment signals to help you spot opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="mb-20">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white mb-4">How It Works</h2>
+            <p class="text-slate-400 max-w-2xl mx-auto">Three simple steps to smarter property investments.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Step 1 -->
+            <div class="text-center">
+                <div class="w-16 h-16 bg-gradient-to-br from-violet-600 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-violet-500/25">
+                    <span class="text-2xl font-bold text-white">1</span>
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-2">Browse Properties</h3>
+                <p class="text-slate-400 text-sm">Explore 895+ analyzed listings across Mumbai, Pune, Bangalore, Delhi NCR, and Hyderabad.</p>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="text-center">
+                <div class="w-16 h-16 bg-gradient-to-br from-violet-600 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-violet-500/25">
+                    <span class="text-2xl font-bold text-white">2</span>
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-2">Analyze Investment</h3>
+                <p class="text-slate-400 text-sm">Get detailed Buy vs Rent comparisons, wealth projections, and investment scores for each property.</p>
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="text-center">
+                <div class="w-16 h-16 bg-gradient-to-br from-violet-600 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-violet-500/25">
+                    <span class="text-2xl font-bold text-white">3</span>
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-2">Make Informed Decisions</h3>
+                <p class="text-slate-400 text-sm">Use data-driven insights and AI recommendations to invest confidently.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="mb-20">
+        <div class="bg-gradient-to-br from-slate-800/80 to-slate-900/80 rounded-2xl p-8 md:p-12 border border-slate-700/50">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Left: Trust Points -->
+                <div>
+                    <h2 class="text-3xl font-bold text-white mb-8">Built for Serious Investors</h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-10 h-10 bg-emerald-500/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-database text-emerald-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-semibold mb-1">Analyzing 895+ Real Listings</h4>
+                                <p class="text-slate-400 text-sm">Live data from major property portals, updated and cleaned for accuracy.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-10 h-10 bg-violet-500/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-brain text-violet-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-semibold mb-1">Data-Driven, Not Opinion-Based</h4>
+                                <p class="text-slate-400 text-sm">Every recommendation is backed by calculations, not gut feelings.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-10 h-10 bg-indigo-500/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-shield-alt text-indigo-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-semibold mb-1">Built for Indian Markets</h4>
+                                <p class="text-slate-400 text-sm">Understands Indian tax laws, EMI structures, and local market dynamics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right: CTA Card -->
+                <div class="bg-slate-800 rounded-xl p-8 border border-slate-700">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-violet-600 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-violet-500/25">
+                            <i class="fas fa-rocket text-3xl text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3">Ready to Start?</h3>
+                        <p class="text-slate-400 mb-6">Explore the dashboard and let data guide your next investment.</p>
+                        <a href="/dashboard" class="inline-flex items-center space-x-2 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white px-6 py-3 rounded-xl font-semibold transition shadow-lg shadow-violet-500/20">
+                            <span>Go to Dashboard</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="text-center mb-8">
+        <h2 class="text-3xl font-bold text-white mb-4">Stop Guessing. Start Analyzing.</h2>
+        <p class="text-slate-400 max-w-xl mx-auto mb-8">Join thousands of smart investors making data-driven property decisions.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="/properties" class="w-full sm:w-auto bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl shadow-violet-500/25 transition flex items-center justify-center space-x-2">
+                <i class="fas fa-building"></i>
+                <span>Browse Properties</span>
+            </a>
+            <a href="/dashboard#ai-assistant" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white px-8 py-4 rounded-xl font-semibold text-lg border border-slate-700 transition flex items-center justify-center space-x-2">
+                <i class="fas fa-robot"></i>
+                <span>Ask AI Assistant</span>
+            </a>
+        </div>
+    </section>
+
+</div>
+{% endblock %}

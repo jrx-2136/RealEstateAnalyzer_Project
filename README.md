@@ -1,4 +1,4 @@
-# BluePrint+
+# BluePrint +
 
 **Smarter Real Estate Investment Decisions Through Data**
 
